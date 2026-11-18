@@ -1,0 +1,3 @@
+option,slides,download_GB,download_container_hours,gpu_hours,est_cost_usd,ci_halfwidth_if_auc_0.75
+All SR386 (32 dMMR + 395 pMMR),427,1679,28.1,7.1,19.6,0.1
+Case-control subset (32 dMMR + 96 random pMMR),128,503,8.4,2.1,5.9,0.106

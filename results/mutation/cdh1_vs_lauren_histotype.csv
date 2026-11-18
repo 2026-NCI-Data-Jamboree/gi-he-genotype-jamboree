@@ -1,0 +1,5 @@
+cohort,enc,n,mut,auroc_image,auroc_histotype_only,auroc_image_plus_histotype,OR_per_SD_beyond_histotype,p_LR_beyond_histotype,n_nondiffuse,mut_nondiffuse,auroc_image_in_nondiffuse
+all241,phikon,241,22,0.844,0.659,0.853,1.66,0.002751,190,11,0.896
+all241,uni,241,22,0.826,0.659,0.834,1.73,0.002874,190,11,0.867
+clean228,phikon,228,19,0.834,0.694,0.84,1.23,0.2817,177,8,0.883
+clean228,uni,228,19,0.801,0.694,0.819,1.32,0.1719,177,8,0.822

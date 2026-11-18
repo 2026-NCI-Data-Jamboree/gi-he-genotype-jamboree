@@ -1,0 +1,8 @@
+task,positive_arm,negative_arm,restriction,n_pos_patients_strict,n_neg_patients_strict,n_slides_strict,n_pos_patients_permissive,n_neg_patients_permissive,n_slides_permissive,n_pos_patients_labelled,n_neg_patients_labelled,external_testable_strict,external_testable_permissive,n_pos_strict_gdc_concordant,n_neg_strict_gdc_concordant,label_source
+MSI,MSI-H,MSS,all MSI-called,24,80,140,24,81,221,24,81,True,True,,,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"
+KRAS,KRAS-mut,KRAS/BRAF-WT,"MSS, sequenced, TMB<10",34,44,101,34,45,164,34,45,True,True,34.0,42.0,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"
+TP53,mut,WT,"MSS, sequenced, TMB<10",47,33,105,48,33,168,48,33,True,True,45.0,26.0,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"
+PIK3CA,mut,WT,"MSS, sequenced, TMB<10",12,68,105,12,69,168,12,69,False,False,10.0,65.0,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"
+APC,mut,WT,"MSS, sequenced, TMB<10",67,13,105,67,14,168,67,14,False,False,65.0,11.0,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"
+SMAD4,mut,WT,"MSS, sequenced, TMB<10",8,72,105,8,73,168,8,73,False,False,8.0,71.0,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"
+CDH1,mut,WT,"MSS, sequenced, TMB<10",0,80,105,0,81,168,0,81,False,False,0.0,79.0,"cBioPortal coad_cptac_2019 (MSI_STATUS; mutations, protein-altering classes)"

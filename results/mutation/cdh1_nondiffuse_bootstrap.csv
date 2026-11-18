@@ -1,0 +1,5 @@
+cohort,enc,n_nondiffuse,mut,auroc,ci_lo,ci_hi
+all241,phikon,190,11,0.896,0.828,0.958
+all241,uni,190,11,0.867,0.721,0.963
+clean228,phikon,177,8,0.883,0.814,0.945
+clean228,uni,177,8,0.822,0.657,0.935

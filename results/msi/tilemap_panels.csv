@@ -1,0 +1,17 @@
+endpoint,panel,slide_barcode,project,truth,heldout_slide_score,n_tiles,pct_tiles_positive,encoder,model,cv_fold
+stad_CDH1,TP,TCGA-BR-8370-01Z-00-DX1,TCGA-STAD,1,0.931,4000,90.65,UNI v1,logistic regression on mean-pooled tile features,4
+stad_CDH1,TN,TCGA-HF-7134-01Z-00-DX1,TCGA-STAD,0,0.0013,4000,0.2,UNI v1,logistic regression on mean-pooled tile features,0
+stad_CDH1,FN,TCGA-IN-7808-01Z-00-DX1,TCGA-STAD,1,0.0681,4000,20.57,UNI v1,logistic regression on mean-pooled tile features,3
+stad_CDH1,FP,TCGA-CD-8534-01Z-00-DX1,TCGA-STAD,0,0.9237,4000,86.17,UNI v1,logistic regression on mean-pooled tile features,1
+stad_TP53,TP,TCGA-VQ-A8E2-01Z-00-DX1,TCGA-STAD,1,0.9317,4000,73.25,UNI v1,logistic regression on mean-pooled tile features,0
+stad_TP53,TN,TCGA-BR-8370-01Z-00-DX1,TCGA-STAD,0,0.0266,4000,5.27,UNI v1,logistic regression on mean-pooled tile features,4
+stad_TP53,FN,TCGA-VQ-A94P-01Z-00-DX1,TCGA-STAD,1,0.0514,4000,11.88,UNI v1,logistic regression on mean-pooled tile features,0
+stad_TP53,FP,TCGA-BR-A4J1-01Z-00-DX1,TCGA-STAD,0,0.8169,4000,76.95,UNI v1,logistic regression on mean-pooled tile features,4
+crc_TP53,TP,TCGA-AA-A004-01Z-00-DX1,TCGA-COAD,1,0.9935,4000,99.85,UNI v1,logistic regression on mean-pooled tile features,2
+crc_TP53,TN,TCGA-AG-3598-01Z-00-DX1,TCGA-READ,0,0.0295,4000,7.25,UNI v1,logistic regression on mean-pooled tile features,3
+crc_TP53,FN,TCGA-AG-A032-01Z-00-DX1,TCGA-READ,1,0.1061,3049,18.6,UNI v1,logistic regression on mean-pooled tile features,3
+crc_TP53,FP,TCGA-EI-6513-01Z-00-DX1,TCGA-READ,0,0.8648,4000,79.17,UNI v1,logistic regression on mean-pooled tile features,1
+MSI,TP,TCGA-VQ-A8PO-01Z-00-DX1,TCGA-STAD,1,1.0,4000,83.6,UNI v1,logistic regression on mean-pooled tile features,0
+MSI,TN,TCGA-5M-AATE-01Z-00-DX1,TCGA-COAD,0,0.0,4000,5.27,UNI v1,logistic regression on mean-pooled tile features,3
+MSI,FN,TCGA-AG-A00C-01Z-00-DX1,TCGA-READ,1,0.0,2854,5.05,UNI v1,logistic regression on mean-pooled tile features,3
+MSI,FP,TCGA-CD-8531-01Z-00-DX1,TCGA-STAD,0,0.9999,4000,80.75,UNI v1,logistic regression on mean-pooled tile features,1

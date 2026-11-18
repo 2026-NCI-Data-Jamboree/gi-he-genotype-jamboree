@@ -1,0 +1,43 @@
+Pathologist vs AI-grader agreement - colorectal spot-check
+slides in key: 30 | rows in sheet: 30 | key P codes absent from sheet: [] | AI rows matched: 30
+arms: {'mut': 15, 'wt': 15}
+
+Per-item agreement (pathologist vs AI). kappa_qw = quadratically weighted Cohen kappa with bootstrap 95% CI;
+close = within 1 category (ordinal) or within 10 percentage points (% items).
+                       item    type  n  n_invalid_entries kappa_qw kappa_ci_lo kappa_ci_hi spearman_rho spearman_p exact_agree close_agree path_mean ai_mean
+            differentiation ordinal 30                  0    0.691       0.452       0.849        0.736      0.000       0.700       1.000     1.033   0.933
+        gland_formation_pct percent 30                  0                                         0.873      0.000       0.000       0.867    72.467  71.333
+               mucinous_pct percent 30                  0                                         0.488      0.006       0.367       0.967     5.467   4.000
+                signet_ring ordinal 29                  0    0.000       0.000       0.000                               0.828       1.000     0.172   0.000
+       villous_or_papillary ordinal 30                  0    0.906       0.806       0.970        0.906      0.000       0.800       1.000     1.100   1.033
+                   serrated ordinal 30                  0    0.599       0.139       0.829        0.516      0.004       0.733       1.000     0.367   0.367
+             tumour_budding ordinal 29                  1    0.847       0.649       0.951        0.858      0.000       0.793       1.000     0.655   0.862
+       poorly_diff_clusters ordinal 30                  0    0.802       0.565       0.925        0.747      0.000       0.733       1.000     0.800   0.867
+             dirty_necrosis ordinal 30                  0    0.922       0.823       0.976        0.922      0.000       0.833       1.000     1.133   1.100
+intraepithelial_lymphocytes ordinal 30                  0    0.724       0.458       0.845        0.701      0.000       0.700       1.000     0.867   0.700
+       peritumoral_lymphoid ordinal 30                  0    0.755       0.526       0.892        0.742      0.000       0.733       1.000     0.700   0.700
+              nuclear_grade ordinal 30                  0    0.526       0.270       0.714        0.559      0.001       0.567       1.000     1.267   1.100
+         stroma_desmoplasia ordinal 30                  0    0.717       0.519       0.836        0.771      0.000       0.600       1.000     1.167   1.367
+          adenoma_component ordinal 30                  0    0.910       0.754       0.980        0.859      0.000       0.833       1.000     0.833   0.667
+            section_quality ordinal 30                  0    0.632       0.379       0.840        0.669      0.000       0.767       1.000     0.533   0.500
+  note - signet_ring: AI constant on these slides - kappa uninformative; use exact agreement
+
+Differentiation confusion table (rows = pathologist, columns = AI):
+AI           well  moderate  poor
+pathologist                      
+well            6         3     0
+moderate        0        11     0
+poor            0         6     4
+
+Mutant vs wild-type, two-sided Mann-Whitney U (pathologist's own scores; AI rows on the same slides for reference).
+rank_biserial > 0 means higher in mutant.
+CAVEAT: the 30 slides were chosen with per-arm quotas on mucinous_pct>0, serrated>=1 and dirty_necrosis>=2
+(by AI grade), so arm differences are partly balanced away by design. Read these tests as a check that the
+pathologist's scores move in the same direction as the AI's on the same slides, not as a cohort-level estimate.
+          item                          rater  n_mut  n_wt  mean_mut  mean_wt  median_mut  median_wt  frac_pos_mut  frac_pos_wt       U  p_mannwhitney  rank_biserial
+  mucinous_pct                    pathologist     15    15     4.867    6.067       1.000      3.000         0.533        0.667  95.000          0.465         -0.156
+  mucinous_pct AI (same 30 slides, reference)     15    15     5.000    3.000       0.000      0.000         0.400        0.267 128.500          0.439          0.142
+      serrated                    pathologist     15    15     0.267    0.467       0.000      0.000         0.267        0.333 101.000          0.570         -0.102
+      serrated AI (same 30 slides, reference)     15    15     0.333    0.400       0.000      0.000         0.333        0.333 110.000          0.920         -0.022
+dirty_necrosis                    pathologist     15    15     1.133    1.133       1.000      1.000         0.600        0.733 110.500          0.948         -0.018
+dirty_necrosis AI (same 30 slides, reference)     15    15     1.000    1.200       1.000      1.000         0.533        0.667 100.500          0.615         -0.107

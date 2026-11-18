@@ -1,0 +1,7 @@
+gene,in_PDC000109,n_runs,n_detected,pct_detected,median_spectral_count
+MLH1,True,101,12,11.9,0.0
+PMS2,False,101,0,0.0,
+MSH2,True,101,92,91.1,4.0
+MSH6,True,101,91,90.1,2.0
+MSH3,True,101,38,37.6,0.0
+EPCAM,True,101,101,100.0,11.0

@@ -1,0 +1,7 @@
+arm,all19,clean10,n_all,kras_reference
+LLM reader 1,0.789,0.9,19,0.649
+LLM reader 2,0.842,1.0,19,0.649
+LLM reader 3,0.737,0.9,19,0.649
+Swarm majority (3 readers),0.737,0.9,19,0.649
+ABMIL / phikon,0.842,0.9,19,0.67
+ABMIL / uni,0.947,1.0,19,0.575

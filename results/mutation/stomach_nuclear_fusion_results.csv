@@ -1,0 +1,14 @@
+model,n,auroc,ci_lo,ci_hi,arm
+encoder only (phikon),317,0.761,0.693,0.824,Stomach
+encoder only (uni),317,0.738,0.664,0.811,Stomach
+nuclear only (6 features),317,0.535,0.441,0.62,Stomach
+fused (phikon + nuclear),317,0.62,0.531,0.708,Stomach
+fused (uni + nuclear),317,0.612,0.516,0.707,Stomach
+phikon: raw OOF score (no refit),317,0.761,0.694,0.826,Stomach
+phikon: refit on score only,317,0.662,0.575,0.745,Stomach
+phikon: refit on logit(score),317,0.743,0.67,0.812,Stomach
+phikon: refit on logit(score) + nuclear,317,0.688,0.601,0.767,Stomach
+uni: raw OOF score (no refit),317,0.738,0.66,0.81,Stomach
+uni: refit on score only,317,0.645,0.558,0.733,Stomach
+uni: refit on logit(score),317,0.667,0.584,0.751,Stomach
+uni: refit on logit(score) + nuclear,317,0.649,0.561,0.735,Stomach

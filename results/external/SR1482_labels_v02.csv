@@ -1,0 +1,417 @@
+case_id,source_image,tumour_site,stage_notes,dukes,pT,pN,pM,sex,age,MMR,MSI,KRAS,NRAS,BRAF
+002,SR1482_WSIs/SR1482_40X_HE_T002_01.czi,rectosigmoid biopsy,,,,,,F,36,Not performed,No MSI,No mutation,c.35G>T p.(Gly12Val) (also known as G12V),No mutation
+003,SR1482_WSIs/SR1482_40X_HE_T003_01.czi,distal sigmoid colon polyp,,,,,,F,36,Not performed,No MSI,No mutation,c.35G>T p.(Gly12Val) (also known as G12V),No mutation
+004,SR1482_WSIs/SR1482_40X_HE_T004_01.czi;SR1482_WSIs/SR1482_40X_HE_T004_02.czi,peritoneal biopsy,,,,,,F,50,No Loss,No MSI,c.35G>A p.(Gly12Asp),Not performed,No mutation
+005,SR1482_WSIs/SR1482_40X_HE_T005_01.czi;SR1482_WSIs/SR1482_40X_HE_T005_02.czi,right colon,pT3 pN2b pM1a,,pT3,pN2b,pM1a,F,66,Not performed,No MSI,c.38G>A p.(Gly13Asp),Not performed,No mutation
+007,SR1482_WSIs/SR1482_40X_HE_T007_01.czi,bronchial biopsy,,,,,,M,63,Not performed,Not performed,Not performed,Not performed,Not performed
+008,SR1482_WSIs/SR1482_40X_HE_T008_01.czi,right middle lung lobe,,,,,,M,67,No Loss,Not performed,c.34G>T p.(Gly12Cys),No mutation,No mutation
+009,SR1482_WSIs/SR1482_40X_HE_T009_01.czi;SR1482_WSIs/SR1482_40X_HE_T009_02.czi,"liver resection, segment v lesion plus gallbladder",,,,,,M,70,Not performed,No MSI,No mutation,No mutation,No mutation
+010,SR1482_WSIs/SR1482_40X_HE_T010_01.czi,biopsy right vocal chord,,,,,,M,75,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,No mutation
+011,SR1482_WSIs/SR1482_40X_HE_T011_01.czi,left gastric nodes,,,,,,M,68,Not performed,No MSI,No mutation,No mutation,Failed
+012,SR1482_WSIs/SR1482_40X_HE_T012_01.czi,gall bladder,,,,,,M,72,No Loss,Not performed,No mutation,No mutation,No mutation
+013,SR1482_WSIs/SR1482_40X_HE_T013_01.czi,liver biopsy,,,,,,F,47,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,Not performed
+014,SR1482_WSIs/SR1482_40X_HE_T014_01.czi,ileocaecal valve biopsy,,,,,,M,31,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+015,SR1482_WSIs/SR1482_40X_HE_T015_01.czi,biopsy of pelvic mass,,,,,,F,74,Not performed,No MSI,No mutation,No mutation,No mutation
+016,SR1482_WSIs/SR1482_40X_HE_T016_01.czi;SR1482_WSIs/SR1482_40X_HE_T016_02.czi,left lobe of liver,,,,,,M,73,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+017,SR1482_WSIs/SR1482_40X_HE_T017_01.czi;SR1482_WSIs/SR1482_40X_HE_T017_02.czi,proximal sigmoid colon biopsy,,,,,,F,57,No loss,Not performed,c.38G>A p.(Gly13Asp),Not performed,No mutation
+018,SR1482_WSIs/SR1482_40X_HE_T018_01.czi,rectal biopsy,,,,,,M,47,No loss,Not performed,No mutation,No mutation,No mutation
+019,SR1482_WSIs/SR1482_40X_HE_T019_01.czi,liver resection,,,,,,M,46,No Loss,Not performed,No mutation,No mutation,No mutation
+020,SR1482_WSIs/SR1482_40X_HE_T020_01.czi,distal transverse colon,,,,,,F,56,The tumour cells show positive nuclear staining for MSH2 and MSH6 but there is partial loss of nuclear staining for MLH1 and PMS2.  Areas of tumour with similar morphology show a different pattern of staining which is difficult to explain,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+021,SR1482_WSIs/SR1482_40X_HE_T021_01.czi,descending colon,,,,,,M,45,No loss,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+022,SR1482_WSIs/SR1482_40X_HE_T022_01.czi,proximal rectal lesion biopsy,,,,,,M,46,No Loss,Not performed,No mutation,No mutation,No mutation
+023,SR1482_WSIs/SR1482_40X_HE_T023_01.czi,native liver biopsy,,,,,,M,45,No loss,Not performed,No mutation,No mutation,No mutation
+024,SR1482_WSIs/SR1482_40X_HE_T024_01.czi;SR1482_WSIs/SR1482_40X_HE_T024_02.czi,right adrenal gland,Adrenal (right) - Metastatic adenocarcinoma (in keeping with a colo-rectal primary site of origin),,,,,F,51,No loss,Not performed,c.35G>T p.(Gly12Val),Not performed,Not performed
+025,SR1482_WSIs/SR1482_40X_HE_T025_01.czi;SR1482_WSIs/SR1482_40X_HE_T025_02.czi,right hepatectomy,"metastatic adenocarcinoma,",,,,,M,60,No loss,No MSI,No mutation,No mutation,No mutation
+026,SR1482_WSIs/SR1482_40X_HE_T026_01.czi;SR1482_WSIs/SR1482_40X_HE_T026_02.czi,section vi liver,,,,,,M,72,No Loss,Not performed,c.34G>T p.(Gly12Cys),Not performed,No mutation
+027,SR1482_WSIs/SR1482_40X_HE_T027_01.czi,distal sigmoid colon,,,,,,M,56,No loss,Not performed,c.34G>T p.(Gly12Cys),No mutation,Not performed
+029,SR1482_WSIs/SR1482_40X_HE_T029_01.czi;SR1482_WSIs/SR1482_40X_HE_T029_02.czi,lung,,,,,,M,61,Not performed,No MSI,No mutation,No mutation,No mutation
+030,SR1482_WSIs/SR1482_40X_HE_T030_01.czi,colonic biopsy,,,,,,M,82,No Loss,Not performed,c.35G>T p.(Gly12Val),Not performed,No mutation
+031,SR1482_WSIs/SR1482_40X_HE_T031_01.czi,rectal biopsy,,,,,,M,55,No Loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,No mutation
+032,SR1482_WSIs/SR1482_40X_HE_T032_01.czi,descending colon biopsy,,,,,,M,79,Not performed,Not performed,No mutation,No mutation,No mutation
+033,SR1482_WSIs/SR1482_40X_HE_T033_01.czi,distal sigmoid / rectosigmoid biopsy,,,,,,M,52,No loss,Not performed,No mutation,No mutation,No mutation
+034,SR1482_WSIs/SR1482_40X_HE_T034_01.czi,colonic resection,,,,,,F,66,No Loss,Not performed,c.35G>C p.(Gly12Ala),Not performed,No mutation
+035,SR1482_WSIs/SR1482_40X_HE_T035_01.czi,partial right hepatectomy,,,,,,F,43,No loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+036,SR1482_WSIs/SR1482_40X_HE_T036_01.czi;SR1482_WSIs/SR1482_40X_HE_T036_02.czi,wedge resection segment iii of liver,"Metastatic adenocarcinoma, present at resection margin (R1); Chemotherapy-related nodular regenerative change and sinusoidal obstruction syndrome in background liver",,,,,F,59,No loss,Not performed,No mutation,No mutation,No mutation
+037,SR1482_WSIs/SR1482_40X_HE_T037_01.czi;SR1482_WSIs/SR1482_40X_HE_T037_02.czi,small bowel,,,,,,F,70,No loss,Not performed,c.38G>A p.(Gly13Asp),Not performed,Not performed
+038,SR1482_WSIs/SR1482_40X_HE_T038_01.czi,liver resection segment vi,,,,,,M,71,No Loss,Not performed,c.180_181delinsAA p.(Gln61Lys),Not performed,No mutation
+039,SR1482_WSIs/SR1482_40X_HE_T039_01.czi,omentum,,,,,,F,72,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+040,SR1482_WSIs/SR1482_40X_HE_T040_01.czi;SR1482_WSIs/SR1482_40X_HE_T040_02.czi,atypical resection segment viii liver,,,,,,F,65,No loss,Not performed,No mutation,No mutation,Not performed
+041,SR1482_WSIs/SR1482_40X_HE_T041_01.czi,rectosigmoid junction biopsy,,,,,,M,57,No Loss,Not performed,c.183A>C p.(Gln61His),No mutation,No mutation
+042,SR1482_WSIs/SR1482_40X_HE_T042_01.czi,ascending colon biopsy,,,,,,M,75,No Loss,Not performed,No mutation,No mutation,No mutation
+043,SR1482_WSIs/SR1482_40X_HE_T043_01.czi;SR1482_WSIs/SR1482_40X_HE_T043_02.czi,right hepatectomy,,,,,,M,70,Not performed,No MSI,No mutation,No mutation,No mutation
+044,SR1482_WSIs/SR1482_40X_HE_T044_01.czi;SR1482_WSIs/SR1482_40X_HE_T044_02.czi,segment vii liver sectionectomy,,,,,,F,65,No Loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+045,SR1482_WSIs/SR1482_40X_HE_T045_01.czi;SR1482_WSIs/SR1482_40X_HE_T045_02.czi,liver,,,,,,M,57,No Loss,Not performed,No mutation,No mutation,No mutation
+046,SR1482_WSIs/SR1482_40X_HE_T046_01.czi,left lower lobe of lung wedge resection,,,,,,F,65,No Loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+048,SR1482_WSIs/SR1482_40X_HE_T048_01.czi;SR1482_WSIs/SR1482_40X_HE_T048_02.czi,rectal biopsy,ypT2 N0 cM1,,ypT2,N0,cM1,M,56,No loss,Not performed,No mutation,No mutation,No mutation
+049,SR1482_WSIs/SR1482_40X_HE_T049_01.czi,proximal sigmoid colon,,,,,,F,51,No loss,No MSI,No mutation,No mutation,No mutation
+050,SR1482_WSIs/SR1482_40X_HE_T050_01.czi,proximal sigmoid colon biospy,suspicious but not diagnostic of adenocarcinoma,,,,,F,50,No Loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+051,SR1482_WSIs/SR1482_40X_HE_T051_01.czi,peri-umbilical soft tissue,,,,,,M,67,No Loss,Not performed,No mutation,No mutation,No mutation
+052,SR1482_WSIs/SR1482_40X_HE_T052_01.czi;SR1482_WSIs/SR1482_40X_HE_T052_02.czi,proximal and mid appendix,pT4a pNx,,pT4a,pNx,,M,59,No Loss,Not performed,No mutation,No mutation,No mutation
+053,SR1482_WSIs/SR1482_40X_HE_T053_01.czi;SR1482_WSIs/SR1482_40X_HE_T053_02.czi,liver biopsy,,,,,,M,51,No loss,Not performed,No mutation,c.181C>A p.(Gln61Lys),Not performed
+055,SR1482_WSIs/SR1482_40X_HE_T055_01.czi;SR1482_WSIs/SR1482_40X_HE_T055_02.czi,"liver, segment i",,,,,,F,47,No loss,Not performed,c.34G>C p.(Gly12Arg),No mutation,No mutation
+056,SR1482_WSIs/SR1482_40X_HE_T056_01.czi,omental biopsy,,,,,,F,67,No Loss,Not performed,No mutation,No mutation,No mutation
+057,SR1482_WSIs/SR1482_40X_HE_T057_01.czi,rectal biopsy,,,,,,M,55,No loss,No MSI,c.34G>T p.(Gly12Cys),No mutation,No mutation
+058,SR1482_WSIs/SR1482_40X_HE_T058_01.czi;SR1482_WSIs/SR1482_40X_HE_T058_02.czi,liver segment v/vi lesion,,,,,,M,53,Not performed,Not performed,Not performed,Not performed,Not performed
+059,SR1482_WSIs/SR1482_40X_HE_T059_01.czi,colonic resection,,,,,,F,74,Not performed,Not performed,Not performed,Not performed,Not performed
+060,SR1482_WSIs/SR1482_40X_HE_T060_01.czi,sigmoid colon,pT3 pN0,,pT3,pN0,,F,57,Not performed,No MSI,No mutation,No mutation,No mutation
+061,SR1482_WSIs/SR1482_40X_HE_T061_01.czi;SR1482_WSIs/SR1482_40X_HE_T061_02.czi,hepatic flexure,pT3 pN0,,pT3,pN0,,M,65,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+062,SR1482_WSIs/SR1482_40X_HE_T062_01.czi;SR1482_WSIs/SR1482_40X_HE_T062_02.czi,appendix,pT4a&b pN0,,pT4a&b,pN0,,F,73,Not performed,No MSI,No mutation,No mutation,No mutation
+063,SR1482_WSIs/SR1482_40X_HE_T063_01.czi;SR1482_WSIs/SR1482_40X_HE_T063_02.czi,caecum,pT4b pN2a,,pT4b,pN2a,,M,72,"ss of nuclear staining for MLH1, PMS2 as well as only focal loss for both MSH2 and MSH6 in an area of the tumour with solid morphology",MSI High,No mutation,No mutation,No mutation
+064,SR1482_WSIs/SR1482_40X_HE_T064_01.czi;SR1482_WSIs/SR1482_40X_HE_T064_02.czi,caecum,pT4a pN2a pM1c,,pT4a,pN2a,pM1c,M,58,Not performed,No MSI,c.35G>A p.(Gly12Asp),Not performed,No mutation
+065,SR1482_WSIs/SR1482_40X_HE_T065_01.czi;SR1482_WSIs/SR1482_40X_HE_T065_02.czi,caecum,pT4a N0,,pT4a,N0,,F,66,Not performed,No MSI,c.35G>A p.(Gly12Asp),Not performed,No mutation
+066,SR1482_WSIs/SR1482_40X_HE_T066_01.czi;SR1482_WSIs/SR1482_40X_HE_T066_02.czi,hepatic flexure,"pT4b, N2a, M1c",,pT4b,2Na,M1c,M,69,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+067,SR1482_WSIs/SR1482_40X_HE_T067_01.czi,liver biopsy,,,,,,M,58,Not performed,No MSI,c.38G>A p.(Gly13Asp),Not performed,No mutation
+068,SR1482_WSIs/SR1482_40X_HE_T068_01.czi,ascending colon biopsy,,,,,,F,41,No Loss,No MSI,c.34G>T p.(Gly12Cys),Not performed,No mutation
+069,SR1482_WSIs/SR1482_40X_HE_T069_01.czi;SR1482_WSIs/SR1482_40X_HE_T069_02.czi,rectum,,,,,,M,61,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+070,SR1482_WSIs/SR1482_40X_HE_T070_01.czi,colonic resection,,,,,,M,71,Loss of MLH1 & PMS2,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+071,SR1482_WSIs/SR1482_40X_HE_T071_01.czi;SR1482_WSIs/SR1482_40X_HE_T071_02.czi,sigmoid colon,pT4b pN0,,pT4a,pN0,,M,79,Not performed,No MSI,c.35G>C p.(Gly12Ala),Not performed,No mutation
+072,SR1482_WSIs/SR1482_40X_HE_T072_01.czi,colonic resection,,,,,,M,73,No Loss,MSI Low,No mutation,c.34G>T p.(Gly12Cys),No mutation
+073,SR1482_WSIs/SR1482_40X_HE_T073_01.czi,anal biopsy,,,,,,F,73,Not performed,No MSI,c.38G>A p.(Gly13Asp),Not performed,No mutation
+074,SR1482_WSIs/SR1482_40X_HE_T074_01.czi;SR1482_WSIs/SR1482_40X_HE_T074_02.czi,caecum,pT3 pN0.,,pT3,pN0,,M,56,Not performed,No MSI,c.35G>T p.(Gly12Val),Not performed,No mutation
+075,SR1482_WSIs/SR1482_40X_HE_T075_01.czi;SR1482_WSIs/SR1482_40X_HE_T075_02.czi,hepatic flexure,pT3 N1a,,pT3,N1a,,M,71,Not performed,No MSI,c.436G>A p.(Ala146Thr),No mutation,No mutation
+076,SR1482_WSIs/SR1482_40X_HE_T076_01.czi;SR1482_WSIs/SR1482_40X_HE_T076_02.czi,probable appendi,,,,,,M,55,No Loss,Insufficient,Insufficient,Insufficient,Insufficient
+077,SR1482_WSIs/SR1482_40X_HE_T077_01.czi,colonic resection,,,,,,M,64,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+078,SR1482_WSIs/SR1482_40X_HE_T078_01.czi,rectum,,,,,,F,23,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,No mutation
+079,SR1482_WSIs/SR1482_40X_HE_T079_01.czi;SR1482_WSIs/SR1482_40X_HE_T079_02.czi,transverse colon,pT4b pN2b pM1.,,pT4b,pN2b,pM1,F,72,Loss of MLH1 & PMS2,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+080,SR1482_WSIs/SR1482_40X_HE_T080_01.czi;SR1482_WSIs/SR1482_40X_HE_T080_02.czi,ascending colon,pT4a pN0.,,pT4a,pN0,,M,71,Not performed,No MSI,c.38G>A p.(Gly13Asp),No mutation,No mutation
+081,SR1482_WSIs/SR1482_40X_HE_T081_01.czi;SR1482_WSIs/SR1482_40X_HE_T081_02.czi,upper rectum,"ypT3, N1c",,ypT3,N1c,,M,74,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+082,SR1482_WSIs/SR1482_40X_HE_T082_01.czi;SR1482_WSIs/SR1482_40X_HE_T082_02.czi,sigmoid,"pT4b, pN0.",,pT4b,pN0,,F,60,Not performed,No MSI,c.183A>T p.(Gln61His),No mutation,No mutation
+083,SR1482_WSIs/SR1482_40X_HE_T083_01.czi;SR1482_WSIs/SR1482_40X_HE_T083_02.czi,"caecum with metastatic deposits in umbilicus, surface of left colon and small bowel wall.","pT4a, pN1b, pM1c.",,pT4a,pN1b,pM1c,M,55,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+084,SR1482_WSIs/SR1482_40X_HE_T084_01.czi;SR1482_WSIs/SR1482_40X_HE_T084_02.czi,rectum,"pT3 pN2 Mx R0, Dukes' C1",C1,pT3,pN2,Mx,M,61,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,Not performed
+085,SR1482_WSIs/SR1482_40X_HE_T085_01.czi,sigmoid colon biopsy,,,,,,F,33,No loss,Not performed,No mutation,No mutation,Not performed
+086,SR1482_WSIs/SR1482_40X_HE_T086_01.czi;SR1482_WSIs/SR1482_40X_HE_T086_02.czi,rectum,"Dukes b,  pT3, N0.",B,pT3,N0,,M,45,No loss,Not performed,No mutation,No mutation,No mutation
+087,SR1482_WSIs/SR1482_40X_HE_T087_01.czi,rectosigmoid junction biopsy ,,,,,,F,52,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+088,SR1482_WSIs/SR1482_40X_HE_T088_01.czi,liver biopsy,,,,,,F,61,Not performed,Not performed,Not performed,Not performed,Not performed
+089,SR1482_WSIs/SR1482_40X_HE_T089_01.czi,rectal biopsy,,,,,,F,58,Not performed,No MSI,No mutation,No mutation,No mutation
+090,SR1482_WSIs/SR1482_40X_HE_T090_01.czi,rectal biopsy,,,,,,F,68,Not performed,No MSI,c.35G>A p.(Gly12Asp),Not performed,No mutation
+091,SR1482_WSIs/SR1482_40X_HE_T091_01.czi,sigmoid colon,,,,,,M,61,No loss,Not performed,No mutation,No mutation,No mutation
+092,SR1482_WSIs/SR1482_40X_HE_T092_01.czi,liver biopsy,,,,,,M,65,No Loss,Not performed,No mutation,c.38G>A p.(Gly13Asp),No mutation
+093,SR1482_WSIs/SR1482_40X_HE_T093_01.czi,rectal sigmoid biopsy,,,,,,F,59,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+094,SR1482_WSIs/SR1482_40X_HE_T094_01.czi;SR1482_WSIs/SR1482_40X_HE_T094_02.czi,caecum,pT4a N0,,pT4a,N0,,M,72,Not performed,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+095,SR1482_WSIs/SR1482_40X_HE_T095_01.czi;SR1482_WSIs/SR1482_40X_HE_T095_02.czi,rectum,ypT3 N1 M1 moderately differentiated adenocarcinoma; margins clear,,ypT3,N1,M1,F,46,No loss,Not performed,No mutation,No mutation,No mutation
+096,SR1482_WSIs/SR1482_40X_HE_T096_01.czi,transverse colon,"Dukes C2,  pT4b N2 with extramural venous invasion",C2,pT4b,N2,,F,48,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,No mutation
+097,SR1482_WSIs/SR1482_40X_HE_T097_01.czi;SR1482_WSIs/SR1482_40X_HE_T097_02.czi,caecum / proximal ascending,pT3 N0,,pT3,N0,,F,80,Not performed,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+098,SR1482_WSIs/SR1482_40X_HE_T098_01.czi;SR1482_WSIs/SR1482_40X_HE_T098_02.czi,rectosigmoid,pT4a pN0,,pT4a,pN0,,M,56,Not performed,No MSI,c.38G>A p.(Gly13Asp),No mutation,No mutation
+099,SR1482_WSIs/SR1482_40X_HE_T099_01.czi,rectal lesion biopsy,,,,,,F,48,Not performed,No MSI,No mutation,No mutation,No mutation
+100,SR1482_WSIs/SR1482_40X_HE_T100_01.czi;SR1482_WSIs/SR1482_40X_HE_T100_02.czi,descending colon,pT3 pN0,,pT3,pN0,,M,66,No Loss,Not performed,c.35G>T p.(Gly12Val),Not performed,Failed
+101,SR1482_WSIs/SR1482_40X_HE_T101_01.czi;SR1482_WSIs/SR1482_40X_HE_T101_02.czi,rectum,"Duke's B, pT3 N0 MX (0/12 lymph nodes),",B,pT3,N0,Mx,F,58,No loss,Not performed,No mutation,No mutation,No mutation
+102,SR1482_WSIs/SR1482_40X_HE_T102_01.czi,colonic biopsy,,,,,,F,64,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+103,SR1482_WSIs/SR1482_40X_HE_T103_01.czi,bladder tumour chips,,,,,,M,68,No loss,Not performed,No mutation,No mutation,No mutation
+104,SR1482_WSIs/SR1482_40X_HE_T104_01.czi;SR1482_WSIs/SR1482_40X_HE_T104_02.czi,distal transverse,pT3 pN0; histologically Dukes'stage B (clinically Dukes' stage D); extramural venous invasion present; completely resected.,B (clinically D),pT3,pN0,,F,67,No loss,Not performed,No mutation,No mutation,Not performed
+105,SR1482_WSIs/SR1482_40X_HE_T105_01.czi,peritoneal biopsy,,,,,,M,43,Not performed,No MSI,No mutation,No mutation,No mutation
+106,SR1482_WSIs/SR1482_40X_HE_T106_01.czi,rectum,"At least high grade dysplasia, highly suspicious of adenocarcinoma",,,,,M,60,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+107,SR1482_WSIs/SR1482_40X_HE_T107_01.czi,proximal transverse colonic biopsy,,,,,,F,77,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+108,SR1482_WSIs/SR1482_40X_HE_T108_01.czi,rectosigmoid junction,,,,,,F,75,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,No mutation
+109,SR1482_WSIs/SR1482_40X_HE_T109_01.czi,rectal biopsy,,,,,,F,61,Not performed,Not performed,No mutation,No mutation,No mutation
+110,SR1482_WSIs/SR1482_40X_HE_T110_01.czi,rectal biopsy,,,,,,M,70,No Loss,Not performed,c.35G>C p.(Gly12Ala),No mutation,No mutation
+111,SR1482_WSIs/SR1482_40X_HE_T111_01.czi,ascending colon biopsy,,,,,,F,57,No Loss,Not performed,c.182A>G p.(Gln61Arg),Not performed,No mutation
+112,SR1482_WSIs/SR1482_40X_HE_T112_01.czi,rectal biopsy,,,,,,M,53,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+113,SR1482_WSIs/SR1482_40X_HE_T113_01.czi;SR1482_WSIs/SR1482_40X_HE_T113_02.czi,caecum,pT3 pN0.,,pT3,pN0,,M,60,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+114,SR1482_WSIs/SR1482_40X_HE_T114_01.czi,anorectal biopsy,,,,,,F,77,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+115,SR1482_WSIs/SR1482_40X_HE_T115_01.czi;SR1482_WSIs/SR1482_40X_HE_T115_02.czi,rectum,pT3 pN0.,,pT3,pN0,,M,63,Not performed,No MSI,No mutation,No mutation,No mutation
+116,SR1482_WSIs/SR1482_40X_HE_T116_01.czi,caecum,pT4a pN2a,,pT4a,pN2a,,F,77,Not performed,No MSI,c.436G>A p.(Ala146Thr),No mutation,No mutation
+117,SR1482_WSIs/SR1482_40X_HE_T117_01.czi;SR1482_WSIs/SR1482_40X_HE_T117_02.czi,rectosigmoid anterior resection,pT3 pN2b,,pT3,pN2b,,M,54,Not performed,No MSI,c.182A>G p.(Gln61Arg),No mutation,No mutation
+118,SR1482_WSIs/SR1482_40X_HE_T118_01.czi;SR1482_WSIs/SR1482_40X_HE_T118_02.czi,caecum / ascending colon,"Dukes' C1,  pT4a&b, N1 with direct invasion of fallopian tube and sigmoid colon and extramural venous invasion",C1,pT4a&b,N1,,F,40,No loss,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+119,SR1482_WSIs/SR1482_40X_HE_T119_01.czi,liver biopsy,,,,,,M,71,Not performed,Not performed,Not performed,Not performed,Not performed
+120,SR1482_WSIs/SR1482_40X_HE_T120_01.czi;SR1482_WSIs/SR1482_40X_HE_T120_02.czi,caecum,Dukes c pT4b pN2; R2 ; extramural venous invasion and extensive peritoneal disease.,C,pT4b,pN2,,M,57,No loss,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+121,SR1482_WSIs/SR1482_40X_HE_T121_01.czi,distal sigmoid colon biopsy,,,,,,F,57,Not performed,No MSI,c.34G>A p.(Gly12Ser),No mutation,No mutation
+122,SR1482_WSIs/SR1482_40X_HE_T122_01.czi,anorectal biopsy,,,,,,M,81,Not performed,No MSI,No mutation,No mutation,No mutation
+123,SR1482_WSIs/SR1482_40X_HE_T123_01.czi,anal biopsy,,,,,,F,70,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+124,SR1482_WSIs/SR1482_40X_HE_T124_01.czi;SR1482_WSIs/SR1482_40X_HE_T124_02.czi,caecum,pT4 pN2 M1,,pT4,pN2,M1,F,71,Not performed,No MSI,No mutation,No mutation,No mutation
+125,SR1482_WSIs/SR1482_40X_HE_T125_01.czi;SR1482_WSIs/SR1482_40X_HE_T125_02.czi,descending / sigmoid colon,pT4a N1a (1 / 17),,pT4a,N1a,,F,82,Not performed,No MSI,No mutation,No mutation,No mutation
+126,SR1482_WSIs/SR1482_40X_HE_T126_01.czi,descending / sigmoid colon,pT4a N1a (1 / 17),,pT4a,N1a,,F,82,Not performed,No MSI,No mutation,No mutation,No mutation
+128,SR1482_WSIs/SR1482_40X_HE_T128_01.czi;SR1482_WSIs/SR1482_40X_HE_T128_02.czi,rectum,Dukes C pT3 pN2 cM1 (TNM 5th Ed.),C,pT3,pN2,cM1,M,60,No loss,Not performed,No mutation,No mutation,Not performed
+129,SR1482_WSIs/SR1482_40X_HE_T129_01.czi;SR1482_WSIs/SR1482_40X_HE_T129_02.czi,total pelvic exenteration and distal ureters:,,,,,,M,64,Not performed,No MSI,No mutation,No mutation,No mutation
+130,SR1482_WSIs/SR1482_40X_HE_T130_01.czi,colonic resection specimen,,,,,,F,62,Loss of MLH1 & PMS2,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+131,SR1482_WSIs/SR1482_40X_HE_T131_01.czi;SR1482_WSIs/SR1482_40X_HE_T131_02.czi,sigmoid colon,pT4b pN2a pM1c,,pT4b,pN2a,pM1c,F,57,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+132,SR1482_WSIs/SR1482_40X_HE_T132_01.czi;SR1482_WSIs/SR1482_40X_HE_T132_02.czi,proximal transverse colon,pT3 pN0.,,pT3,pN0,,M,72,Not performed,No MSI,No mutation,No mutation,No mutation
+133,SR1482_WSIs/SR1482_40X_HE_T133_01.czi;SR1482_WSIs/SR1482_40X_HE_T133_02.czi,caecal tumour,pT3 pN1b (cM1a).,,pT3,pN1b,cM1a,M,82,No Loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+134,SR1482_WSIs/SR1482_40X_HE_T134_01.czi,peritoneal deposit,,,,,,M,43,No loss,Not performed,No mutation,No mutation,Not performed
+135,SR1482_WSIs/SR1482_40X_HE_T135_01.czi,liver biopsy,,,,,,M,51,No loss,Not performed,No mutation,No mutation,Not performed
+136,SR1482_WSIs/SR1482_40X_HE_T136_01.czi;SR1482_WSIs/SR1482_40X_HE_T136_02.czi,ascending colon,pT4a pN1a,,pT4a,pN1a,,F,75,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+137,SR1482_WSIs/SR1482_40X_HE_T137_01.czi;SR1482_WSIs/SR1482_40X_HE_T137_02.czi,anterior resection for a rectosigmoid tumour,"Dukes C1:  pT4b, pN2, completely excised with intra and extramural venous invasion",C1,pT4b,pN2,,M,84,No loss,Not performed,No mutation,No mutation,Not performed
+138,SR1482_WSIs/SR1482_40X_HE_T138_01.czi,rectal biopsy,,,,,,M,76,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+139,SR1482_WSIs/SR1482_40X_HE_T139_01.czi;SR1482_WSIs/SR1482_40X_HE_T139_02.czi,appendix,pT3 pN1b,,pT3,pN1b,,F,62,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+140,SR1482_WSIs/SR1482_40X_HE_T140_01.czi;SR1482_WSIs/SR1482_40X_HE_T140_02.czi,sigmoid colon,,,,,,M,45,No Loss,Not performed,c.37G>T p.(Gly13Cys),Not performed,No mutation
+141,SR1482_WSIs/SR1482_40X_HE_T141_01.czi,rectal biopsy,,,,,,M,35,Not performed,Not performed,Not performed,Not performed,Not performed
+142,SR1482_WSIs/SR1482_40X_HE_T142_01.czi,sigmoid colon lesion biopsy,,,,,,F,40,No loss,No MSI,c.35G>A p.(Gly12Asp),Not performed,Not performed
+143,SR1482_WSIs/SR1482_40X_HE_T143_01.czi;SR1482_WSIs/SR1482_40X_HE_T143_02.czi,ascending colon,pT3 N2a,,pT3,N2a,,M,59,Not performed,No MSI,c.38G>A p.(Gly13Asp),No mutation,No mutation
+146,SR1482_WSIs/SR1482_40X_HE_T146_01.czi,rectum,ypT4a ypN2b ypM1c,,ypT4a,ypN2b,ypM1c,M,67,Not performed,No MSI,c.35G>A p.(Gly12As),No mutation,No mutation
+147,SR1482_WSIs/SR1482_40X_HE_T147_01.czi;SR1482_WSIs/SR1482_40X_HE_T147_02.czi,caecum,pT4b pN2b cM1(liver),,pT4b,pN2b,cM1 (liver),M,35,Not performed,No MSI,c.436G>A p.(Ala146Thr),No mutation,No mutation
+148,SR1482_WSIs/SR1482_40X_HE_T148_01.czi;SR1482_WSIs/SR1482_40X_HE_T148_02.czi,caecum,pT4a pN1b,,pT4a,pN1b,,F,41,Not performed,No MSI,No mutation,No mutation,No mutation
+149,SR1482_WSIs/SR1482_40X_HE_T149_01.czi;SR1482_WSIs/SR1482_40X_HE_T149_02.czi,caecum,pT3 pN1b pM1c,,pT3,pN1b,pM1c,F,74,Not performed,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+150,SR1482_WSIs/SR1482_40X_HE_T150_01.czi,rectal biopsy,,,,,,F,56,No Loss,Not performed,No mutation,No mutation,No mutation
+151,SR1482_WSIs/SR1482_40X_HE_T151_01.czi,rectum biopsy,,,,,,F,52,No Loss,Not performed,No mutation,No mutation,No mutation
+152,SR1482_WSIs/SR1482_40X_HE_T152_01.czi,liver,,,,,,M,78,No Loss,Not performed,No mutation,No mutation,No mutation
+153,SR1482_WSIs/SR1482_40X_HE_T153_01.czi,hepatic flexure biopsy,,,,,,M,69,No Loss,Not performed,No mutation,No mutation,No mutation
+154,SR1482_WSIs/SR1482_40X_HE_T154_01.czi,rectal biopsy,,,,,,M,60,Not performed,No MSI,c.436G>A p.(Ala146Thr),No mutation,No mutation
+155,SR1482_WSIs/SR1482_40X_HE_T155_01.czi,hepatic flexure biopsy,pT4b pN2;  7/29 nodes involved; Dukes' stage C1; extramural venous invasion present; completely excised.,C1,pT4b,pN2,,M,59,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+156,SR1482_WSIs/SR1482_40X_HE_T156_01.czi,rectal biopsy,,,,,,F,52,No Loss,Not performed,No mutation,No mutation,No mutation
+157,SR1482_WSIs/SR1482_40X_HE_T157_01.czi;SR1482_WSIs/SR1482_40X_HE_T157_02.czi,colonic resection specimen,,,,,,F,58,Not performed,Not performed,Not performed,Not performed,Not performed
+158,SR1482_WSIs/SR1482_40X_HE_T158_01.czi,rectal biopsy,,,,,,F,68,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,No mutation
+159,SR1482_WSIs/SR1482_40X_HE_T159_01.czi;SR1482_WSIs/SR1482_40X_HE_T159_02.czi,descending colon,pT4a pN1b,,pT4a,pN1b,,M,74,Not performed,No MSI,c.34G>A p.(Gly12Ser),No mutation,No mutation
+160,SR1482_WSIs/SR1482_40X_HE_T160_01.czi;SR1482_WSIs/SR1482_40X_HE_T160_02.czi,distal sigmoid colon,,,,,,M,60,Not performed,No MSI,No mutation,No mutation,No mutation
+161,SR1482_WSIs/SR1482_40X_HE_T161_01.czi;SR1482_WSIs/SR1482_40X_HE_T161_02.czi,distal sigmoid colon,,,,,,M,60,Not performed,No MSI,No mutation,No mutation,No mutation
+162,SR1482_WSIs/SR1482_40X_HE_T162_01.czi,proximal transverse colon biopsy,,,,,,F,58,No loss,Not performed,c.35G>T p.(Gly12Val),Not performed,Not performed
+163,SR1482_WSIs/SR1482_40X_HE_T163_01.czi,omental biopsy,,,,,,F,71,Not performed,Not performed,Not performed,Not performed,Not performed
+164,SR1482_WSIs/SR1482_40X_HE_T164_01.czi;SR1482_WSIs/SR1482_40X_HE_T164_02.czi,ascending colon,Dukes' D; pT4b pN2 pMx,D,pT4b,pN2,pMx,M,42,Loss of MLH1 & PMS2,MSI HIgh,No mutation,No mutation,No mutation
+165,SR1482_WSIs/SR1482_40X_HE_T165_01.czi,rectum biopsy,,,,,,F,58,No loss,Not performed,No mutation,c.182A>G p.(Gln61Arg) (also known as Q61R),No mutation
+166,SR1482_WSIs/SR1482_40X_HE_T166_01.czi,mid transverse colonic biopsy,,,,,,F,83,Loss of MLH1 & PMS2,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+167,SR1482_WSIs/SR1482_40X_HE_T167_01.czi;SR1482_WSIs/SR1482_40X_HE_T167_02.czi,caecum,pT3 pN1a.,,pT3,pN1a,,F,63,Not performed,No MSI,No mutation,No mutation,No mutation
+168,SR1482_WSIs/SR1482_40X_HE_T168_01.czi,rectosigmoid biopsy,,,,,,F,37,Not performed,No MSI,c.38G>A p.(Gly13Asp),No mutation,No mutation
+169,SR1482_WSIs/SR1482_40X_HE_T169_01.czi,rectum,pT4a pN1b.,,pT4a,pN1b,,M,71,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+170,SR1482_WSIs/SR1482_40X_HE_T170_01.czi;SR1482_WSIs/SR1482_40X_HE_T170_02.czi,upper rectal adenocarcinoma,"Dukes' C1, pT3 N2 MX, R0 with ischaemic/obstructive colitis and perforation in sigmoid colon",C1,pT3,N2,Mx,F,52,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+171,SR1482_WSIs/SR1482_40X_HE_T171_01.czi;SR1482_WSIs/SR1482_40X_HE_T171_02.czi,sigmoid,pT3 N1c,,pT3,N1c,,M,74,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+172,SR1482_WSIs/SR1482_40X_HE_T172_01.czi;SR1482_WSIs/SR1482_40X_HE_T172_02.czi,sigmoid colon,,,,,,F,69,No Loss,Not performed,No mutation,No mutation,No mutation
+173,SR1482_WSIs/SR1482_40X_HE_T173_01.czi;SR1482_WSIs/SR1482_40X_HE_T173_02.czi,caecum/ascending colon,Dukes' C1 pT4b N1 with extramural venous invasion.,C1,pT4b,N1,,F,84,No loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+174,SR1482_WSIs/SR1482_40X_HE_T174_01.czi;SR1482_WSIs/SR1482_40X_HE_T174_02.czi,sigmoid,"pT4a,  N2a",,pT4a,N2a,,M,53,Loss of MLH1 & PMS2,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+175,SR1482_WSIs/SR1482_40X_HE_T175_01.czi;SR1482_WSIs/SR1482_40X_HE_T175_02.czi,rectosigmoid,pT4a N2b,,pT4a,N2b,,M,68,Not performed,No MSI,No mutation,No mutation,No mutation
+176,SR1482_WSIs/SR1482_40X_HE_T176_01.czi;SR1482_WSIs/SR1482_40X_HE_T176_02.czi,caecum,pT4a N2a,,pT4a,N2a,,M,68,Not performed,MSI High,Not performed,No mutation,c.1799T>A p.(Val600Glu)
+177,SR1482_WSIs/SR1482_40X_HE_T177_01.czi,appendix,,,,,,M,33,Loss of MSH2 & MSH6,MSI High,c.35G>A p.(Gly12Asp),No mutation,No mutation
+178,SR1482_WSIs/SR1482_40X_HE_T178_01.czi,caecum/proximal ascending colon,,,,,,M,33,Loss of MSH2 & MSH6,MSI High,c.35G>A p.(Gly12Asp),No mutation,No mutation
+179,SR1482_WSIs/SR1482_40X_HE_T179_01.czi;SR1482_WSIs/SR1482_40X_HE_T179_02.czi,caecum,pT3 N0 (0 / 16),,pT3,N0,,F,58,Loss of MLH1 & PMS2,Not performed,c.34G>T p.(Gly12Cys),No mutation,No mutation
+180,SR1482_WSIs/SR1482_40X_HE_T180_01.czi;SR1482_WSIs/SR1482_40X_HE_T180_02.czi,transverse colon,pT3N0,,pT3,N0,,M,34,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,No mutation
+182,SR1482_WSIs/SR1482_40X_HE_T182_01.czi,rectal biopsy,,,,,,F,51,No loss,Not performed,Insufficient,Insufficient,Insufficient
+183,SR1482_WSIs/SR1482_40X_HE_T183_01.czi;SR1482_WSIs/SR1482_40X_HE_T183_02.czi,ascending colon,,,,,,F,71,No Loss,Not performed,No mutation,c.181C>A p.(Gln61Lys),No mutation
+184,SR1482_WSIs/SR1482_40X_HE_T184_01.czi,colonic resection specimen,,,,,,F,36,No Loss,Not performed,No mutation,c.182A>G p.(Gln61Arg) (also known as Q61R),No mutation
+185,SR1482_WSIs/SR1482_40X_HE_T185_01.czi,sigmoid colon biopsy,,,,,,F,80,No Loss,Failed,No mutation,c.35G>A p.(Gly12Asp),No mutation
+186,SR1482_WSIs/SR1482_40X_HE_T186_01.czi,rectum,,,,,,M,59,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,No mutation
+187,SR1482_WSIs/SR1482_40X_HE_T187_01.czi,caecum,Dukes c2 pT4 pN2 M1.,C2,pT4,pN2,M1,F,62,No loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+188,SR1482_WSIs/SR1482_40X_HE_T188_01.czi,liver biopsy,,,,,,M,53,Not performed,No MSI,No mutation,No mutation,No mutation
+189,SR1482_WSIs/SR1482_40X_HE_T189_01.czi;SR1482_WSIs/SR1482_40X_HE_T189_02.czi,rectum,ypT3 N1b,,ypT3,N1b,,F,50,No loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+190,SR1482_WSIs/SR1482_40X_HE_T190_01.czi,rectum,,,,,,M,47,No loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+191,SR1482_WSIs/SR1482_40X_HE_T191_01.czi,liver biopsy,,,,,,M,73,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,No mutation
+192,SR1482_WSIs/SR1482_40X_HE_T192_01.czi,appendix,,,,,,M,69,Not performed,No MSI,c.34G>T p.(Gly12Cys),No mutation,No mutation
+193,SR1482_WSIs/SR1482_40X_HE_T193_01.czi;SR1482_WSIs/SR1482_40X_HE_T193_02.czi,rectosigmoid,pT4a pN1b.,,pT4a,pN1b,,F,66,Not performed,No MSI,No mutation,No mutation,No mutation
+194,SR1482_WSIs/SR1482_40X_HE_T194_01.czi,caecum,"Dukes' C1, pT3 N2 with extramural venous and lymphatic invasion.",C1,pT3,N2,,M,72,No loss,No MSI,No mutation,No mutation,No mutation
+195,SR1482_WSIs/SR1482_40X_HE_T195_01.czi;SR1482_WSIs/SR1482_40X_HE_T195_02.czi,rectal cancer,,,,,,F,85,Not performed,No MSI,No mutation,No mutation,No mutation
+196,SR1482_WSIs/SR1482_40X_HE_T196_01.czi;SR1482_WSIs/SR1482_40X_HE_T196_02.czi,rectum,,,,,,F,58,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+197,SR1482_WSIs/SR1482_40X_HE_T197_01.czi,rectal biopsy,,,,,,F,66,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+198,SR1482_WSIs/SR1482_40X_HE_T198_01.czi,liver biopsy,,,,,,M,42,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,Not performed
+199,SR1482_WSIs/SR1482_40X_HE_T199_01.czi,liver resection,,,,,,M,68,Not performed,No MSI,No mutation,No mutation,No mutation
+200,SR1482_WSIs/SR1482_40X_HE_T200_01.czi,descending colon biopsy,,,,,,F,74,No loss,Not performed,No mutation,No mutation,No mutation
+201,SR1482_WSIs/SR1482_40X_HE_T201_01.czi,ascending colon biopsy,,,,,,M,77,No Loss,Not performed,c.37_42delinsAAGAGT p.(Gly13_Val14delinsLysSer),Not performed,No mutation
+202,SR1482_WSIs/SR1482_40X_HE_T202_01.czi;SR1482_WSIs/SR1482_40X_HE_T202_02.czi,sigmoid colon,pT3 pN2a.,,pT3,pN2a,,F,60,Not performed,No MSI,No mutation,No mutation,No mutation
+203,SR1482_WSIs/SR1482_40X_HE_T203_01.czi;SR1482_WSIs/SR1482_40X_HE_T203_02.czi,sigmoid colon,"Dukes' C1, pT4b N1; completely excised",C1,pT4b,N1,,F,60,No loss,Not performed,c.34G>T p.(Gly12Cys),No mutation,Not performed
+204,SR1482_WSIs/SR1482_40X_HE_T204_01.czi;SR1482_WSIs/SR1482_40X_HE_T204_02.czi,hepatic flexure biopsy,,,,,,F,31,No loss,Not performed,No mutation,No mutation,Not performed
+205,SR1482_WSIs/SR1482_40X_HE_T205_01.czi,rectal biopsy,,,,,,M,38,No loss,Not performed,No mutation,No mutation,Not performed
+206,SR1482_WSIs/SR1482_40X_HE_T206_01.czi,colonic resection specimen,,,,,,M,41,No Loss,Not performed,No mutation,No mutation,No mutation
+207,SR1482_WSIs/SR1482_40X_HE_T207_01.czi;SR1482_WSIs/SR1482_40X_HE_T207_02.czi,rectal biopsy,"Dukes' A, pT2 N0",A,pT2,N0,,M,53,No loss,Not performed,No mutation,No mutation,No mutation
+208,SR1482_WSIs/SR1482_40X_HE_T208_01.czi,colonic resection specimen,,,,,,F,80,No Loss,Not performed,c.38G>A p.(Gly13Asp),Not performed,No mutation
+209,SR1482_WSIs/SR1482_40X_HE_T209_01.czi;SR1482_WSIs/SR1482_40X_HE_T209_02.czi,rectum,pT3 N1b,,pT3,N1b,,M,76,Not performed,No MSI,No mutation,No mutation,No mutation
+210,SR1482_WSIs/SR1482_40X_HE_T210_01.czi;SR1482_WSIs/SR1482_40X_HE_T210_02.czi,transverse colon,Perforated poorly differentiated medullary-like adenocarcinoma pT4b N1 cM1 with extramural venous invasion,,pT4b,N1,cM1,F,32,No loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+211,SR1482_WSIs/SR1482_40X_HE_T211_01.czi,right hemicolectomy,,,,,,M,69,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+212,SR1482_WSIs/SR1482_40X_HE_T212_01.czi,rectal biopsy,,,,,,F,48,No loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,Not performed
+213,SR1482_WSIs/SR1482_40X_HE_T213_01.czi;SR1482_WSIs/SR1482_40X_HE_T213_02.czi,rectum,,,,,,M,75,No Loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+214,SR1482_WSIs/SR1482_40X_HE_T214_01.czi;SR1482_WSIs/SR1482_40X_HE_T214_02.czi,caecum,"pT3, pN0.",,pT3,pN0,,M,57,Not performed,Not performed,c.180_181delTCinsAA p.(Gln61Lys),No mutation,Not performed
+215,SR1482_WSIs/SR1482_40X_HE_T215_01.czi;SR1482_WSIs/SR1482_40X_HE_T215_02.czi,caecum,pT4 pN2 pM1; Dukes' D;  with prominent metastatic disease in both ovaries and omentum; R1 resection due to infiltrating tumour at vascular high tie.,D,pT4,pN2,pM1,F,54,No loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,Not performed
+216,SR1482_WSIs/SR1482_40X_HE_T216_01.czi,distal sigmoid colon,UB059723D/16 1Q-1T,,,,,M,60,No loss,Not performed,No mutation,No mutation,Not performed
+217,SR1482_WSIs/SR1482_40X_HE_T217_01.czi,rectosigmoid colon biopsy,,,,,,M,60,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+218,SR1482_WSIs/SR1482_40X_HE_T218_01.czi,colon,,,,,,M,61,Not performed,No MSI,No mutation,No mutation,Failed
+219,SR1482_WSIs/SR1482_40X_HE_T219_01.czi;SR1482_WSIs/SR1482_40X_HE_T219_02.czi,rectosigmoid,pT4a pN1b (cM1).,,pT4a,pN1b,cM1,M,72,No Loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,No mutation
+220,SR1482_WSIs/SR1482_40X_HE_T220_01.czi,descending colon biopsy,,,,,,F,56,No loss,Not performed,No mutation,No mutation,Not performed
+221,SR1482_WSIs/SR1482_40X_HE_T221_01.czi;SR1482_WSIs/SR1482_40X_HE_T221_02.czi,distal sigmoid colon,"Dukes' stage C1, TMN pT3,N",C1,pT3,N,,M,61,No loss,Not performed,No mutation,No mutation,Not performed
+222,SR1482_WSIs/SR1482_40X_HE_T222_01.czi;SR1482_WSIs/SR1482_40X_HE_T222_02.czi,descending colon,pT3 pN2;  4/13 nodes show metastatic carcinoma; Dukes' C1; no definite extramural venous invasion; completely resected.,C1,pT3,pN2,,M,58,No loss,Not performed,No mutation,No mutation,No mutation
+223,SR1482_WSIs/SR1482_40X_HE_T223_01.czi,rectum,,,,,,M,60,No loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+224,SR1482_WSIs/SR1482_40X_HE_T224_01.czi;SR1482_WSIs/SR1482_40X_HE_T224_02.czi,caecum,"Dukes' C2, pT3 N2, R2",C2,pT3,N2a,,F,72,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+225,SR1482_WSIs/SR1482_40X_HE_T225_01.czi;SR1482_WSIs/SR1482_40X_HE_T225_02.czi,left inguinal nodes,Dukes' D; ypT4a ypN1 ypM1; R0,D,ypT4a,ypN1,ypM1,M,59,No loss,No MSI,No mutation,No mutation,Failed
+226,SR1482_WSIs/SR1482_40X_HE_T226_01.czi,rectal biopsy,,,,,,M,53,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,Not performed
+227,SR1482_WSIs/SR1482_40X_HE_T227_01.czi;SR1482_WSIs/SR1482_40X_HE_T227_02.czi,splenic flexure invading spleen and tail of pancrea,,,,,,M,64,Loss of MLH1 & PMS2,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+228,SR1482_WSIs/SR1482_40X_HE_T228_01.czi,peritoneal mass,,,,,,M,57,Not performed,Not performed,Not performed,Not performed,Not performed
+229,SR1482_WSIs/SR1482_40X_HE_T229_01.czi,right hemicolectomy,,,,,,F,64,No Loss,Not performed,No mutation,No mutation,No mutation
+230,SR1482_WSIs/SR1482_40X_HE_T230_01.czi,peritoneal biopsy,,,,,,M,40,No loss,Not performed,No mutation,No mutation,Not performed
+231,SR1482_WSIs/SR1482_40X_HE_T231_01.czi,ascending colon biopsy,,,,,,F,49,No loss,Not performed,c.38G>A p.(Gly13Asp),Not performed,Not performed
+232,SR1482_WSIs/SR1482_40X_HE_T232_01.czi;SR1482_WSIs/SR1482_40X_HE_T232_02.czi,sigmoid colon lesion biopsy,"Dukes' D, pT4b pN1 cM1, extramural venous invasion, local excision complete - BASED ON MORE RECENT RESECTION",D,pT4b,pN1,cM1,M,56,No loss,Not performed,No mutation,No mutation,Not performed
+233,SR1482_WSIs/SR1482_40X_HE_T233_01.czi,liver biopsy,,,,,,M,53,No loss,Not performed,No mutation,No mutation,Not performed
+234,SR1482_WSIs/SR1482_40X_HE_T234_01.czi,sigmoid colon,pT4bN1,,pT4b,N1,,F,47,No loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,Not performed
+235,SR1482_WSIs/SR1482_40X_HE_T235_01.czi;SR1482_WSIs/SR1482_40X_HE_T235_02.czi,rectum,pT3 pN2.,,pT3,pN2,,M,69,Not performed,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+236,SR1482_WSIs/SR1482_40X_HE_T236_01.czi;SR1482_WSIs/SR1482_40X_HE_T236_02.czi,caecum,pT4a N1b.,,pT4a,N1b,,F,73,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,c.1799T>A p.(Val600Glu)
+237,SR1482_WSIs/SR1482_40X_HE_T237_01.czi;SR1482_WSIs/SR1482_40X_HE_T237_02.czi,sigmoid colon,,,,,,F,75,Not performed,Not performed,Not performed,Not performed,Not performed
+239,SR1482_WSIs/SR1482_40X_HE_T239_01.czi,ascending colon,pT3 pN2a,,pT3,pN2a,,F,73,Loss of MLH1 & PMS2. Focal loss of MSH6,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+240,SR1482_WSIs/SR1482_40X_HE_T240_01.czi;SR1482_WSIs/SR1482_40X_HE_T240_02.czi,colon at splenic flexure,Liver met in 2017,,,,,F,45,No loss,Not performed,No mutation,No mutation,No mutation
+242,SR1482_WSIs/SR1482_40X_HE_T242_01.czi;SR1482_WSIs/SR1482_40X_HE_T242_02.czi,sigmoid colon,pT4a pN1a,,pT4a,pN1a,,F,60,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+243,SR1482_WSIs/SR1482_40X_HE_T243_01.czi,right colon,,,,,,F,79,No Loss,Not performed,No mutation,No mutation,No mutation
+244,SR1482_WSIs/SR1482_40X_HE_T244_01.czi,sigmoid colon,"Dukes' C2, pT4b pN2 pM1, extramural venous invasion, local excision complete",C2,pT4b,pN2,pM1,M,50,No loss,Not performed,No mutation,c.35G>A p.(Gly12Asp),Not performed
+245,SR1482_WSIs/SR1482_40X_HE_T245_01.czi;SR1482_WSIs/SR1482_40X_HE_T245_02.czi,splenic flexure of colon,"Dukes' C1, pT4b pN2",C1,pT4b,pN2,,M,69,No loss,No MSI,No mutation,No mutation,No mutation
+246,SR1482_WSIs/SR1482_40X_HE_T246_01.czi,lower rectum,,,,,,M,61,No Loss,Not performed,No mutation,No mutation,No mutation
+247,SR1482_WSIs/SR1482_40X_HE_T247_01.czi,caecum,"Dukes' C1, pT4b pN1 pM1, extramural venous invasion, local excision complete",C1,pT4b,pN1a,pM1,M,46,No loss,Not performed,c.34G>T p.(Gly12Cys),Not performed,Not performed
+248,SR1482_WSIs/SR1482_40X_HE_T248_01.czi;SR1482_WSIs/SR1482_40X_HE_T248_02.czi,rectum,,,,,,F,53,No Loss,Not performed,No mutation,No mutation,No mutation
+249,SR1482_WSIs/SR1482_40X_HE_T249_01.czi,sigmoid colon,,,,,,F,79,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+250,SR1482_WSIs/SR1482_40X_HE_T250_01.czi,rectal biopsy,,,,,,M,66,No Loss,Not performed,No mutation,No mutation,No mutation
+251,SR1482_WSIs/SR1482_40X_HE_T251_01.czi,rectal biopsy,,,,,,M,69,No Loss,Not performed,No mutation,No mutation,No mutation
+253,SR1482_WSIs/SR1482_40X_HE_T253_01.czi,rectal lesion biopsy,,,,,,F,38,No Loss,No MSI,No mutation,c.182A>G p.(Gln61Arg) (also known as Q61R),No mutation
+254,SR1482_WSIs/SR1482_40X_HE_T254_01.czi,rectal biopsy,,,,,,M,70,No Loss,Not performed,No mutation,No mutation,No mutation
+255,SR1482_WSIs/SR1482_40X_HE_T255_01.czi,rectal biopsy,,,,,,M,56,No loss,Not performed,No mutation,No mutation,Not performed
+256,SR1482_WSIs/SR1482_40X_HE_T256_01.czi,bladder tumour resection,,,,,,M,60,No Loss,Not performed,No mutation,No mutation,No mutation
+257,SR1482_WSIs/SR1482_40X_HE_T257_01.czi,upper rectal polyp,"pT1, focal transection at deep margin",,pT1,,,F,49,No loss,Not performed,c.34G>A p.(Gly12Ser),No mutation,No mutation
+258,SR1482_WSIs/SR1482_40X_HE_T258_01.czi;SR1482_WSIs/SR1482_40X_HE_T258_02.czi,rectum,"pT2, N0",,pT2,N0,,F,56,Not performed,No MSI,c.436G>A p.(Ala146Thr),No mutation,No mutation
+259,SR1482_WSIs/SR1482_40X_HE_T259_01.czi,left colon,,,,,,F,69,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+260,SR1482_WSIs/SR1482_40X_HE_T260_01.czi;SR1482_WSIs/SR1482_40X_HE_T260_02.czi,caecum,"Dukes' C2, pT4b pN2 pM1, extensive extramural venous invasion, extranodal tumour present at vascular pedicle (R1)",C2,pT4b,pN2,pM1,M,67,No loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,Not performed
+261,SR1482_WSIs/SR1482_40X_HE_T261_01.czi,transverse colon biopsy,,,,,,F,60,No loss,Not performed,No mutation,No mutation,Not performed
+262,SR1482_WSIs/SR1482_40X_HE_T262_01.czi,omentum resection,,,,,,M,53,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+263,SR1482_WSIs/SR1482_40X_HE_T263_01.czi,liver biopsy,,,,,,F,46,No loss,Not performed,c.34G>T p.(Gly12Cys),Not performed,Not performed
+264,SR1482_WSIs/SR1482_40X_HE_T264_01.czi,rectal tumour & rectosigmoid polyp,Rectum - Adenocarcinoma Dukes' C.  pT2 N1 with submucosal venous invasion.  Recto-sigmoid - Adenocarcinoma Dukes' A pT1 N0 with submucosal venous invasion arising in a tubulovillous adenoma.,"C, A","pT2, pT1","N1, N0",,M,60,No loss,Not performed,"c.35G>T p.(Gly12Val). In rectal tumour, c.34G>T p.(Gly12Cys). Rectosigmoidal lpoly",No mutation,No mutation
+265,SR1482_WSIs/SR1482_40X_HE_T265_01.czi,sigmoid colon,,,,,,M,42,No loss,No MSI,c.38G>A p.(Gly13Asp),Fail,No mutation
+266,SR1482_WSIs/SR1482_40X_HE_T266_01.czi,rectal biopsy,,,,,,F,61,No loss,Not performed,c.35G>T p.(Gly12Val),Not performed,Not performed
+267,SR1482_WSIs/SR1482_40X_HE_T267_01.czi,t5 spinal metastasis,,,,,,M,48,No Loss,Not performed,c.34G>T p.(Gly12Cys),Not performed,No mutation
+268,SR1482_WSIs/SR1482_40X_HE_T268_01.czi;SR1482_WSIs/SR1482_40X_HE_T268_02.czi,ascending colon (lymph node tested),"Dukes' C1, pT3 N2",C1,pT3,N2,,F,69,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+269,SR1482_WSIs/SR1482_40X_HE_T269_01.czi,colon,,,,,,M,71,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+270,SR1482_WSIs/SR1482_40X_HE_T270_01.czi,sigmoid biopsy,,,,,,F,58,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,Not performed
+271,SR1482_WSIs/SR1482_40X_HE_T271_01.czi,rectal biopsy,,,,,,M,60,No loss,Not performed,No mutation,No mutation,No mutation
+272,SR1482_WSIs/SR1482_40X_HE_T272_01.czi,colonic resection specimen,,,,,,F,56,No Loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+273,SR1482_WSIs/SR1482_40X_HE_T273_01.czi,right hemicolectomy,,,,,,M,62,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+274,SR1482_WSIs/SR1482_40X_HE_T274_01.czi;SR1482_WSIs/SR1482_40X_HE_T274_02.czi,ascending colon,pT3 pN0,,pT3,pN0,,F,69,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+276,SR1482_WSIs/SR1482_40X_HE_T276_01.czi,rectal biopsy,,,,,,M,43,No Loss,Not performed,c.34G>T p.(Gly12Cys),No mutation,No mutation
+277,SR1482_WSIs/SR1482_40X_HE_T277_01.czi;SR1482_WSIs/SR1482_40X_HE_T277_02.czi,transverse colon,"Dukes' C2, pT3 N2 M1",C2,pT3,N2,M1,F,62,No loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+278,SR1482_WSIs/SR1482_40X_HE_T278_01.czi,rectal biopsy,,,,,,M,64,No Loss,Not performed,No mutation,No mutation,No mutation
+279,SR1482_WSIs/SR1482_40X_HE_T279_01.czi;SR1482_WSIs/SR1482_40X_HE_T279_02.czi,caecum and ascending colon,"Dukes' C, pT4a&b, N2 with extramural venous",C,pT4a&b,N2,,F,58,No loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+280,SR1482_WSIs/SR1482_40X_HE_T280_01.czi,colonic resection specimen,,,,,,M,71,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+281,SR1482_WSIs/SR1482_40X_HE_T281_01.czi,lower rectum,pT3 (2 tumours) pN0,,pT3,pN0,,M,72,No Loss,Not performed,No mutation,No mutation,No mutation
+282,SR1482_WSIs/SR1482_40X_HE_T282_01.czi,distal sigmoid colon,pT3 (2 tumours) pN0,,pT3,pN0,,M,72,No Loss,Not performed,No mutation,No mutation,No mutation
+283,SR1482_WSIs/SR1482_40X_HE_T283_01.czi,liver biopsy,,,,,,F,58,No Loss,Not performed,c.437C>T p.(Ala147Val),No mutation,No mutation
+284,SR1482_WSIs/SR1482_40X_HE_T284_01.czi;SR1482_WSIs/SR1482_40X_HE_T284_02.czi,ascending colon,"Dukes B, pT4,N0.  Incompletely excised (R2).",B,pT4,N0,,M,53,PMS2 Loss,MSI High,No mutation,No mutation,No mutation
+285,SR1482_WSIs/SR1482_40X_HE_T285_01.czi;SR1482_WSIs/SR1482_40X_HE_T285_02.czi,peritoneal nodules,In keeping with metastatic colorectal carcinoma,,,,,M,54,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,Not performed
+286,SR1482_WSIs/SR1482_40X_HE_T286_01.czi;SR1482_WSIs/SR1482_40X_HE_T286_02.czi,caecal biopsy,,,,,,F,49,No loss,Not performed,c.35G>T p.(Gly12Val),Not performed,Not performed
+287,SR1482_WSIs/SR1482_40X_HE_T287_01.czi,sigmoid colon biopsy,,,,,,M,66,No loss,Not performed,No mutation,No mutation,No mutation
+288,SR1482_WSIs/SR1482_40X_HE_T288_01.czi,liver biopsy,,,,,,F,47,No loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,Not performed
+289,SR1482_WSIs/SR1482_40X_HE_T289_01.czi;SR1482_WSIs/SR1482_40X_HE_T289_02.czi,caecum extending into ascending colon,pT4b N2b,,pT4b,N2b,,F,76,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+290,SR1482_WSIs/SR1482_40X_HE_T290_01.czi,rectosigmoid colon,pT4b pN2; 5/22 nodes involved; Dukes' stage C1 (clinically D),C1 (clinically D),pT4b,pN2,,F,57,No loss,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+291,SR1482_WSIs/SR1482_40X_HE_T291_01.czi,sigmoid colon,pT4a N1b,,pT4a,N1b,,M,64,No Loss,Not performed,No mutation (codon 117 failed),No mutation,No mutation
+292,SR1482_WSIs/SR1482_40X_HE_T292_01.czi,transverse colon / small bowel,,,,,,F,70,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+293,SR1482_WSIs/SR1482_40X_HE_T293_01.czi,liver biopsy,,,,,,F,78,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+294,SR1482_WSIs/SR1482_40X_HE_T294_01.czi,liver biopsy,,,,,,M,81,No Loss,Not performed,No mutation,No mutation,No mutation
+295,SR1482_WSIs/SR1482_40X_HE_T295_01.czi;SR1482_WSIs/SR1482_40X_HE_T295_02.czi,"right hemicolectomy, lymph node metastisis",,,,,,M,65,No Loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+296,SR1482_WSIs/SR1482_40X_HE_T296_01.czi;SR1482_WSIs/SR1482_40X_HE_T296_02.czi,caecum,,,,,,F,79,No loss,Not performed,c.34G>T p.(Gly12Cys),No mutation,Not performed
+297,SR1482_WSIs/SR1482_40X_HE_T297_01.czi,ascending colon,pT4a pN1a.,,pT4a,pN1a,,F,74,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+298,SR1482_WSIs/SR1482_40X_HE_T298_01.czi;SR1482_WSIs/SR1482_40X_HE_T298_02.czi,perineal tissue,,,,,,F,49,Not performed,Not performed,Not performed,Not performed,Not performed
+299,SR1482_WSIs/SR1482_40X_HE_T299_01.czi,colonic resection specimen,,,,,,F,68,No Loss,Not performed,No mutation,No mutation,No mutation
+300,SR1482_WSIs/SR1482_40X_HE_T300_01.czi,sigmoid colon,"(Dukes' B, pT4 N0);",B,pT4,N0,,M,59,No loss,Not performed,No mutation,c.182A>T p.(Gln61Leu) (also known as Q61L),No mutation
+301,SR1482_WSIs/SR1482_40X_HE_T301_01.czi;SR1482_WSIs/SR1482_40X_HE_T301_02.czi,splenic flexure,"Poorly differentiated mucinous adenocarcinoma of signet ring cell type, pT4b N1 M1, 1/29 nodes, apical node clear, Duke's C1, R0 resection",C1,pT4b,N1,M1,F,53,Loss of MLH1 & PMS2,MSI High,No mutation,No mutation,No mutation
+302,SR1482_WSIs/SR1482_40X_HE_T302_01.czi,sigmoid colon,"Dukes' C1, pT3 N2 with extramural venous invasion",C1,pT3,N2,,M,50,No loss,No MSI,Not performed,Not performed,No mutation
+303,SR1482_WSIs/SR1482_40X_HE_T303_01.czi,rectum,Spread to liver - in most recent sample,,,,,M,57,No loss,Not performed,No mutation,No mutation,No mutation
+304,SR1482_WSIs/SR1482_40X_HE_T304_01.czi;SR1482_WSIs/SR1482_40X_HE_T304_02.czi,caecum,"(pT4 pN0, Dukes' B).",B,pT4,pN0,,M,58,No loss,No MSI,No mutation,No mutation,No mutation
+305,SR1482_WSIs/SR1482_40X_HE_T305_01.czi,ascending colon,"Dukes' C2, pT3 pN2",C2,pT3,pN2,,F,56,Not performed,Not performed,No mutation,No mutation,Not performed
+307,SR1482_WSIs/SR1482_40X_HE_T307_01.czi;SR1482_WSIs/SR1482_40X_HE_T307_02.czi,caecum,pT4b pN2 pM1; 37/44 lymph nodes involved; Dukes' stage C2,C2,pT4b,pN2,pM1,M,69,No loss,Not performed,No mutation,No mutation,Not performed
+308,SR1482_WSIs/SR1482_40X_HE_T308_01.czi,peritoneal nodule,,,,,,F,48,No loss,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+309,SR1482_WSIs/SR1482_40X_HE_T309_01.czi,splenic flexure of colon,pT4b pN2 pM1; 10/48 nodes involved; multiple peritoneal deposits of metastatic disease; Dukes' stage D; prominent intramural and extramural venous invasion; R0 excision.,D,pT4b,pN2,pM1,M,19,No loss,No MSI,No mutation,No mutation,No mutation
+310,SR1482_WSIs/SR1482_40X_HE_T310_01.czi;SR1482_WSIs/SR1482_40X_HE_T310_02.czi,ascending colon,"pT3, pN0.",,pT3,pN0,,M,32,Loss of MLH1 & PMS2,MSI High,c.38G>A p.(Gly13Asp),No mutation,No mutation
+311,SR1482_WSIs/SR1482_40X_HE_T311_01.czi;SR1482_WSIs/SR1482_40X_HE_T311_02.czi,"hepatic flexure (block 1g), proximal transvers colon (block 1k).","×2 invasive adenocarcinomas; hepatic flexure lesion moderately differentiated adenocarcinoma with mucinous features, Dukes B, pT3 pN0;  proximal transverse colon lesion, poorly differentiated adenocarcinoma, Dukes B, pT3 pN0; distal lesion associated with extramural venous invasion; both lesions appear completely excised.",B,pT3,pN0,,M,75,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+313,SR1482_WSIs/SR1482_40X_HE_T313_01.czi;SR1482_WSIs/SR1482_40X_HE_T313_02.czi,transverse colon,"Dukes' C1, pT4b N1, extramural venous invasion, local excision complete",C1,pT4b,N1,,F,53,No loss,No MSI,c.35G>A p.(Gly12Asp),No mutation,No mutation
+314,SR1482_WSIs/SR1482_40X_HE_T314_01.czi;SR1482_WSIs/SR1482_40X_HE_T314_02.czi,caecum,"Dukes' C1, pT3 N1 M1, with extramural venous invasion",C1,pT3,N1,M1,M,84,No loss,No MSI,c.35G>C p.(Gly12Ala),No mutation,No mutation
+315,SR1482_WSIs/SR1482_40X_HE_T315_01.czi;SR1482_WSIs/SR1482_40X_HE_T315_02.czi,sigmoid colon,,,,,,M,66,No loss,Not performed,No mutation,No mutation,Not performed
+316,SR1482_WSIs/SR1482_40X_HE_T316_01.czi;SR1482_WSIs/SR1482_40X_HE_T316_02.czi,caecum,"(Dukes'C1, pT4 N2)",C1,pT4,N2,,M,71,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+317,SR1482_WSIs/SR1482_40X_HE_T317_01.czi,rectal biopsy,,,,,,F,49,No loss,Not performed,c.35G>C p.(Gly12Ala),No mutation,Not performed
+318,SR1482_WSIs/SR1482_40X_HE_T318_01.czi,appendix,"pT4b N1 M1, incomplete resection (R1).",,pT4b,N1,M1,F,49,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+319,SR1482_WSIs/SR1482_40X_HE_T319_01.czi,transverse colon,"Dukes' D, pT4b N1 M1, completely excised.",D,pT4b,N1,M1,F,69,No loss,Not performed,No mutation,c.181C>A p.(Gln61Lys),Not performed
+320,SR1482_WSIs/SR1482_40X_HE_T320_01.czi;SR1482_WSIs/SR1482_40X_HE_T320_02.czi,sigmoid anastomosis,"Dukes' C1, pT4b N1 M1, local excision complete",C1,pT4b,N1,M1,F,69,No loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+321,SR1482_WSIs/SR1482_40X_HE_T321_01.czi,liver biopsy,,,,,,F,53,No loss,Not performed,No mutation,No mutation,Not performed
+322,SR1482_WSIs/SR1482_40X_HE_T322_01.czi;SR1482_WSIs/SR1482_40X_HE_T322_02.czi,upper rectum,"Dukes' C1,  pT3 N2, Completely excised.",C1,pT3,N2,,F,29,No loss,Not performed,c.34G>A p.(Gly12Ser),Not performed,Not performed
+323,SR1482_WSIs/SR1482_40X_HE_T323_01.czi,sigmoid colon,,,,,,M,60,No loss,Not performed,No mutation,No mutation,Not performed
+324,SR1482_WSIs/SR1482_40X_HE_T324_01.czi;SR1482_WSIs/SR1482_40X_HE_T324_02.czi,sigmoid colon,"pT4b pN1, R1, Dukes' C1, with extramural venous invasion",C1,pT4b,pN1,,M,53,No loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+325,SR1482_WSIs/SR1482_40X_HE_T325_01.czi;SR1482_WSIs/SR1482_40X_HE_T325_02.czi,caecum/ascending colon,"(Dukes' C1, pT4 pN2 pM1)",C1,pT4,pN2,pM1,F,56,No loss,Not performed,c.35G>C p.(Gly12Ala),No mutation,Not performed
+326,SR1482_WSIs/SR1482_40X_HE_T326_01.czi,liver,,,,,,F,48,No loss,Not performed,No mutation,No mutation,Not performed
+327,SR1482_WSIs/SR1482_40X_HE_T327_01.czi;SR1482_WSIs/SR1482_40X_HE_T327_02.czi,caecum,"Dukes' C1 (clinically D), pT3 pN2 cM1, extramural venous invasion, local excision complete",C1,pT3,pN2,cM1,M,54,No loss,Not performed,c.35G>C p.(Gly12Ala),No mutation,Not performed
+328,SR1482_WSIs/SR1482_40X_HE_T328_01.czi;SR1482_WSIs/SR1482_40X_HE_T328_02.czi,sigmoid colon,"Dukes' C1, pT4b N1 M1 R1 with extramural venous invasion.  Metastasis to jejunum and omentum.",C1,pT4b,N1,M1,F,54,No loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,Not performed
+330,SR1482_WSIs/SR1482_40X_HE_T330_01.czi,distal sigmoid colon,,,,,,M,59,No loss,Not performed,No mutation,No mutation,Not performed
+331,SR1482_WSIs/SR1482_40X_HE_T331_01.czi;SR1482_WSIs/SR1482_40X_HE_T331_02.czi,caecum,"pT4b, pN2.",,pT4b,pN2,,F,57,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+332,SR1482_WSIs/SR1482_40X_HE_T332_01.czi;SR1482_WSIs/SR1482_40X_HE_T332_02.czi,lymph node with metastatic disease,"Dukes' D, pT3 N2 M1, R0 with extramural venous invasion",D,pT3,N2,,F,48,No loss,Not performed,c.182A>G p.(Gln61Arg),Not performed,Not performed
+333,SR1482_WSIs/SR1482_40X_HE_T333_01.czi;SR1482_WSIs/SR1482_40X_HE_T333_02.czi,splenic flexure,"pT4b pN0, extramural venous invasion, local excision complete",,pT4b,pN0,,M,78,No loss,Not performed,No mutation,No mutation,Not performed
+334,SR1482_WSIs/SR1482_40X_HE_T334_01.czi,peritoneal biopsy,,,,,,F,64,Not performed,Not performed,Not performed,Not performed,Not performed
+335,SR1482_WSIs/SR1482_40X_HE_T335_01.czi;SR1482_WSIs/SR1482_40X_HE_T335_02.czi,sigmoid colon,"PT3, N1",,pT3,N1,,F,52,No loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,Not performed
+336,SR1482_WSIs/SR1482_40X_HE_T336_01.czi;SR1482_WSIs/SR1482_40X_HE_T336_02.czi,distal descending/sigmoid junction,"Dukes B pT4b, pN0, pMX.",B,pT4b,pN0,pMx,M,60,No loss,Not performed,No mutation,No mutation,Not performed
+337,SR1482_WSIs/SR1482_40X_HE_T337_01.czi;SR1482_WSIs/SR1482_40X_HE_T337_02.czi,transverse colon,TNM5 pT4b).  There is lymph node involvement (TNM5 pN1).  Margins are clear (R0).,,pT4b,pN1,,F,69,No loss,Not performed,No mutation,No mutation,No mutation
+338,SR1482_WSIs/SR1482_40X_HE_T338_01.czi,appendix,,,,,,M,65,Not performed,No MSI,c.34G>T p.(Gly12Cys),No mutation,No mutation
+339,SR1482_WSIs/SR1482_40X_HE_T339_01.czi,ileo-anal pouch resection,pT3 pN2 pM1 (seminal vesicle); R1 resection,,pT3,pN2,pM1,M,51,No loss,Not performed,No mutation,No mutation,Not performed
+340,SR1482_WSIs/SR1482_40X_HE_T340_01.czi,rectum,not a biopsy,,,,,M,65,No Loss,Not performed,No mutation,No mutation,No mutation
+341,SR1482_WSIs/SR1482_40X_HE_T341_01.czi;SR1482_WSIs/SR1482_40X_HE_T341_02.czi,rectum,"pT3 pN1 (2/11), Dukes C1, R0",C1,pT3,pN1,,M,73,Not performed,No MSI,No mutation,No mutation,No mutation
+342,SR1482_WSIs/SR1482_40X_HE_T342_01.czi;SR1482_WSIs/SR1482_40X_HE_T342_02.czi,descending colon,pT4b pN1.,,pT4b,pN1,,M,71,Not performed,Not performed,Not performed,Not performed,Not performed
+343,SR1482_WSIs/SR1482_40X_HE_T343_01.czi;SR1482_WSIs/SR1482_40X_HE_T343_02.czi,caecum/ascending colon,pT4a N1b,,pT4a,N1b,,M,78,Loss of MLH1 & PMS2,MSI High,c.35G>A p.(Gly12Asp),No mutation,No mutation
+344,SR1482_WSIs/SR1482_40X_HE_T344_01.czi;SR1482_WSIs/SR1482_40X_HE_T344_02.czi,caecum,pT4a pN0,,pT4a,pN0,,M,81,No Loss,No MSI,c.34G>T p.(Gly12Cys),Not performed,No mutation
+345,SR1482_WSIs/SR1482_40X_HE_T345_01.czi;SR1482_WSIs/SR1482_40X_HE_T345_02.czi,lower rectum,ypT3 ypN0,,ypT3,ypN0,,M,38,No Loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,No mutation
+346,SR1482_WSIs/SR1482_40X_HE_T346_01.czi;SR1482_WSIs/SR1482_40X_HE_T346_02.czi,descending colon,pT4aN1a,,pT4a,N1a,,M,61,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+347,SR1482_WSIs/SR1482_40X_HE_T347_01.czi,caecal biopsy,,,,,,M,73,No Loss,Not performed,No mutation,No mutation,No mutation
+348,SR1482_WSIs/SR1482_40X_HE_T348_01.czi,duodenal biopsy,,,,,,M,38,No Loss,Not performed,No mutation,c.181C>A p.(Gln61Lys),No mutation
+349,SR1482_WSIs/SR1482_40X_HE_T349_01.czi,right hemicolectomy,,,,,,M,71,No Loss,Not performed,c.35G>T p.(Gly12Val),Not performed,No mutation
+350,SR1482_WSIs/SR1482_40X_HE_T350_01.czi,tems of rectal tumour,pT2,,pT2,,,M,79,No Loss,Not performed,No mutation,No mutation,No mutation
+351,SR1482_WSIs/SR1482_40X_HE_T351_01.czi;SR1482_WSIs/SR1482_40X_HE_T351_02.czi,omentum,,,,,,M,52,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+352,SR1482_WSIs/SR1482_40X_HE_T352_01.czi,rectal biopsy,,,,,,M,69,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+353,SR1482_WSIs/SR1482_40X_HE_T353_01.czi,sigmoid colon biopsy,,,,,,M,69,No Loss,No MSI,c.34G>A p.(Gly12Ser),No mutation,No mutation
+354,SR1482_WSIs/SR1482_40X_HE_T354_01.czi,distal sigmoid biopsy,,,,,,F,65,No Loss,Not performed,No mutation,No mutation,No mutation
+355,SR1482_WSIs/SR1482_40X_HE_T355_01.czi,peritoneal biopsy,,,,,,F,58,No Loss,Not performed,No mutation,No mutation,No mutation
+356,SR1482_WSIs/SR1482_40X_HE_T356_01.czi;SR1482_WSIs/SR1482_40X_HE_T356_02.czi,sigmoid colon,pT4a pN2b pM1c.,,pT4a,pN2b,pM1c,M,73,Not performed,Not performed,c.35G>T p.(Gly12Val),No mutation,Not performed
+357,SR1482_WSIs/SR1482_40X_HE_T357_01.czi,colonic resection specimen,,,,,,M,64,No Loss,Not performed,No mutation,No mutation,No mutation
+358,SR1482_WSIs/SR1482_40X_HE_T358_01.czi,colonic resection specimen,,,,,,F,70,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+359,SR1482_WSIs/SR1482_40X_HE_T359_01.czi,rectal biopsy,,,,,,F,59,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+360,SR1482_WSIs/SR1482_40X_HE_T360_01.czi,proximal large bowel,pT4a(2) N1b,,PT4a(2),N1b,,M,74,No Loss,Not performed,c.34G>A p.(Gly12Ser),No mutation,No mutation
+361,SR1482_WSIs/SR1482_40X_HE_T361_01.czi,distal large bowel,pT4a(2) N1b,,PT4a(2),N1b,,M,74,No Loss,Not performed,c.34G>A p.(Gly12Ser),No mutation,No mutation
+362,SR1482_WSIs/SR1482_40X_HE_T362_01.czi,rectal biopsy,,,,,,F,52,No Loss,Not performed,c.35G>T p.(Gly12Val),No mutation,No mutation
+363,SR1482_WSIs/SR1482_40X_HE_T363_01.czi,colonic biopsy,,,,,,M,63,No Loss,Not performed,c.38G>A p.(Gly13Asp),No mutation,No mutation
+364,SR1482_WSIs/SR1482_40X_HE_T364_01.czi;SR1482_WSIs/SR1482_40X_HE_T364_02.czi,caecal tumour,,,,,,M,57,No Loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,No mutation
+365,SR1482_WSIs/SR1482_40X_HE_T365_01.czi;SR1482_WSIs/SR1482_40X_HE_T365_02.czi,decending colon,,,,,,M,57,No Loss,Not performed,No mutation,No mutation,No mutation
+366,SR1482_WSIs/SR1482_40X_HE_T366_01.czi,gall bladder,,,,,,M,75,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+367,SR1482_WSIs/SR1482_40X_HE_T367_01.czi,rectal biopsy,,,,,,M,68,No Loss,Not performed,No mutation,No mutation,No mutation
+368,SR1482_WSIs/SR1482_40X_HE_T368_01.czi,rectal biopsy,,,,,,F,65,No Loss,Not performed,c.38G>A p.(Gly13Asp),Not performed,No mutation
+369,SR1482_WSIs/SR1482_40X_HE_T369_01.czi,liver biopsy,,,,,,F,39,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,No mutation
+370,SR1482_WSIs/SR1482_40X_HE_T370_01.czi,liver biopsy,,,,,,M,56,No Loss,Not performed,No mutation,No mutation,No mutation
+371,SR1482_WSIs/SR1482_40X_HE_T371_01.czi,caecal biopsy,,,,,,F,54,No Loss,Not performed,c.38G>A p.(Gly13Asp),Not performed,No mutation
+372,SR1482_WSIs/SR1482_40X_HE_T372_01.czi;SR1482_WSIs/SR1482_40X_HE_T372_02.czi,transverse colon,,,,,,F,86,Loss of MLH1 & PMS2,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+373,SR1482_WSIs/SR1482_40X_HE_T373_01.czi,colonic resection specimen,,,,,,M,80,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+374,SR1482_WSIs/SR1482_40X_HE_T374_01.czi;SR1482_WSIs/SR1482_40X_HE_T374_02.czi,ascending colon,,,,,,F,41,No Loss,Not performed,No mutation,No mutation,No mutation
+375,SR1482_WSIs/SR1482_40X_HE_T375_01.czi;SR1482_WSIs/SR1482_40X_HE_T375_02.czi,sigmoid colon,pT4a pN2a,,pT4a,pN2a,,F,40,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+376,SR1482_WSIs/SR1482_40X_HE_T376_01.czi,colonic resection specimen,,,,,,F,70,No Loss,Not performed,c.180_181delTCinsAA p.(Gln61Lys),Not performed,No mutation
+377,SR1482_WSIs/SR1482_40X_HE_T377_01.czi;SR1482_WSIs/SR1482_40X_HE_T377_02.czi,rectum,"pT3, pN2a",,pT3,pN2a,,F,67,Not performed,No MSI,No mutation,No mutation,No mutation
+378,SR1482_WSIs/SR1482_40X_HE_T378_01.czi,kidney,,,,,,M,63,No Loss,Not performed,No mutation,No mutation,No mutation
+379,SR1482_WSIs/SR1482_40X_HE_T379_01.czi,colonic resection specimen,,,,,,F,67,Loss of MLH1 & PMS2,Not performed,c.180_181delinsAA p.(Gln61Lys),Not performed,No mutation
+380,SR1482_WSIs/SR1482_40X_HE_T380_01.czi,rectum,pT3 N0,,pT3,N0,,F,76,No Loss,Not performed,c.436G>A p.(Ala146Thr),Not performed,No mutation
+381,SR1482_WSIs/SR1482_40X_HE_T381_01.czi;SR1482_WSIs/SR1482_40X_HE_T381_02.czi,sigmoid colon,,,,,,F,62,No Loss,Not performed,c.37G>A p.(Gly13Ser),No mutation,No mutation
+382,SR1482_WSIs/SR1482_40X_HE_T382_01.czi,colonic resection specimen,,,,,,M,77,No Loss,Not performed,c.34G>C p.(Gly12Arg),Not performed,No mutation
+383,SR1482_WSIs/SR1482_40X_HE_T383_01.czi;SR1482_WSIs/SR1482_40X_HE_T383_02.czi,sigmoid colon,pT3 pN1b,,pT3,pN1b,,M,78,No Loss,Not performed,No mutation,No mutation,No mutation
+384,SR1482_WSIs/SR1482_40X_HE_T384_01.czi;SR1482_WSIs/SR1482_40X_HE_T384_02.czi,caecum,pT3 N0,,pT3,N0,,F,76,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+385,SR1482_WSIs/SR1482_40X_HE_T385_01.czi,right hemicolectomy,,,,,,M,41,No Loss,Not performed,No mutation,No mutation,No mutation
+386,SR1482_WSIs/SR1482_40X_HE_T386_01.czi;SR1482_WSIs/SR1482_40X_HE_T386_02.czi,caecum,,,,,,F,79,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+387,SR1482_WSIs/SR1482_40X_HE_T387_01.czi,rectal biopsy,,,,,,M,52,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+388,SR1482_WSIs/SR1482_40X_HE_T388_01.czi,hepatic flexure biopsy,,,,,,F,78,No Loss,Not performed,No mutation,No mutation,No mutation
+389,SR1482_WSIs/SR1482_40X_HE_T389_01.czi,rectal biopsy,,,,,,F,66,No Loss,Not performed,No mutation,No mutation,No mutation
+390,SR1482_WSIs/SR1482_40X_HE_T390_01.czi,rectal biopsy,,,,,,M,50,No Loss,No MSI,c.35G>A p.(Gly12Asp),Not performed,No mutation
+391,SR1482_WSIs/SR1482_40X_HE_T391_01.czi,splenic flexure lesion biopsy,,,,,,F,57,No Loss,Not performed,c.436G>A p.(Ala146Thr),Not performed,No mutation
+392,SR1482_WSIs/SR1482_40X_HE_T392_01.czi;SR1482_WSIs/SR1482_40X_HE_T392_02.czi,rectum,pT3 N1b,,pT3,N1b,,M,37,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+393,SR1482_WSIs/SR1482_40X_HE_T393_01.czi;SR1482_WSIs/SR1482_40X_HE_T393_02.czi,sigmoid colon,"pT1, N1b",,pT1,N1b,,F,57,No Loss,Not performed,c.35G>C p.(Gly12Ala),Not performed,No mutation
+394,SR1482_WSIs/SR1482_40X_HE_T394_01.czi,small bowel resection,,,,,,F,77,No Loss,Not performed,No mutation,c.181C>A p.(Gln61Lys),No mutation
+396,SR1482_WSIs/SR1482_40X_HE_T396_01.czi;SR1482_WSIs/SR1482_40X_HE_T396_02.czi,rectosigmoid,pT3 pN0,,pT3,pN0,,F,37,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+397,SR1482_WSIs/SR1482_40X_HE_T397_01.czi;SR1482_WSIs/SR1482_40X_HE_T397_02.czi,caecum,pT3 pN0,,pT3,pN0,,F,67,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+398,SR1482_WSIs/SR1482_40X_HE_T398_01.czi;SR1482_WSIs/SR1482_40X_HE_T398_02.czi,sigmoid colon,pT3 pN2b.,,pT3,pN1b,,M,37,No Loss,Not performed,c.35G>T p.(Gly12Val),Not performed,No mutation
+399,SR1482_WSIs/SR1482_40X_HE_T399_01.czi;SR1482_WSIs/SR1482_40X_HE_T399_02.czi,hepatic flexure,pT4a N1b,,pT4a,N1b,,F,73,Not performed,No MSI,No mutation,No mutation,No mutation
+400,SR1482_WSIs/SR1482_40X_HE_T400_01.czi;SR1482_WSIs/SR1482_40X_HE_T400_02.czi,splenic flexure,,,,,,M,63,No Loss,Not performed,No mutation,No mutation,No mutation
+401,SR1482_WSIs/SR1482_40X_HE_T401_01.czi,hepatic flexure lesion biopsy,,,,,,F,64,Loss of MLH1 & PMS2,Not performed,No mutation,c.34G>T p.(Gly12Cys),c.1799T>A p.(Val600Glu)
+402,SR1482_WSIs/SR1482_40X_HE_T402_01.czi,proximal descending colon biopsy,,,,,,M,57,No Loss,Not performed,No mutation,No mutation,No mutation
+403,SR1482_WSIs/SR1482_40X_HE_T403_01.czi;SR1482_WSIs/SR1482_40X_HE_T403_02.czi,omental biopsy,,,,,,M,73,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+404,SR1482_WSIs/SR1482_40X_HE_T404_01.czi,right hemicolectomy,,,,,,M,76,No Loss,Not performed,No mutation,No mutation,No mutation
+405,SR1482_WSIs/SR1482_40X_HE_T405_01.czi,right colon,,,,,,M,74,No Loss,Not performed,No mutation,No mutation,No mutation
+406,SR1482_WSIs/SR1482_40X_HE_T406_01.czi;SR1482_WSIs/SR1482_40X_HE_T406_02.czi,transverse colon,pT2 pN0,,pT2,pN0,,M,70,No Loss,Not performed,c.34G>T p.(Gly12Cys),No mutation,No mutation
+407,SR1482_WSIs/SR1482_40X_HE_T407_01.czi,right hemicolectomy,,,,,,F,75,No Loss,Not performed,c.34G>T p.(Gly12Cys),Not performed,No mutation
+408,SR1482_WSIs/SR1482_40X_HE_T408_01.czi,rectal polyp,pT1,,pT1,,,F,46,Not performed,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+409,SR1482_WSIs/SR1482_40X_HE_T409_01.czi,right hemicolectomy,,,,,,F,60,No Loss,Not performed,c.38_39delinsTT p.(Gly13Val),Not performed,No mutation
+410,SR1482_WSIs/SR1482_40X_HE_T410_01.czi;SR1482_WSIs/SR1482_40X_HE_T410_02.czi,rectal cancer,pT3 N2b,,pT3,N2b,,F,71,No Loss,Not performed,No mutation,No mutation,No mutation
+411,SR1482_WSIs/SR1482_40X_HE_T411_01.czi,caecum,,,,,,F,63,No Loss,Not performed,c.35G>T p.(Gly12Val),Not performed,No mutation
+412,SR1482_WSIs/SR1482_40X_HE_T412_01.czi,small bowel resection,,,,,,M,70,Patchy loss of MSH6,No MSI,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+413,SR1482_WSIs/SR1482_40X_HE_T413_01.czi,rectum,pT3 pN1a,,pT3,pN1a,,F,83,No Loss,Not performed,No mutation,No mutation,No mutation
+414,SR1482_WSIs/SR1482_40X_HE_T414_01.czi;SR1482_WSIs/SR1482_40X_HE_T414_02.czi,caecum,pT3 pN1b,,pT3,pN1b,,M,55,No Loss,Not performed,c.35G>A p.(Gly12Asp),No mutation,Not performed
+415,SR1482_WSIs/SR1482_40X_HE_T415_01.czi;SR1482_WSIs/SR1482_40X_HE_T415_02.czi,ascending colon,pT4b N0,,pT4b,N0,,F,80,Loss of MLH1 & PMS2,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+416,SR1482_WSIs/SR1482_40X_HE_T416_01.czi,caecal biopsy,,,,,,M,72,No Loss,Not performed,c.436G>A p.(Ala146Thr),No mutation,No mutation
+417,SR1482_WSIs/SR1482_40X_HE_T417_01.czi;SR1482_WSIs/SR1482_40X_HE_T417_02.czi,periteneum,,,,,,M,59,No Loss,Not performed,c.35G>C p.(Gly12Ala),No mutation,No mutation
+418,SR1482_WSIs/SR1482_40X_HE_T418_01.czi,liver biopsy,,,,,,M,66,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+419,SR1482_WSIs/SR1482_40X_HE_T419_01.czi,rectal biopsy,,,,,,M,68,Not performed,No MSI,No mutation,No mutation,No mutation
+420,SR1482_WSIs/SR1482_40X_HE_T420_01.czi,ureter,,,,,,F,70,No Loss,Not performed,c.437C>T p.(Ala146Val),No mutation,No mutation
+421,SR1482_WSIs/SR1482_40X_HE_T421_01.czi,caecum,pT4a pN2b pM1c,,pT4a,pN2B,pM1c,F,50,No Loss,Not performed,No mutation,No mutation,c.1799T>A p.(Val600Glu)
+423,SR1482_WSIs/SR1482_40X_HE_T423_01.czi,rectum,,,,,,M,58,No Loss,Not performed,No mutation,No mutation,No mutation
+424,SR1482_WSIs/SR1482_40X_HE_T424_01.czi,rectosigmoid biopsy,,,,,,M,40,No Loss,Not performed,No mutation,No mutation,No mutation
+425,SR1482_WSIs/SR1482_40X_HE_T425_01.czi,rectosigmoid junction,,,,,,F,43,Not performed,No MSI,c.34G>T p.(Gly12Cys),No mutation,No mutation
+426,SR1482_WSIs/SR1482_40X_HE_T426_01.czi;SR1482_WSIs/SR1482_40X_HE_T426_02.czi,bladder,,,,,,F,77,Not performed,No MSI,c.35G>T p.(Gly12Val),No mutation,No mutation
+427,SR1482_WSIs/SR1482_40X_HE_T427_01.czi;SR1482_WSIs/SR1482_40X_HE_T427_02.czi,upper rectum,pT4a pN2a,,pT4a,pN2a,,M,63,Not performed,No MSI,No mutation,No mutation,No mutation
+428,SR1482_WSIs/SR1482_40X_HE_T428_01.czi,rectosigmoid,,,,,,M,75,No loss,Not performed,No mutation,No mutation,No mutation
+429,SR1482_WSIs/SR1482_40X_HE_T429_01.czi;SR1482_WSIs/SR1482_40X_HE_T429_02.czi,decending colon,pT4a pN0,,pT4a,pN0,,M,63,No Loss,Not performed,c.35G>A p.(Gly12Asp),Not performed,No mutation
+430,SR1482_WSIs/SR1482_40X_HE_T430_01.czi,sigmoid colon,"pT3, N0",,pT3,N0,,M,84,No Loss,Not performed,No mutation,No mutation,No mutation
+431,SR1482_WSIs/SR1482_40X_HE_T431_01.czi,transverse colon,"pT3, N0",,pT3,N0,,M,84,No Loss,Not performed,No mutation,No mutation,No mutation
+432,SR1482_WSIs/SR1482_40X_HE_T432_01.czi;SR1482_WSIs/SR1482_40X_HE_T432_02.czi,right colon,,,,,,F,71,No Loss,Not performed,No mutation,No mutation,No mutation
+433,SR1482_WSIs/SR1482_40X_HE_T433_01.czi,transverse colon,pT4(a&b) pN2a,,pT4a&b,pN2a,,F,81,Not performed,MSI High,No mutation,No mutation,No mutation
+434,SR1482_WSIs/SR1482_40X_HE_T434_01.czi,proximal ascending colon,pT1,,pT1,,,F,81,Loss of MLH1 & PMS2,MSI High,No mutation,No mutation,c.1799T>A p.(Val600Glu)

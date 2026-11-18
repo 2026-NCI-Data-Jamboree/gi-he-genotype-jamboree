@@ -1,0 +1,10 @@
+item,status,result
+GPU benchmark job 53f06a2d,failed,"Container killed (exit 137) after 13 min, before finishing slide 1; no outputs returned. Cause not established."
+Slide geometry (T314),measured,"168,764 x 119,050 px, 1 scene, 0.1112 um/px, 10,675 tissue tiles (cap 4,000)"
+Reader memory,measured,"0.16-0.32 GB; colours correct (R 212, G 176, B 215 on tissue)"
+"Download, 1 connection",measured,Failed: empty reply from server after 37 s
+"Download, aria2c 16 connections",measured,2.45 GB in 147 s = 16.6 MB/s
+Read over HTTP without download,measured,Opens (78 s) and reads a thumbnail (58 s) but tile reads fail with a server read error
+Local tile read,measured,"0.053 s per tile on 1 core; about 53 s for 4,000 tiles on 4 cores"
+GPU embedding time on SurGen tiles,not measured,"Assumed to overlap with tile reading, giving about 60 s per slide"
+Parallel download scaling across containers,not measured,Unknown whether the archive throttles per client

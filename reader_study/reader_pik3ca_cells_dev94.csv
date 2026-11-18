@@ -1,0 +1,5 @@
+cell,n,correct,acc,p,mean_p_true
+KRAS only vs neither,50,27,0.54,0.672,0.506
+KRAS only vs PIK3CA only,11,9,0.818,0.065,0.559
+KRAS+PIK3CA vs neither,27,20,0.741,0.019,0.551
+KRAS+PIK3CA vs PIK3CA only,6,5,0.833,0.219,0.583

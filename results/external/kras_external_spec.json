@@ -1,0 +1,26 @@
+{
+ "task": "external validation of colorectal KRAS-from-H&E, microsatellite-stable only",
+ "model": "StandardScaler + LogisticRegression(C=0.01, class_weight='balanced', max_iter=2000) on mean-pooled tile features",
+ "training_set": "TCGA colorectal dev partition, MSS mutation cohort, mut_labels.csv crc_KRAS, 324 slides (136 mutant / 188 wild-type); fit on all dev, no fold held out",
+ "dev_cv_reproduced": {
+  "phikon": 0.661,
+  "uni": 0.632,
+  "stored_mut_performance_csv": {
+   "phikon": 0.661,
+   "uni": 0.632
+  },
+  "match": true
+ },
+ "external_set": "SurGen SR386, the 126 slides already embedded (surgen_msi_external_scores.csv), restricted to mmr_loss_binary==0 and KRAS status determinate on ALL THREE assays in SR386_labels_v02.csv",
+ "external_label_rule": "mutant if any of kras_ex_2, kras_ex_3, kras_codon_117 starts with 'M'; wild-type only if ALL THREE are 'WT'; otherwise excluded (a 'FAIL' on any assay with no mutation elsewhere is indeterminate, not wild-type)",
+ "encoders": [
+  "phikon",
+  "uni"
+ ],
+ "primary_metric": "slide-level AUROC with 1000-sample bootstrap 95% CI, seed 0",
+ "confounder_check": "n_tissue_tiles alone as a predictor of KRAS status",
+ "looks": "one; result logged as a deviation in preregistration.md and not re-run with another recipe",
+ "caveat": "MMR by IHC in SurGen vs MANTIS>=0.4 in TCGA; SurGen 0.1112 um/px resampled to the pipeline's 0.5 um/px tiles",
+ "supersedes": "spec hash 418f482d36950b53, whose wild-type rule checked only kras_ex_2 and kras_ex_3 and so counted 3 codon-117-FAIL cases (327, 428, 551) as wild-type",
+ "spec_hash": "28556c6fc25e5c0d"
+}

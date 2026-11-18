@@ -1,0 +1,3 @@
+model,n_pairs,reader_acc,model_acc,combined_acc,corr,p_reader_beyond_grade,p_model_beyond_grade,p_model_beyond_grade_reader,p_reader_beyond_grade_model
+abmil_phikon,87,0.6552,0.6782,0.6897,0.3267,0.0031,0.0044,0.0054,0.0038
+abmil_uni,87,0.6552,0.5747,0.6667,0.2235,0.0031,0.165,0.2662,0.0045

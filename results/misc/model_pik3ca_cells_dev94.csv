@@ -1,0 +1,7 @@
+,correct,correct,n,n,acc,acc
+model,abmil_phikon,abmil_uni,abmil_phikon,abmil_uni,abmil_phikon,abmil_uni
+cell,,,,,,
+KRAS only vs PIK3CA only,9.0,8.0,11.0,11.0,0.818,0.727
+KRAS only vs neither,35.0,30.0,50.0,50.0,0.7,0.6
+KRAS+PIK3CA vs PIK3CA only,3.0,3.0,6.0,6.0,0.5,0.5
+KRAS+PIK3CA vs neither,16.0,13.0,27.0,27.0,0.593,0.481

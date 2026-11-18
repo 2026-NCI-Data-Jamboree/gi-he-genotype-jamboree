@@ -1,0 +1,5 @@
+option,s_per_slide,usd_per_slide,usd_1225_slides,gpu_hours_total,note
+"A. As run: all tissue tiles, 4 cores, 16 GiB",89.4,0.0384,46.99,30.4,measured
+"B. All tiles, 4 cores, 8 GiB",89.4,0.0336,41.11,30.4,memory trim; untested
+"C. Cap 4,000 tiles/slide, 4 cores, 8 GiB",30.3,0.0114,13.92,10.3,random tile subsample for MIL; untested
+"D. Cap 2,000 tiles/slide, 4 cores, 8 GiB",20.1,0.0075,9.24,6.8,untested

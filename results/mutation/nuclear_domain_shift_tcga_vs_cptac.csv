@@ -1,0 +1,7 @@
+,TCGA (715),CPTAC (221)
+prop_epithelial,0.81,0.492
+prop_lymphocyte,0.14,0.471
+prop_macrophage,0.019,0.011
+prop_neutrophil,0.008,0.009
+nuclei_per_tile,5.36,5.35
+mean_nucleus_area_px,424.12,312.75

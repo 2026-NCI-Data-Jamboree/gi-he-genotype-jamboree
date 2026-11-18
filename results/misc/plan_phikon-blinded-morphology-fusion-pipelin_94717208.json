@@ -1,0 +1,187 @@
+{
+  "version": 3,
+  "created_at": "2026-11-15T06:10:31.129Z",
+  "task_summary": "UNI2-h (+Phikon comparison) and blinded morphology fusion for MSI, KRAS, Tier-1 genes",
+  "agents": [],
+  "phases": [
+    {
+      "name": "Phase 1 — Lock the design",
+      "delegations": [
+        {
+          "name": "Split design",
+          "steps": [
+            {
+              "title": "Define task labels and eligibility",
+              "description": "Task A MSI-H vs MSS (COAD+READ+STAD, ESCA excluded). Task B KRAS-mut vs KRAS-WT in MSS COAD/READ, sequenced, non-hypermutated; primary WT arm includes BRAF-mut (14), sensitivity analysis excludes them. One slide per patient for training; QC-flagged slides (crush, out of focus, <30 mm2 tissue) excluded."
+            },
+            {
+              "title": "Confirm Tier-1 gene counts per stratum",
+              "description": "Tabulate mutated vs WT patients (sequenced, MSS, non-hypermutated) per cancer for TP53, PIK3CA, APC, SMAD4 (COADREAD and STAD) and CDH1 (STAD), plus % MSI-H among mutants. Keep a gene/cancer task only if the smaller arm has >=50 patients (30-49 = exploratory, flagged); save the count table as an artifact."
+            },
+            {
+              "title": "Lock held-out test split by site",
+              "description": "Assign ~20% of patients to a locked test set grouped by tissue source site and stratified on label x project; remaining dev set gets 5 site-grouped CV folds. One patient-level split shared by all tasks. Within dev, mark a 'discovery' subset reserved for morphology hypothesis generation. Save split file as artifact immediately."
+            },
+            {
+              "title": "Write pre-registration document",
+              "description": "Record the final gene/task list, labels, metrics (AUROC with bootstrap CI, calibration, Benjamini-Hochberg FDR across all gene tasks), mandatory baselines (project-only, site-only, MSI-only, stage, Claude-scored grade), CDH1 as pre-declared positive control, and the rule that the test set and CPTAC are opened once at the end."
+            }
+          ]
+        },
+        {
+          "name": "CPTAC cohort",
+          "steps": [
+            {
+              "title": "Build CPTAC-COAD external manifest",
+              "description": "Join IDC cptac_coad FFPE H&E series (178 patients) to cBioPortal coad_cptac_2019 MSI_STATUS and KRAS/BRAF/TP53/PIK3CA/APC/SMAD4 calls; report usable counts per task (external test only where both arms >=15) and flag frozen vs FFPE slides."
+            }
+          ]
+        }
+      ],
+      "id": "phase-0"
+    },
+    {
+      "name": "Phase 2 — Features on Modal (approval per run)",
+      "delegations": [
+        {
+          "name": "Feature extraction",
+          "steps": [
+            {
+              "title": "Verify UNI2-h access and pretraining data",
+              "description": "Re-test the HUGGINGFACE token on MahmoodLab/UNI2-h and the MahmoodLab/UNI2-h-features dataset; confirm from the model card/paper that UNI2-h pretraining excludes TCGA and CPTAC (if not explicit, fall back to UNI v1 as primary)."
+            },
+            {
+              "title": "Audit pre-extracted UNI2-h feature coverage",
+              "description": "List the TCGA-COAD/READ/STAD and CPTAC-COAD files in UNI2-h-features; check slide-ID match to our manifest, presence of tile coordinates, magnification/patch size, tile counts and download size. Download one project tar to the Modal volume as a test."
+            },
+            {
+              "title": "Estimate cost and get approval",
+              "description": "Present costs for: downloading UNI2-h features to the Modal volume, our own extraction for any uncovered slides (UNI2-h or UNI v1 on T4/L4), and the Phikon comparison run (~$10 TCGA + ~$2-3 CPTAC). Wait for explicit user approval before each launch; stay under the $40 cap."
+            },
+            {
+              "title": "Extract Phikon features TCGA + CPTAC",
+              "description": "Obtain UNI2-h features (pre-extracted, or our extraction for gaps), then run Phikon with the 50-slide-batch conventions (0.5 um/px, 224 px, tissue mask, 4,000-tile cap, seed 0) as the contamination comparison; delete raw slides per batch only if user approves; check billing after each run."
+            },
+            {
+              "title": "Train tissue-type probe on NCT-CRC-HE-100K",
+              "description": "Embed the public 9-class CRC tissue dataset (224 px, 0.5 um/px) with UNI2-h, train a linear probe, validate on CRC-VAL-HE-7K, and apply to every TCGA/CPTAC tile to get tumour/stroma/lymphocyte/mucin/muscle/normal maps."
+            }
+          ]
+        }
+      ],
+      "id": "phase-1"
+    },
+    {
+      "name": "Phase 3 — Phikon classifiers",
+      "delegations": [
+        {
+          "name": "MSI model",
+          "steps": [
+            {
+              "title": "Train MSI gated-attention MIL",
+              "description": "Gated ABMIL on UNI2-h features (primary) and Phikon features (comparison) (tumour-tile restricted and all-tile variants), 5 site-grouped CV folds on dev set on T4; save out-of-fold predictions and attention weights; report AUROC per project with CIs and confounder baselines."
+            }
+          ]
+        },
+        {
+          "name": "KRAS model",
+          "steps": [
+            {
+              "title": "Train KRAS gated-attention MIL",
+              "description": "Same architecture on MSS COAD/READ dev set; report AUROC with CIs, plus project-only and site-only baselines; save out-of-fold predictions and attention weights."
+            }
+          ]
+        },
+        {
+          "name": "Extra genes",
+          "steps": [
+            {
+              "title": "Train Tier-1 gene and CDH1 models",
+              "description": "Same ABMIL recipe and folds for each gene/cancer task that passed the count rule (TP53, PIK3CA, APC, SMAD4; CDH1 in STAD as positive control), MSS-restricted; report AUROC with CIs, MSI-only and project/site baselines, FDR-adjusted; save out-of-fold predictions and attention weights. Explanation cards built for these, but full morphology rubric only for MSI and KRAS."
+            }
+          ]
+        }
+      ],
+      "id": "phase-2"
+    },
+    {
+      "name": "Phase 4 — Explain and discover",
+      "delegations": [
+        {
+          "name": "Attention explain",
+          "steps": [
+            {
+              "title": "Build per-slide explanation cards",
+              "description": "For each dev slide and each task: attention heatmap, top-8 and bottom-8 tiles, tissue-type composition of top tiles vs whole slide, and occlusion test (score change after removing top-k tiles) to check that attention is faithful."
+            },
+            {
+              "title": "Blinded description of top tiles",
+              "description": "Claude reads top-attention tiles without labels using a fixed checklist; aggregate which patterns recur in high-scoring vs low-scoring slides, per task."
+            }
+          ]
+        },
+        {
+          "name": "Morphology swarm",
+          "steps": [
+            {
+              "title": "Discovery reads on discovery subset",
+              "description": "Open-ended blinded comparisons on discovery-subset slides only (tumour-restricted fields, one field per image) to generate candidate MSI and KRAS features, including grade."
+            },
+            {
+              "title": "Freeze rubric and score slides blinded",
+              "description": "Convert candidates into a fixed 0-3 rubric (including differentiation grade and section quality), freeze it, then score every dev, test and CPTAC slide one slide at a time, blinded; present token/cost estimate before the full scoring run."
+            }
+          ]
+        },
+        {
+          "name": "Morphometrics",
+          "steps": [
+            {
+              "title": "Quantify interpretable tissue features",
+              "description": "Nuclear segmentation (e.g. StarDist H&E) on tumour tiles for TIL density, nuclear size/pleomorphism, plus tissue-probe fractions (mucin, stroma, lymphocytes, signet-ring-like/diffuse pattern for CDH1); produce a per-slide interpretable feature table."
+            }
+          ]
+        }
+      ],
+      "id": "phase-3"
+    },
+    {
+      "name": "Phase 5 — Fuse and evaluate",
+      "delegations": [
+        {
+          "name": "Fusion report",
+          "steps": [
+            {
+              "title": "Fit fused classifier on out-of-fold scores",
+              "description": "Stacked logistic regression combining the UNI2-h ABMIL score, frozen rubric scores and morphometrics on dev out-of-fold data for MSI and KRAS (Phikon + morphometrics only for extra genes); test whether KRAS signal survives adjustment for Claude-scored grade."
+            },
+            {
+              "title": "Open locked test and CPTAC once",
+              "description": "Evaluate UNI2-h alone vs Phikon alone vs rubric alone vs fused model on the locked TCGA test set and CPTAC-COAD for every pre-registered task; paired bootstrap for AUROC differences; FDR across gene tasks; compare the TCGA-vs-CPTAC gap of Phikon against UNI2-h as the contamination estimate."
+            },
+            {
+              "title": "Write report and Jamboree figures",
+              "description": "Final report with per-slide explanation examples, ROC curves per gene, a gene-by-gene summary panel, feature-importance of the fused model, and an honest limits section; all files saved as artifacts."
+            }
+          ]
+        }
+      ],
+      "id": "phase-4"
+    }
+  ],
+  "desired_outputs": [
+    "Tier-1 gene count table per stratum and final pre-registered task list",
+    "Locked split file (dev/test by tissue source site) and CPTAC external manifest with labels",
+    "Pre-registration document (tasks, labels, metrics, decision rules)",
+    "UNI2-h (primary) and Phikon (comparison) features for full TCGA cohort + CPTAC-COAD on Modal volume, with coverage audit",
+    "MSI, KRAS and Tier-1 gene/CDH1 ABMIL models with out-of-fold and test predictions, AUROC with CIs, FDR and confounder baselines",
+    "Per-slide explanation cards (heatmap, top tiles, tissue composition, blinded description, occlusion test)",
+    "Frozen morphology rubric and blinded per-slide rubric scores",
+    "Fused classifier results vs Phikon alone on locked test and CPTAC",
+    "Final report and Jamboree-ready figures"
+  ],
+  "feasibility": {
+    "confidence": "medium",
+    "rationale": "MSI from H&E is well established, but KRAS and the extra genes have weak expected signal (AUROC ~0.6–0.7) and some may fall below n=50 per arm once restricted to MSS; the pre-extracted UNI2-h features may not cover every slide or include coordinates, which would require our own extraction near the $40 cap."
+  }
+}

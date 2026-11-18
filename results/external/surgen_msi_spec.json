@@ -1,0 +1,15 @@
+{
+ "cohort": "surgen_msi_cohort.csv: all 32 MMR-deficient SR386 cases plus 96 MMR-proficient cases drawn at random (pandas sample, random_state=20261116); one slide per case; primary resections",
+ "features": "same rules as TCGA: 0.5 um/px, 224 px tiles, HSV tissue mask, random cap 4,000 tiles seed 0, Phikon + UNI v1, mean-pooled. Differences: Zeiss CZI read with pylibCZIrw at 2x oversampling then area-resized; scanner and file format differ from TCGA",
+ "label": "mmr_loss_binary (immunohistochemistry). Training label was sequencing-based MSI (MANTIS), so the label definitions differ",
+ "missing_slides": "slides that fail download or embedding are reported and excluded; no replacement sampling",
+ "model": "msi_model_frozen.npz: the MSI model already evaluated on CPTAC-COAD (standardised mean-pooled features, logistic regression C=1.0, balanced class weights, fitted on TCGA dev); applied unchanged as score = features . w + b",
+ "model_sha256": "782d34922c489e8ea757e265069e3089a38776cfc2e74c37a1e67e0f3fb11433",
+ "no_tuning": "no threshold, recipe or cohort change after the labels are joined to the scores",
+ "primary_metric": "AUROC with 2000-draw bootstrap percentile 95% CI, seed 0, reported for both encoders",
+ "secondary": [
+  "confounder check: AUROC of tissue tile count alone",
+  "paired bootstrap UNI minus Phikon"
+ ],
+ "task": "MSI / mismatch-repair deficiency, external validation on SurGen SR386 (single look)"
+}

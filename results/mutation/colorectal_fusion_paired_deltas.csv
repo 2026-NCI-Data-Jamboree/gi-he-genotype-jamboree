@@ -1,0 +1,5 @@
+set,n,delta_auroc,ci_lo,ci_hi
+TCGA dev (phikon),462,-0.034,-0.069,-0.002
+CPTAC external (phikon),140,0.03,-0.012,0.075
+TCGA dev (uni),462,-0.045,-0.079,-0.017
+CPTAC external (uni),140,0.015,-0.018,0.054

@@ -1,0 +1,44 @@
+st,n_series,n_patients,collections
+hematoxylin stain + water soluble eosin stain,73422,22272,catch;ccdi_mci;cddp_eagle_1;cgci_blgsp;cgci_htmcp_cc;cgci_htmcp_dlbcl;cgci_htmcp_lc;cmb_aml;cmb_brca;cmb_crc;cmb_gec;cmb_lca;cmb_mel;cmb_mml;cmb_ov;cmb_pca;cptac_aml;cptac_brca;cptac_ccrcc;cptac_cm;cptac_coad;cptac_gbm;cptac_hnscc;cptac_lscc;cptac_luad;cptac_ov;cptac_pda;cptac_sar;cptac_ucec;gtex;hcmi_cmdc;htan_tnp_sardana;htan_vanderbilt;htan_wustl;icdc_glioma;nlst;pdxnet;rms_mutation_prediction;tcga_acc;tcga_blca;tcga_brca;tcga_cesc;tcga_chol;tcga_coad;tcga_dlbc;tcga_esca;tcga_gbm;tcga_hnsc;tcga_kich;tcga_kirc;tcga_kirp;tcga_lgg;tcga_lihc;tcga_luad;tcga_lusc;tcga_meso;tcga_ov;tcga_paad;tcga_pcpg;tcga_prad;tcga_read;tcga_sarc;tcga_skcm;tcga_stad;tcga_tgct;tcga_thca;tcga_thym;tcga_ucec;tcga_ucs;tcga_uvm
+giemsa stain + wright stain,397,114,cmb_aml;cmb_mml
+BCL2 Ag Immune stain,259,226,cgci_blgsp;cgci_htmcp_dlbcl
+BCL6 Ag Immune stain,250,232,cgci_blgsp;cgci_htmcp_dlbcl
+CD10 Ag Immune stain,249,230,cgci_blgsp;cgci_htmcp_dlbcl
+CD20 Ag Immune stain,247,228,cgci_blgsp;cgci_htmcp_dlbcl
+may-Grunwald giemsa stain,246,246,bonemarrowwsi_pediatricleukemia
+Ki-67 nuclear Ag Immune stain,246,228,cgci_blgsp;cgci_htmcp_dlbcl
+CD3 Ag Immune stain,238,220,cgci_blgsp;cgci_htmcp_dlbcl
+p16INK4a Ag Immune stain,218,212,cgci_htmcp_cc;cgci_htmcp_lc
+P53 protein Ag Immune stain,48,48,cgci_htmcp_cc;cgci_htmcp_dlbcl
+Epstein-Barr virus-encoded RNA (EBER) probe,44,44,cgci_blgsp;cgci_htmcp_dlbcl
+CD79a Ag Immune stain,44,44,cgci_blgsp;cgci_htmcp_dlbcl
+IRF4/MUM1 Ag Immune stain,43,43,cgci_htmcp_dlbcl
+Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD4 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD45RA Monoclonal Antibody + Anti-KI-67 Antibody + Anti-Vimentin Antibody + CD45RO Antibody + Smooth muscle antibody,41,4,htan_wustl
+p40 Ag Immune stain,41,41,cgci_htmcp_cc;cgci_htmcp_lc
+Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD4 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-KI-67 Antibody + Anti-Vimentin Antibody + CD45RO Antibody + Smooth muscle antibody,37,5,htan_wustl
+Thyroid transcription factor 1 Ag Immune stain,26,26,cgci_htmcp_lc
+(none recorded),23,11,ccdi_mci;cgci_blgsp;cmb_aml;htan_ohsu
+Iodonitrotetrazolium,21,21,cgci_htmcp_dlbcl
+"Alpha-Smooth Muscle Actin MC AB (1A4), eFluor 660, eBioscience + Anti-Lamin B1 + Anti-PD1 antibody + CD20 Monoclonal Antibody (L26), Alexa Fluor 488, eBioscience + CD68 (D4B9C) XP Rabbit mAb (PE Conjugate) + CD8a Monoclonal Antibody (AMC908), eFluor 660, eBioscience + Collagen IV MC AB (1042), Alexa Fluor 647, eBioscience + Donkey Anti-Mouse IgG (H+L) Polyclonal AB, Alexa Fluor 647 + Donkey anti-Rabbit IgG (H+L) Secondary AB, Alexa Fluor 555 + Donkey anti-Rat IgG (H+L) Secondary AB, Alexa Fluor 488 + E-Cadherin (24E10) Rabbit mAb (Alexa Fluor 488 Conjugate) + FOXP3 Monoclonal Antibody (236A/E7), eFluor 570, eBioscience + Hoechst 33342 + Ki-67 (D3B5) Rabbit Antibody (Alexa Fluor 488 Conjugate) + Ki-67 Monoclonal Antibody (20Raj1), eFluor 570, eBioscience + PCNA (PC10) Mouse mAb (Alexa Fluor 488 Conjugate) + PD-L1 (E1L3N) XP (Alexa Fluor 647 Conjugate) + PE anti-human CD45 + Pan Cytokeratin Monoclonal AB (AE1/AE3), eFluor 570, eBioscience + Recomb Alexa Fluor 488 Anti-CD163 AB [EPR14643-36] - C-term + Recomb Alexa Fluor 555 Anti-Desmin AB [Y66] - Cytoskel Mrkr + Recombinant Alexa Fluor 488 Anti-CD4 antibody [EPR6855] + Recombinant Alexa Fluor 647 Anti-CDX2 antibody [EPR2764Y] + Recombinant Anti-CD31 antibody [EPR3094] (Alexa Fluor 647) + Vimentin (D21H3) XP Rabbit mAb (Alexa Fluor 555 Conjugate)",17,17,htan_hms;htan_tnp_sardana
+P63 protein Ag Immune stain,15,15,cgci_htmcp_cc
+MOC-31 anti-EpCAM Immune stain,15,15,cgci_htmcp_cc
+Ber-EP4 Ag Immune stain,15,15,cgci_htmcp_cc
+Anti-CD3 Monoclonal Antibody + Anti-CD4 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD8 Monoclonal Antibody + Anti-KI-67 Antibody + Hematoxylin,13,1,htan_ohsu
+Anti-CD45 Monoclonal Antibody + Hematoxylin,13,1,htan_ohsu
+Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD8 Monoclonal Antibody + Hematoxylin,9,1,htan_ohsu
+CD5 Ag Immune stain,7,7,cgci_blgsp
+Giemsa stain + Wright stain,7,6,cgci_blgsp
+Carcinoembryonic Ag Immune stain,5,5,cgci_htmcp_cc
+Estrogen receptor Ag Immune stain,5,5,cgci_htmcp_cc
+Vimentin Ag Immune stain,5,5,cgci_htmcp_cc
+Progesterone receptor Ag Immune stain,5,5,cgci_htmcp_cc
+Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD4 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD8 Monoclonal Antibody + Anti-Estrogen Receptor Antibody + Anti-KI-67 Antibody + Anti-Vimentin Antibody + DAPI + ERBB2 Antibody + Smooth muscle antibody,4,1,htan_ohsu
+Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD4 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD8 Monoclonal Antibody + Hematoxylin,4,1,htan_ohsu
+Synaptophysin Ag Immune stain,4,4,cgci_htmcp_cc;cgci_htmcp_lc
+None used,4,4,cmb_gec;cmb_mml;cmb_pca
+Chromogranin Ag Immune stain,4,4,cgci_htmcp_cc;cgci_htmcp_lc
+Anti-BCL2 Antibody + Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD4 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD8 Monoclonal Antibody + Anti-Estrogen Receptor Antibody + Anti-KI-67 Antibody + Anti-Vimentin Antibody + DAPI + EGFR Antibody + ERBB2 Antibody + Smooth muscle antibody,3,1,htan_ohsu
+Anti-CD20 Antibody + Anti-CD3 Monoclonal Antibody + Anti-CD45 Monoclonal Antibody + Anti-CD8 Monoclonal Antibody + Anti-KI-67 Antibody + Anti-ds DNA Antibody + Hematoxylin,2,1,htan_ohsu
+CD56 Ag Immune stain,2,2,cgci_htmcp_cc
+CD138 Ag Immune stain,1,1,cgci_htmcp_dlbcl
+Immunohistochemical stain,1,1,cmb_lca

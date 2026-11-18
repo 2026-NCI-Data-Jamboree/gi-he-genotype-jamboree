@@ -1,0 +1,4 @@
+arm,n_dev_all,pos_all,auroc_all,n_dev_clean,pos_clean,auroc_clean,n_pairs_clean,pair_acc_clean
+abmil_phikon,241,22,0.844,228,19,0.834,19,0.842
+abmil_uni,241,22,0.826,228,19,0.801,19,0.947
+subtype_only_baseline,241,22,0.686,228,19,0.686,19,

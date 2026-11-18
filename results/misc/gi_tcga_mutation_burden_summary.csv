@@ -1,0 +1,5 @@
+study,n_sequenced,total_mutations,median_mut_per_tumor_IQR,median_TMB_IQR,hypermutated_TMB_ge10_n,hypermut_pct,panel_mutations,pts_with_any_panel_mut
+COADREAD,534,208739,102 [79–146],3.5 [2.7–5.1],83,15.5,2067,493
+ESCA,182,25630,106 [82–151],3.5 [2.7–5.1],9,4.9,297,170
+STAD,436,147953,112 [71–229],3.9 [2.4–8.5],99,22.7,993,370
+All,1152,382322,105 [76–165],3.6 [2.6–6.0],191,16.6,3357,1033

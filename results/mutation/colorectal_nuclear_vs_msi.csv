@@ -1,0 +1,7 @@
+feature,msi_median,mss_median,auroc_alone,p
+prop_epithelial,0.8102,0.847,0.455,0.241
+prop_lymphocyte,0.1101,0.0999,0.543,0.259
+prop_macrophage,0.026,0.0207,0.53,0.43
+prop_neutrophil,0.0035,0.0024,0.573,0.0527
+nuclei_per_tile,5.755,5.805,0.506,0.874
+mean_nucleus_area_px,426.04,434.46,0.45,0.19

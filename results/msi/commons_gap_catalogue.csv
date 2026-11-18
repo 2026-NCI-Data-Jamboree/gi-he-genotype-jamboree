@@ -1,0 +1,6 @@
+commons,gap,consequence
+PDC,"MLH1 protein not quantified in PDC000116 matrix (7,418 genes); PMS2 also absent",Brief Section 5 MLH1-loss check cannot be run as written; MSH2/MSH6 used instead
+PDC,PDC000111 TCGA Colon Cancer Proteome exposes no quantDataMatrix via API,TCGA-matched protein leg unavailable; prospective CPTAC colon cohort used instead
+PDC,No TCGA-matched stomach proteome exists,Protein leg is colorectal-only
+GDC,TCGA-ESCA has zero MSI calls (158 slides),Oesophagus false-alarm control cannot be run at any budget
+IDC/GDC,13 slides lack MSI labels; 107 slides from unsequenced patients,Label coverage limits

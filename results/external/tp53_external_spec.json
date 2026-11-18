@@ -1,0 +1,16 @@
+{
+ "external_set": "cptac_coad_external_manifest eligible_TP53==True (105 slides, 80 patients, all MSS); label_TP53 mut vs WT",
+ "features": "mean-pooled tile features, pooled_means_phikon_uni.npz (Phikon 768-d, UNI v1 1024-d)",
+ "model": "StandardScaler -> LogisticRegression(C=0.01, class_weight='balanced', max_iter=2000) - the 'linear' recipe already fixed in analyse_mut.py; fit once on all 324 dev slides",
+ "no_tuning": "no threshold, hyperparameter or feature choice is revisited after the external labels are read",
+ "primary_encoder": "uni (not TCGA-pretrained); phikon reported alongside",
+ "primary_metric": "patient-level AUROC, patient score = mean of that patient's slide scores; 2000-draw patient bootstrap percentile 95% CI, seed 0",
+ "revision_note": "First draft (C=1.0, label_tp53_coadread, n=321) gave dev CV 0.713/0.735 and did not reproduce the published 0.762/0.765; replaced by the project's existing recipe BEFORE any CPTAC TP53 label was read. Dev CV reproduced: phikon 0.762, uni 0.765.",
+ "secondary": [
+  "slide-level AUROC",
+  "confounder check: AUROC of tissue tile count alone"
+ ],
+ "sensitivity": "restrict to patients whose TP53 call is concordant between coad_cptac_2019 and GDC harmonised calls (TP53_gdc_concordant)",
+ "task": "TP53 mutation, colorectal, external validation on CPTAC-COAD (single look)",
+ "train": "mut_labels.csv, group Colorectal, partition=dev, crc_TP53 not null (324 patients: 207 mutant / 117 WT; MSS, non-hypermutated, IMPACT505 protein-altering calls)"
+}

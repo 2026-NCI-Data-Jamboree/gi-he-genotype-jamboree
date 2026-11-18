@@ -1,0 +1,13 @@
+endpoint,enc,n_pos,dev_cv,locked_test,external,ext_lo,ext_hi,ext_cohort
+MSI (all GI),phikon,131,0.765,0.76,0.701,0.605,0.79,CPTAC-COAD n=140
+MSI (all GI),uni,125,0.768,0.826,0.794,0.702,0.878,CPTAC-COAD n=140
+TP53 colorectal,phikon,207,0.769,0.706,0.642,0.513,0.77,CPTAC-COAD n=80
+TP53 colorectal,uni,207,0.772,0.697,0.592,0.465,0.717,CPTAC-COAD n=80
+TP53 stomach,phikon,121,0.704,0.699,,,,none exists
+TP53 stomach,uni,121,0.707,0.652,,,,none exists
+CDH1 stomach,phikon,22,0.844,,,,,none exists
+CDH1 stomach,uni,22,0.826,,,,,none exists
+KRAS colorectal,phikon,136,0.659,0.66,,,,not opened
+KRAS colorectal,uni,136,0.616,0.633,,,,not opened
+PIK3CA stomach,phikon,22,0.785,,,,,none exists
+PIK3CA stomach,uni,22,0.669,,,,,none exists

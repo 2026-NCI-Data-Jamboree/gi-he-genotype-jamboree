@@ -1,0 +1,130 @@
+pair_id,project_id,tss,pik3ca_status,stage_matched,mut_extracted,mut_n_tumour_fields,mut_n_nonoverlap_tumour,wt_extracted,wt_n_tumour_fields,wt_n_nonoverlap_tumour,eligible_8,eligible_6,in_previous_145_design,eligible_5,eligible,fields_per_reader,packaging_source,note
+Q001,TCGA-COAD,A6,0,True,True,41,41,True,40,27,True,True,False,True,True,5,subset_of_6f_package,
+Q002,TCGA-COAD,CA,0,True,True,26,26,True,32,31,True,True,True,True,True,5,subset_of_6f_package,
+Q003,TCGA-COAD,CM,0,True,True,40,40,True,26,26,True,True,False,True,True,5,subset_of_6f_package,
+Q004,TCGA-COAD,D5,0,False,True,42,39,True,7,6,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q005,TCGA-COAD,AZ,0,False,True,23,23,True,47,47,False,True,True,True,True,5,subset_of_6f_package,
+Q006,TCGA-COAD,CM,0,True,True,3,3,True,25,25,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q007,TCGA-READ,AG,0,False,True,38,15,True,38,20,False,False,False,True,True,5,re_extracted,
+Q008,TCGA-COAD,AA,1,True,True,36,13,True,47,40,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q009,TCGA-COAD,AY,0,False,True,43,43,True,21,10,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q010,TCGA-COAD,AA,0,True,True,39,23,True,32,16,False,False,True,True,True,5,re_extracted,
+Q011,TCGA-READ,AG,1,True,True,36,12,True,37,13,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q012,TCGA-COAD,F4,0,True,True,34,34,True,0,0,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q013,TCGA-COAD,AZ,0,False,True,31,31,True,42,42,True,True,True,True,True,5,subset_of_6f_package,
+Q014,TCGA-COAD,AA,1,False,True,45,25,True,47,24,True,True,False,True,True,5,subset_of_6f_package,
+Q015,TCGA-COAD,CM,1,False,True,46,46,True,30,30,True,True,False,True,True,5,subset_of_6f_package,
+Q016,TCGA-READ,AG,0,True,True,15,6,True,48,26,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q017,TCGA-COAD,AA,0,True,True,36,13,True,4,2,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q018,TCGA-COAD,AA,0,True,True,44,21,True,33,17,False,False,False,True,True,5,re_extracted,
+Q019,TCGA-COAD,F4,0,False,True,0,0,True,38,38,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q020,TCGA-COAD,D5,0,True,True,26,26,True,32,32,True,True,True,True,True,5,subset_of_6f_package,
+Q021,TCGA-COAD,CK,0,True,True,32,32,True,41,41,True,True,True,True,True,5,subset_of_6f_package,
+Q022,TCGA-COAD,AA,1,True,True,36,11,True,37,17,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q023,TCGA-READ,DC,0,True,True,43,43,True,14,14,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q024,TCGA-READ,AF,0,True,True,47,32,True,46,32,True,True,True,True,True,5,subset_of_6f_package,
+Q025,TCGA-COAD,AA,1,True,True,45,24,True,47,19,False,True,False,True,True,5,subset_of_6f_package,
+Q026,TCGA-READ,DC,0,True,True,38,38,True,32,32,True,True,False,True,True,5,subset_of_6f_package,
+Q027,TCGA-COAD,A6,0,True,True,43,43,True,39,13,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q028,TCGA-READ,DY,0,True,True,18,18,True,14,14,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q029,TCGA-COAD,D5,0,True,True,26,26,True,35,19,False,True,False,True,True,5,subset_of_6f_package,
+Q030,TCGA-READ,F5,0,True,True,46,46,True,0,0,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q031,TCGA-COAD,AZ,0,True,True,6,6,True,24,24,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q032,TCGA-COAD,AD,1,True,True,44,22,True,30,10,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q033,TCGA-READ,AG,0,True,True,46,18,True,44,18,False,True,True,True,True,5,subset_of_6f_package,
+Q034,TCGA-READ,AG,1,True,True,30,14,True,21,8,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q035,TCGA-READ,AG,0,True,True,45,17,True,33,9,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q036,TCGA-COAD,G4,1,False,True,32,32,True,33,33,True,True,False,True,True,5,subset_of_6f_package,
+Q037,TCGA-COAD,AZ,0,False,True,47,47,True,38,34,True,True,True,True,True,5,subset_of_6f_package,
+Q038,TCGA-READ,AG,0,True,True,41,17,True,46,16,False,False,False,True,True,5,re_extracted,
+Q039,TCGA-COAD,A6,0,True,True,46,25,False,0,0,False,False,False,False,False,0,,extraction failed (no tissue windows) on one slide
+Q040,TCGA-COAD,A6,0,True,True,20,14,True,46,23,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q041,TCGA-READ,F5,0,True,True,16,16,True,0,0,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q042,TCGA-COAD,D5,0,True,True,26,21,True,3,2,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q043,TCGA-COAD,AA,0,True,True,40,28,True,37,21,False,True,True,True,True,5,subset_of_6f_package,
+Q044,TCGA-COAD,CK,0,False,True,37,37,True,46,46,True,True,True,True,True,5,subset_of_6f_package,
+Q045,TCGA-READ,AG,0,True,True,35,11,True,37,12,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q046,TCGA-COAD,G4,1,True,True,42,42,True,42,42,True,True,False,True,True,5,subset_of_6f_package,
+Q047,TCGA-COAD,AA,0,True,True,48,22,True,20,10,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q048,TCGA-READ,AG,0,True,True,36,11,True,39,14,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q049,TCGA-COAD,CA,0,True,True,35,35,True,42,35,True,True,False,True,True,5,subset_of_6f_package,
+Q050,TCGA-COAD,AA,0,True,True,47,29,True,42,25,True,True,False,True,True,5,subset_of_6f_package,
+Q051,TCGA-COAD,AA,1,True,True,44,24,False,0,0,False,False,False,False,False,0,,extraction failed (no tissue windows) on one slide
+Q052,TCGA-COAD,AA,1,True,True,46,16,True,28,10,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q053,TCGA-COAD,QG,1,True,True,36,36,True,43,43,True,True,False,True,True,5,subset_of_6f_package,
+Q054,TCGA-READ,AG,0,True,True,36,11,True,9,5,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q055,TCGA-READ,AG,0,True,True,42,14,True,48,18,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q056,TCGA-COAD,G4,0,True,True,43,43,True,37,37,True,True,True,True,True,5,subset_of_6f_package,
+Q057,TCGA-READ,EI,0,True,True,34,24,True,16,10,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q058,TCGA-COAD,AA,0,True,True,36,36,True,38,17,False,False,False,True,True,5,re_extracted,
+Q059,TCGA-COAD,CM,0,True,True,43,43,True,23,23,False,True,True,True,True,5,subset_of_6f_package,
+Q060,TCGA-READ,AF,0,True,True,40,21,True,37,37,False,True,True,True,True,5,subset_of_6f_package,
+Q061,TCGA-READ,AH,1,False,True,43,30,True,45,28,True,True,False,True,True,5,subset_of_6f_package,
+Q062,TCGA-COAD,AA,1,True,True,46,30,True,36,18,False,True,False,True,True,5,subset_of_6f_package,
+Q063,TCGA-COAD,AA,0,True,True,38,14,True,35,18,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q064,TCGA-READ,DC,0,True,True,37,37,True,38,25,True,True,True,True,True,5,subset_of_6f_package,
+Q065,TCGA-COAD,AY,0,True,True,41,41,True,36,19,False,True,False,True,True,5,subset_of_6f_package,
+Q066,TCGA-READ,DC,0,True,True,46,46,True,21,21,False,True,False,True,True,5,subset_of_6f_package,
+Q067,TCGA-COAD,AA,0,True,True,38,13,True,46,31,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q068,TCGA-COAD,AD,0,False,True,31,26,True,24,10,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q069,TCGA-COAD,A6,1,False,True,46,31,True,46,39,True,True,False,True,True,5,subset_of_6f_package,
+Q070,TCGA-COAD,AA,1,True,True,33,14,True,37,18,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q071,TCGA-COAD,AA,0,True,True,42,14,True,36,10,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q072,TCGA-COAD,AA,0,True,True,46,31,True,48,19,False,True,False,True,True,5,subset_of_6f_package,
+Q073,TCGA-COAD,AA,0,True,True,34,13,True,42,22,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q074,TCGA-READ,AG,0,True,True,19,8,True,16,5,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q075,TCGA-READ,AG,0,True,True,33,29,True,42,24,True,True,False,True,True,5,subset_of_6f_package,
+Q076,TCGA-COAD,NH,0,False,True,31,31,True,38,38,True,True,True,True,True,5,subset_of_6f_package,
+Q077,TCGA-READ,AG,0,True,True,44,27,True,32,12,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q078,TCGA-READ,F5,0,False,True,0,0,True,20,20,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q079,TCGA-COAD,A6,0,True,True,46,43,True,44,24,True,True,False,True,True,5,subset_of_6f_package,
+Q080,TCGA-COAD,A6,1,True,True,47,28,True,39,27,True,True,False,True,True,5,subset_of_6f_package,
+Q081,TCGA-COAD,AA,0,True,True,45,14,True,46,15,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q082,TCGA-COAD,D5,1,True,True,25,14,True,23,14,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q083,TCGA-COAD,AA,1,True,True,25,8,True,42,17,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q084,TCGA-COAD,A6,1,True,True,29,27,True,28,27,True,True,True,True,True,5,subset_of_6f_package,
+Q085,TCGA-READ,EI,0,True,True,23,23,True,8,7,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q086,TCGA-COAD,AA,0,True,True,39,16,True,47,19,False,False,True,True,True,5,re_extracted,
+Q087,TCGA-READ,EI,0,True,True,12,11,True,39,23,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q088,TCGA-READ,AG,1,False,True,31,12,True,47,22,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q089,TCGA-COAD,F4,1,False,True,33,33,True,0,0,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q090,TCGA-COAD,CK,0,True,True,18,18,True,46,46,False,True,True,True,True,5,subset_of_6f_package,
+Q091,TCGA-COAD,D5,0,False,True,28,12,True,46,46,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q092,TCGA-COAD,A6,0,True,True,46,22,True,33,16,False,False,False,True,True,5,re_extracted,
+Q093,TCGA-READ,AG,0,True,True,3,3,True,45,25,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q094,TCGA-COAD,AA,1,True,True,45,27,True,42,22,False,True,False,True,True,5,subset_of_6f_package,
+Q095,TCGA-COAD,AA,0,True,True,37,13,True,44,28,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q096,TCGA-COAD,D5,0,True,True,38,31,True,40,18,False,True,False,True,True,5,subset_of_6f_package,
+Q097,TCGA-COAD,AA,0,True,True,42,16,True,7,7,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q098,TCGA-READ,AG,0,True,True,34,24,True,44,23,False,True,True,True,True,5,subset_of_6f_package,
+Q099,TCGA-COAD,AA,1,True,True,43,40,True,45,21,False,True,False,True,True,5,subset_of_6f_package,
+Q100,TCGA-COAD,AA,0,True,True,40,35,True,39,13,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q101,TCGA-READ,AF,0,False,True,45,45,True,34,34,True,True,True,True,True,5,subset_of_6f_package,
+Q102,TCGA-COAD,AA,0,True,True,13,5,True,46,15,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q103,TCGA-COAD,AA,1,False,True,43,15,True,33,9,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q104,TCGA-COAD,CM,0,True,True,0,0,True,25,25,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q105,TCGA-COAD,F4,1,False,True,0,0,True,41,41,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q106,TCGA-READ,CL,0,False,True,29,29,True,29,29,True,True,True,True,True,5,subset_of_6f_package,
+Q107,TCGA-COAD,AA,0,True,True,26,8,True,45,17,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q108,TCGA-COAD,CM,1,False,True,26,26,True,45,45,True,True,False,True,True,5,subset_of_6f_package,
+Q109,TCGA-COAD,DM,0,False,True,11,11,True,0,0,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q110,TCGA-COAD,D5,0,True,True,43,43,True,0,0,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q111,TCGA-COAD,F4,0,False,True,42,37,True,45,45,True,True,False,True,True,5,subset_of_6f_package,
+Q112,TCGA-READ,F5,0,True,True,0,0,True,36,33,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q113,TCGA-COAD,AA,1,True,True,45,25,True,10,4,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q114,TCGA-COAD,DM,0,True,True,29,29,True,11,11,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q115,TCGA-READ,AG,0,True,True,44,24,True,34,10,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q116,TCGA-COAD,D5,0,True,True,48,21,True,29,14,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q117,TCGA-READ,AF,0,True,True,43,43,True,44,44,True,True,True,True,True,5,subset_of_6f_package,
+Q118,TCGA-COAD,G4,0,False,True,20,20,True,46,46,False,True,False,True,True,5,subset_of_6f_package,
+Q119,TCGA-COAD,AA,0,True,True,47,18,True,38,19,False,True,True,True,True,5,subset_of_6f_package,
+Q120,TCGA-COAD,AA,1,False,True,45,18,True,37,37,False,True,False,True,True,5,subset_of_6f_package,
+Q121,TCGA-COAD,AZ,0,True,True,29,29,True,35,35,True,True,False,True,True,5,subset_of_6f_package,
+Q122,TCGA-READ,EI,0,True,True,19,15,True,42,42,False,False,True,True,True,5,re_extracted,
+Q123,TCGA-COAD,AA,1,True,True,47,20,True,43,14,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q124,TCGA-COAD,AD,0,False,True,43,21,True,26,23,False,True,False,True,True,5,subset_of_6f_package,
+Q125,TCGA-COAD,AA,0,True,True,13,4,True,43,23,False,False,True,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q126,TCGA-COAD,DM,0,False,True,17,17,True,18,18,False,False,False,True,True,5,re_extracted,
+Q127,TCGA-COAD,DM,0,True,True,29,29,True,30,30,True,True,False,True,True,5,subset_of_6f_package,
+Q128,TCGA-COAD,AA,1,True,True,0,0,True,43,21,False,False,False,False,False,0,,<15 non-overlapping tumour-epithelium fields on >=1 slide
+Q129,TCGA-COAD,CM,0,True,True,29,29,True,30,30,True,True,True,True,True,5,subset_of_6f_package,

@@ -1,0 +1,7 @@
+arm,sequenced_patients_in_arm,arm_msi_h_or_hypermutated,gene,mutant_patients,n_msi_h_or_hypermutated,pct_msi_h_or_hypermutated,molecular_subtypes_of_mutants
+Stomach,409,92,TP53,194,33,17.0,CIN 137; unknown 27; MSI 21; GS 6; POLE 2; EBV 1
+Stomach,409,92,KRAS,37,21,56.8,MSI 16; CIN 11; unknown 6; EBV 2; POLE 1; GS 1
+Stomach,409,92,PIK3CA,66,35,53.0,MSI 27; EBV 22; CIN 8; unknown 6; GS 2; POLE 1
+Colorectal,519,96,TP53,306,33,10.8,COAD CIN 170; READ CIN 86; unknown 17; COAD MSI 17; COAD GS 7; READ MSI 3; COAD POLE 2; READ GS 2; READ POLE 2
+Colorectal,519,96,KRAS,215,37,17.2,COAD CIN 98; READ CIN 38; COAD GS 34; unknown 17; COAD MSI 17; READ GS 5; READ MSI 3; COAD POLE 2; READ POLE 1
+Colorectal,519,96,PIK3CA,142,44,31.0,COAD CIN 56; COAD MSI 23; COAD GS 21; unknown 16; READ CIN 14; COAD POLE 6; READ GS 3; READ POLE 2; READ MSI 1

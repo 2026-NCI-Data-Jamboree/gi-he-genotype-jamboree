@@ -1,0 +1,6 @@
+slide_barcode,project_id,msi_label,ObjectiveLensPower,MB,s3_url
+TCGA-D5-6922-01Z-00-DX1,TCGA-COAD,MSS,40.0,124.785904,s3://idc-open-data/651babce-3e91-4c7d-aa7b-ff154d29bc8d/
+TCGA-AG-3612-01Z-00-DX1,TCGA-READ,,20.0,378.486076,s3://idc-open-data/04a4a14b-bc3a-4dcd-8c72-01eef5fe396a/
+TCGA-D7-8572-01Z-00-DX2,TCGA-STAD,MSS,40.0,902.872808,s3://idc-open-data/eae8a25a-49fe-41cd-9b1f-efc3f84e5965/
+TCGA-AA-A024-01Z-00-DX1,TCGA-COAD,MSS,20.0,1174.791934,s3://idc-open-data/1366d6e6-052c-459a-a665-44ada4408608/
+CPTAC-01CO005-6640070920,CPTAC-COAD,,,,s3://idc-open-data/d8cc177a-0fe3-41e6-abf7-b08e3ca6b2ab/

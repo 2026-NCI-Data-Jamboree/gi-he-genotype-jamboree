@@ -1,0 +1,11 @@
+p_code,role,arm,s_code,slide,partition,differentiation,gland_formation_pct,mucinous_pct,signet_ring,villous_or_papillary,serrated,tumour_budding,poorly_diff_clusters,dirty_necrosis,intraepithelial_lymphocytes,peritumoral_lymphoid,nuclear_grade,stroma_desmoplasia,adenoma_component,section_quality
+P04,out,wt,S124,pair085_wt,test,moderate,85,0,0,0,0,1,1,2,0,0,2,1,0,good
+P04,in,wt,S055,pair002_wt,dev,moderate,85,0,0,0,0,1,0,2,0,0,2,2,0,fair
+P13,out,mut,S067,pair090_mut,test,well,90,10,0,3,2,0,0,0,0,1,1,1,3,fair
+P13,in,mut,S148,pair047_mut,dev,well,95,5,0,2,1,0,0,0,1,2,1,1,2,good
+P16,out,wt,S032,pair089_wt,test,moderate,85,0,0,2,0,1,0,2,0,0,2,2,0,good
+P16,in,wt,S070,pair019_wt,dev,moderate,70,0,0,1,0,1,1,2,1,0,2,2,0,fair
+P20,out,mut,S110,pair080_mut,test,well,90,5,0,1,1,0,0,0,0,2,1,1,2,good
+P20,in,mut,S069,pair141_mut,dev,well,90,5,0,3,1,0,0,0,0,1,1,0,3,good
+P27,out,mut,S034,pair117_mut,test,moderate,70,0,0,0,0,1,1,0,0,0,2,1,0,fair
+P27,in,mut,S057,pair045_mut,dev,moderate,65,0,0,0,0,1,1,0,0,0,2,1,0,fair

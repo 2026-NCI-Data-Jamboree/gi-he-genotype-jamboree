@@ -1,0 +1,9 @@
+{
+ "n_input": 350,
+ "n_with_both": 349,
+ "n_kras_cohort": 335,
+ "n_kras_cohort_with_both": 334,
+ "missing": [
+  "TCGA-A6-2675-01Z-00-DX1"
+ ]
+}

@@ -1,0 +1,55 @@
+workload,validation,n_labels,n_models,scenario,gpu,train_Gtile_steps,val_Gtile_infer,gpu_hours,usd
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,optimistic,A100-40GB,0.211,1.702,81.183,221.792
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,optimistic,H100,0.211,1.702,48.568,222.538
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,optimistic,L4,0.211,1.702,284.86,407.92
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,central,A100-40GB,0.211,1.702,121.872,332.956
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,central,H100,0.211,1.702,73.316,335.935
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,central,L4,0.211,1.702,425.102,608.745
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,pessimistic,A100-40GB,0.211,1.702,238.853,652.546
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,pessimistic,H100,0.211,1.702,143.755,658.684
+GI · IMPACT-505 genes + hotspot variants (n≥30),full,79,237,pessimistic,L4,0.211,1.702,832.731,1192.471
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,optimistic,A100-40GB,0.211,0.231,35.802,97.811
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,optimistic,H100,0.211,0.231,21.873,100.223
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,optimistic,L4,0.211,0.231,122.786,175.829
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,central,A100-40GB,0.211,0.231,53.801,146.984
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,central,H100,0.211,0.231,33.274,152.462
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,central,L4,0.211,0.231,181.989,260.609
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,pessimistic,A100-40GB,0.211,0.231,102.71,280.604
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,pessimistic,H100,0.211,0.231,63.671,291.739
+GI · IMPACT-505 genes + hotspot variants (n≥30),lean,79,237,pessimistic,L4,0.211,0.231,346.507,496.198
+GI · all genes genome-wide + variants (n≥30),full,660,1980,optimistic,A100-40GB,1.913,14.77,713.892,1950.353
+GI · all genes genome-wide + variants (n≥30),full,660,1980,optimistic,H100,1.913,14.77,426.731,1955.279
+GI · all genes genome-wide + variants (n≥30),full,660,1980,optimistic,L4,1.913,14.77,2507.186,3590.29
+GI · all genes genome-wide + variants (n≥30),full,660,1980,central,A100-40GB,1.913,14.77,1071.037,2926.074
+GI · all genes genome-wide + variants (n≥30),full,660,1980,central,H100,1.913,14.77,643.61,2949.022
+GI · all genes genome-wide + variants (n≥30),full,660,1980,central,L4,1.913,14.77,3740.276,5356.075
+GI · all genes genome-wide + variants (n≥30),full,660,1980,pessimistic,A100-40GB,1.913,14.77,2097.796,5731.178
+GI · all genes genome-wide + variants (n≥30),full,660,1980,pessimistic,H100,1.913,14.77,1261.174,5778.699
+GI · all genes genome-wide + variants (n≥30),full,660,1980,pessimistic,L4,1.913,14.77,7322.414,10485.696
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,optimistic,A100-40GB,1.913,2.014,320.167,874.697
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,optimistic,H100,1.913,2.014,195.128,894.076
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,optimistic,L4,1.913,2.014,1101.026,1576.669
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,central,A100-40GB,1.913,2.014,480.45,1312.59
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,central,H100,1.913,2.014,296.206,1357.216
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,central,L4,1.913,2.014,1631.037,2335.645
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,pessimistic,A100-40GB,1.913,2.014,916.622,2504.211
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,pessimistic,H100,1.913,2.014,566.366,2595.088
+GI · all genes genome-wide + variants (n≥30),lean,660,1980,pessimistic,L4,1.913,2.014,3103.935,4444.836
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,optimistic,A100-40GB,14.753,120.714,5689.28,15543.113
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,optimistic,H100,14.753,120.714,3388.131,15524.416
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,optimistic,L4,14.753,120.714,20059.722,28725.522
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,central,A100-40GB,14.753,120.714,8522.216,23282.693
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,central,H100,14.753,120.714,5096.059,23350.143
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,central,L4,14.753,120.714,29918.213,42842.881
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,pessimistic,A100-40GB,14.753,120.714,16702.926,45632.393
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,pessimistic,H100,14.753,120.714,9991.233,45779.828
+"Full paper replication (4,031 biomarkers, 32 cancers)",full,4031,12093,pessimistic,L4,14.753,120.714,58616.763,83939.204
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,optimistic,A100-40GB,14.753,16.169,2462.592,6727.802
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,optimistic,H100,14.753,16.169,1490.079,6827.543
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,optimistic,L4,14.753,16.169,8535.836,12223.318
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,central,A100-40GB,14.753,16.169,3682.184,10059.726
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,central,H100,14.753,16.169,2248.982,10304.834
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,central,L4,14.753,16.169,12632.385,18089.575
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,pessimistic,A100-40GB,14.753,16.169,7022.862,19186.458
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,pessimistic,H100,14.753,16.169,4297.077,19689.209
+"Full paper replication (4,031 biomarkers, 32 cancers)",lean,4031,12093,pessimistic,L4,14.753,16.169,24045.106,34432.592

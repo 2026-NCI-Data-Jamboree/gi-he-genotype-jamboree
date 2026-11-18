@@ -1,0 +1,13 @@
+population,encoder,n,tmb_high,auroc,ci_lo,ci_hi
+"All GI, all tumours",phikon,727,137,0.756,0.711,0.805
+"All GI, all tumours",uni,714,132,0.759,0.707,0.807
+"All GI, MSS only",phikon,607,24,0.639,0.51,0.763
+"All GI, MSS only",uni,599,24,0.672,0.537,0.788
+"Colorectal, all",phikon,402,62,0.742,0.673,0.807
+"Colorectal, all",uni,401,61,0.791,0.719,0.856
+"Colorectal, MSS only",phikon,345,11,0.573,0.372,0.764
+"Colorectal, MSS only",uni,345,11,0.642,0.43,0.836
+"Stomach, all",phikon,325,75,0.77,0.709,0.83
+"Stomach, all",uni,313,71,0.745,0.673,0.812
+"Stomach, MSS only",phikon,262,13,0.689,0.506,0.847
+"Stomach, MSS only",uni,254,13,0.704,0.531,0.854

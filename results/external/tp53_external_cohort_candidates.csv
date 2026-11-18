@@ -1,0 +1,10 @@
+Cohort,Organ,Slides,TP53 labels,Patients usable for TP53 (mutant / wild-type),Verdict
+CPTAC-COAD,Colorectal,IDC (open),cBioPortal coad_cptac_2019 (open),"Already used: 80 MSS patients, 47 mutant / 33 wild-type",Exhausted. Remaining slides have no labels or unknown tumour content.
+HCMI-CMDC (colorectal cases),Colorectal,"GDC tissue slides, SVS (open)",GDC open WXS calls,64 cases with slides and open calls; 5 likely hypermutated. Primary-tumour slides: 35 (26 / 9). Metastatic-only slides: 24 (20 / 4),"Usable now, but the wild-type arm is too small to settle anything alone. MSI status not retrieved (mutation-count proxy only). Many calls come from the derived model, not the tumour."
+CMB-CRC (Cancer Moonshot Biobank),Colorectal,"IDC: 74 patients, 166 FFPE H&E slides (open)",dbGaP (controlled access),Unknown until access is granted,"Best realistic addition, but needs a dbGaP request. At most 74 patients in IDC v25."
+CMB-GEC,Gastro-oesophageal,IDC: 16 patients (open),dbGaP (controlled access),Unknown,Too small.
+SurGen,Colorectal,"BioStudies S-BIAD1285, 843 cases (open)","KRAS, NRAS, BRAF, MMR/MSI only",0 for TP53,No TP53 label. Could serve as an external cohort for MSI and KRAS instead.
+HTAN Vanderbilt,Colorectal (HTAN),"IDC: 30 patients, H&E (open)",Not assessed,Not assessed,Mutation-call availability and lesion type not checked.
+PECGS-COPECC,Colorectal,No slide images in GDC,GDC,0,No slides.
+"Other CPTAC collections (lung, uterus, pancreas, breast, etc.)",Other organs,IDC (open),Open,Not applicable,Wrong organ for a colorectal model; Jang et al. found cross-organ transfer fails.
+"Stomach, any source",Stomach,HCMI: 3 primary cases with slides; CMB-GEC: 16 patients,-,Effectively none,No open external stomach cohort found. The Seoul cohort in Jang et al. is not shared.

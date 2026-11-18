@@ -1,0 +1,634 @@
+patient,site,origin,side
+TCGA-AA-3672,Transverse colon,Transverse colon,right
+TCGA-AA-3552,Cecum,Cecum,right
+TCGA-AA-3867,Not Reported,Prostate gland,
+TCGA-AD-6895,Not Reported,Skin of scalp and neck,
+TCGA-AA-3560,Not Reported,"Stomach, NOS",
+TCGA-AA-3521,Not Reported,Prostate gland,
+TCGA-A6-2670,Sigmoid colon,Sigmoid colon,left
+TCGA-AD-6888,Not Reported,Not Reported,
+TCGA-AA-3531,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A024,Not Reported,"Lung, NOS",
+TCGA-AA-3972,Not Reported,Ascending colon,
+TCGA-AA-3814,Ascending colon,"Colon, NOS",right
+TCGA-AA-3527,Cecum,Ascending colon,right
+TCGA-AZ-6608,Not Reported,Blood,
+TCGA-AA-3525,Hepatic flexure of colon,Ascending colon,right
+TCGA-G4-6314,Cecum,Cecum,right
+TCGA-G4-6588,Not Reported,Other ill-defined sites,
+TCGA-A6-2682,Not Reported,Prostate gland,
+TCGA-AA-3662,Not Reported,"Breast, NOS",
+TCGA-AA-3979,Not Reported,"Larynx, NOS",
+TCGA-AZ-4681,Not Reported,"Rectum, NOS",
+TCGA-AD-6548,Splenic flexure of colon,Splenic flexure of colon,left
+TCGA-AA-3506,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-DM-A285,Ascending colon,Ascending colon,right
+TCGA-AA-3976,Sigmoid colon,Rectosigmoid junction,left
+TCGA-AD-6964,Not Reported,Not Reported,
+TCGA-G4-6628,Not Reported,"Colon, NOS",
+TCGA-AA-3496,Ascending colon,Ascending colon,right
+TCGA-AA-3870,Not Reported,"Breast, NOS",
+TCGA-AA-3713,Ascending colon,"Colon, NOS",right
+TCGA-AA-3556,Not Reported,Blood,
+TCGA-AZ-4313,Not Reported,"Uterus, NOS",
+TCGA-AA-3697,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3811,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-AA-3862,Not Reported,"Kidney, NOS",
+TCGA-CM-4750,"Colon, NOS",Rectosigmoid junction,
+TCGA-AA-3554,Ascending colon,Ascending colon,right
+TCGA-G4-6586,Not Reported,"Head, face or neck, NOS",
+TCGA-CK-5912,Not Reported,"Lung, NOS",
+TCGA-AA-3986,Not Reported,Prostate gland,
+TCGA-AA-3970,Sigmoid colon,Descending colon,left
+TCGA-AA-3844,Not Reported,Not Reported,
+TCGA-AA-3715,Ascending colon,Ascending colon,right
+TCGA-AA-3952,Not Reported,"Gum, NOS",
+TCGA-AA-3530,Cecum,Ascending colon,right
+TCGA-AA-3692,Not Reported,Not Reported,
+TCGA-AA-3860,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3688,Sigmoid colon,"Colon, NOS",left
+TCGA-G4-6298,Cecum,Cecum,right
+TCGA-G4-6294,Not Reported,Prostate gland,
+TCGA-AA-3967,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3543,Cecum,Ascending colon,right
+TCGA-AA-3516,Not Reported,"Rectum, NOS",
+TCGA-G4-6625,Not Reported,"Skin, NOS",
+TCGA-A6-2677,Not Reported,"Kidney, NOS",
+TCGA-G4-6310,Cecum,"Colon, NOS",right
+TCGA-AA-A00L,Not Reported,Prostate gland,
+TCGA-AA-3562,Not Reported,"Colon, NOS",
+TCGA-A6-6649,"Colon, NOS",Ascending colon,
+TCGA-AA-3524,Sigmoid colon,Sigmoid colon,left
+TCGA-G4-6321,Not Reported,Thyroid gland,
+TCGA-AZ-6601,Not Reported,"Colon, NOS",
+TCGA-A6-4105,Not Reported,Not Reported,
+TCGA-AA-3950,Ascending colon,Ascending colon,right
+TCGA-AA-A00Z,Not Reported,Prostate gland,
+TCGA-AA-3522,Ascending colon,Ascending colon,right
+TCGA-AY-4071,"Colon, NOS",Sigmoid colon,
+TCGA-CM-5863,Ascending colon,Ascending colon,right
+TCGA-G5-6235,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-4009,"Rectum, NOS","Rectum, NOS",left
+TCGA-G5-6572,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3612,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A00H,Not Reported,Prostate gland,
+TCGA-AF-2692,Not Reported,Not Reported,
+TCGA-AG-A014,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3728,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A01N,Not Reported,"Colon, NOS",
+TCGA-AG-3611,Not Reported,Prostate gland,
+TCGA-AG-3580,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3891,"Rectum, NOS","Rectum, NOS",left
+TCGA-G5-6233,Sigmoid colon,"Rectum, NOS",left
+TCGA-AF-2693,Sigmoid colon,Rectosigmoid junction,left
+TCGA-AF-3912,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3906,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-A023,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3602,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-A015,Not Reported,Not Reported,
+TCGA-AG-3890,"Rectum, NOS","Rectum, NOS",left
+TCGA-AF-3913,Not Reported,Prostate gland,
+TCGA-G5-6641,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-BM-6198,Not Reported,Prostate gland,
+TCGA-AF-3914,Not Reported,Not Reported,
+TCGA-CI-6620,Not Reported,Not Reported,
+TCGA-AG-4008,"Rectum, NOS","Colon, NOS",left
+TCGA-EI-6506,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-AG-3609,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-F5-6811,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-A002,"Rectum, NOS","Rectum, NOS",left
+TCGA-DC-6682,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AF-2690,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A036,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6513,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-AF-A56K,Not Reported,Not Reported,
+TCGA-AG-3598,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3587,Not Reported,Not Reported,
+TCGA-AG-A02X,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A026,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3591,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3581,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-DC-6683,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AH-6547,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-F5-6861,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3605,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3902,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-A020,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3878,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-4001,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-DC-6160,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3582,"Rectum, NOS","Colon, NOS",left
+TCGA-F5-6571,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-4015,"Rectum, NOS","Colon, NOS",left
+TCGA-AF-5654,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3600,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3601,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3901,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-DY-A1DE,Not Reported,Not Reported,
+TCGA-AG-3881,"Rectum, NOS",Unknown primary site,left
+TCGA-DC-6158,"Rectum, NOS","Rectum, NOS",left
+TCGA-DC-5337,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3578,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3894,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6510,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-EF-5830,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A032,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6917,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3574,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3593,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AH-6549,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3592,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-CI-6621,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A02G,"Rectum, NOS","Rectum, NOS",left
+TCGA-AF-3911,"Rectum, NOS","Rectum, NOS",left
+TCGA-AH-6897,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AH-6903,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-DY-A1DC,Not Reported,Not Reported,
+TCGA-AG-3726,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6512,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-DC-6156,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3599,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-EI-7002,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6885,Not Reported,Not Reported,
+TCGA-AF-2689,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-DC-6154,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-F5-6864,"Rectum, NOS","Rectum, NOS",left
+TCGA-F5-6810,Not Reported,Not Reported,
+TCGA-CI-6624,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-EI-6881,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-CI-6619,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A011,"Rectum, NOS","Rectum, NOS",left
+TCGA-DC-6681,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-DT-5265,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6514,Sigmoid colon,"Rectum, NOS",left
+TCGA-EI-6883,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-EF-5831,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3898,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3583,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AF-6136,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3575,"Rectum, NOS","Rectum, NOS",left
+TCGA-AF-4110,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-AG-3999,Not Reported,Not Reported,
+TCGA-AF-6672,Not Reported,Not Reported,
+TCGA-DC-6157,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-DC-4745,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-EI-6509,Not Reported,Not Reported,
+TCGA-AG-4021,Not Reported,Not Reported,
+TCGA-AG-3731,"Rectum, NOS","Rectum, NOS",left
+TCGA-F5-6863,Not Reported,Not Reported,
+TCGA-AG-A01W,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3909,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-CL-5917,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AF-A56N,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-DY-A1DD,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AF-2691,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AH-6544,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-A01L,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-4005,"Rectum, NOS","Rectum, NOS",left
+TCGA-DY-A1DG,Not Reported,Not Reported,
+TCGA-AG-A02N,"Rectum, NOS","Rectum, NOS",left
+TCGA-F5-6464,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3887,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-4007,"Rectum, NOS","Colon, NOS",left
+TCGA-F5-6814,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-4022,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3882,"Rectum, NOS","Colon, NOS",left
+TCGA-F5-6813,"Rectum, NOS","Connective, subcutaneous and other soft tissues of abdomen",left
+TCGA-AG-3896,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A016,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A025,"Rectum, NOS","Rectum, NOS",left
+TCGA-DY-A0XA,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-A01J,"Rectum, NOS","Rectum, NOS",left
+TCGA-CL-4957,Not Reported,"Rectum, NOS",
+TCGA-AG-3732,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-3586,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-A01Y,"Rectum, NOS","Rectum, NOS",left
+TCGA-CI-6623,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3893,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-DY-A1DF,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-EI-6884,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-AG-3584,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-7004,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3883,"Rectum, NOS","Rectum, NOS",left
+TCGA-AH-6643,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-CI-6622,"Rectum, NOS","Rectum, NOS",left
+TCGA-DC-4749,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-DY-A1H8,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3608,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6507,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-A00Y,Not Reported,Not Reported,
+TCGA-AF-A56L,Sigmoid colon,Rectosigmoid junction,left
+TCGA-AG-3594,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AF-3400,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-DC-5869,"Rectum, NOS","Rectum, NOS",left
+TCGA-AF-6655,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-EI-6511,"Rectum, NOS","Rectum, NOS",left
+TCGA-F5-6465,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-EI-6508,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-AH-6644,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-AG-3892,"Rectum, NOS","Rectum, NOS",left
+TCGA-EI-6882,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-F5-6812,"Rectum, NOS","Connective, subcutaneous and other soft tissues of abdomen",left
+TCGA-AG-3885,"Rectum, NOS","Rectum, NOS",left
+TCGA-AG-3727,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-A008,"Rectum, NOS","Rectum, NOS",left
+TCGA-DC-6155,Rectosigmoid junction,Rectosigmoid junction,left
+TCGA-F5-6702,Not Reported,Not Reported,
+TCGA-CL-5918,Rectosigmoid junction,"Rectum, NOS",left
+TCGA-AF-2687,Not Reported,Not Reported,
+TCGA-AG-3742,"Rectum, NOS","Colon, NOS",left
+TCGA-AG-3725,"Rectum, NOS",Rectosigmoid junction,left
+TCGA-AG-A00C,"Rectum, NOS","Rectum, NOS",left
+TCGA-AA-3675,Hepatic flexure of colon,Ascending colon,right
+TCGA-AA-3939,Not Reported,Eyelid,
+TCGA-G4-6307,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3511,Not Reported,Not Reported,
+TCGA-AA-3842,Not Reported,Not Reported,
+TCGA-AA-3561,Ascending colon,"Colon, NOS",right
+TCGA-D5-5538,Not Reported,Not Reported,
+TCGA-CA-5255,Ascending colon,"Colon, NOS",right
+TCGA-AA-3858,Sigmoid colon,"Colon, NOS",left
+TCGA-A6-2676,Cecum,"Colon, NOS",right
+TCGA-AA-A02K,Ascending colon,Ascending colon,right
+TCGA-NH-A5IV,Transverse colon,Transverse colon,right
+TCGA-A6-2680,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-A6-6781,"Colon, NOS","Colon, NOS",
+TCGA-T9-A92H,Sigmoid colon,Sigmoid colon,left
+TCGA-AY-A8YK,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-5341,Sigmoid colon,Sigmoid colon,left
+TCGA-F4-6807,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-AZ-4616,Cecum,Cecum,right
+TCGA-DM-A28K,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-AY-A71X,Cecum,Cecum,right
+TCGA-A6-6652,Sigmoid colon,Sigmoid colon,left
+TCGA-F4-6703,Ascending colon,Ascending colon,right
+TCGA-AD-6965,Not Reported,Not Reported,
+TCGA-AZ-4315,Cecum,Cecum,right
+TCGA-AA-3712,Descending colon,Descending colon,left
+TCGA-AA-3510,Transverse colon,Ascending colon,right
+TCGA-AA-A00D,Ascending colon,Ascending colon,right
+TCGA-AA-3971,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-A03F,Cecum,Cecum,right
+TCGA-AA-A02O,Transverse colon,Transverse colon,right
+TCGA-AD-A5EJ,Cecum,Cecum,right
+TCGA-G4-6627,Ascending colon,Ascending colon,right
+TCGA-AA-3861,Cecum,Cecum,right
+TCGA-AZ-6603,Sigmoid colon,Sigmoid colon,left
+TCGA-CA-6716,Ascending colon,Ascending colon,right
+TCGA-CM-6676,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A029,Cecum,Cecum,right
+TCGA-AA-A01C,Ascending colon,Ascending colon,right
+TCGA-CM-6680,Cecum,Cecum,right
+TCGA-CK-4950,Cecum,Cecum,right
+TCGA-D5-6529,Not Reported,Not Reported,
+TCGA-A6-2678,Transverse colon,Transverse colon,right
+TCGA-AZ-6599,Cecum,Cecum,right
+TCGA-F4-6809,Sigmoid colon,Sigmoid colon,left
+TCGA-5M-AAT6,Not Reported,Not Reported,
+TCGA-3L-AA1B,Cecum,Cecum,right
+TCGA-AA-A01D,Not Reported,Not Reported,
+TCGA-A6-6653,Ascending colon,"Colon, NOS",right
+TCGA-CM-5344,Sigmoid colon,Sigmoid colon,left
+TCGA-DM-A28A,Cecum,Cecum,right
+TCGA-DM-A0XF,"Colon, NOS",Sigmoid colon,
+TCGA-AA-3526,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3819,Sigmoid colon,"Colon, NOS",left
+TCGA-A6-6648,"Colon, NOS",Descending colon,
+TCGA-CA-5256,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-AA-3558,Sigmoid colon,Sigmoid colon,left
+TCGA-QG-A5YX,Sigmoid colon,Sigmoid colon,left
+TCGA-QG-A5Z1,Sigmoid colon,Rectosigmoid junction,left
+TCGA-AA-3544,Sigmoid colon,"Colon, NOS",left
+TCGA-F4-6570,Transverse colon,"Colon, NOS",right
+TCGA-D5-6920,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3866,Cecum,"Colon, NOS",right
+TCGA-AA-3833,Ascending colon,"Colon, NOS",right
+TCGA-A6-6654,Descending colon,"Colon, NOS",left
+TCGA-AA-3850,Transverse colon,Transverse colon,right
+TCGA-AD-6889,Not Reported,Not Reported,
+TCGA-AA-3975,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3529,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3695,Cecum,Cecum,right
+TCGA-A6-6782,"Colon, NOS",Ascending colon,
+TCGA-AA-A022,Cecum,Cecum,right
+TCGA-CK-4952,Ascending colon,Ascending colon,right
+TCGA-CM-5860,Ascending colon,Ascending colon,right
+TCGA-AZ-4684,"Colon, NOS",Rectosigmoid junction,
+TCGA-D5-6534,Ascending colon,"Colon, NOS",right
+TCGA-DM-A1D8,Ascending colon,Ascending colon,right
+TCGA-A6-6138,Cecum,Cecum,right
+TCGA-CM-6170,Descending colon,Descending colon,left
+TCGA-AA-A01X,Not Reported,Not Reported,
+TCGA-A6-2681,Not Reported,"Breast, NOS",
+TCGA-AA-3693,Sigmoid colon,Sigmoid colon,left
+TCGA-AD-6890,Ascending colon,Ascending colon,right
+TCGA-AA-3984,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-5349,Cecum,Cecum,right
+TCGA-AA-3532,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3848,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A00U,Ascending colon,Ascending colon,right
+TCGA-AA-3549,Cecum,"Colon, NOS",right
+TCGA-CM-6162,Ascending colon,Ascending colon,right
+TCGA-A6-6140,Descending colon,Descending colon,left
+TCGA-AA-3821,Hepatic flexure of colon,Ascending colon,right
+TCGA-CM-6169,Cecum,Cecum,right
+TCGA-DM-A28H,Not Reported,Not Reported,
+TCGA-CM-6164,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A00Q,Sigmoid colon,Sigmoid colon,left
+TCGA-CA-6718,Ascending colon,"Colon, NOS",right
+TCGA-AD-6901,Cecum,Cecum,right
+TCGA-G4-6306,Ascending colon,Ascending colon,right
+TCGA-G4-6311,Ascending colon,Ascending colon,right
+TCGA-CM-6674,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-AA-3872,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3655,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-5665,Ascending colon,Ascending colon,right
+TCGA-AA-A01S,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-4751,Cecum,Cecum,right
+TCGA-AA-A03J,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-5862,Ascending colon,Ascending colon,right
+TCGA-QL-A97D,Cecum,Ascending colon,right
+TCGA-AA-3812,Sigmoid colon,Sigmoid colon,left
+TCGA-AD-6899,Cecum,"Colon, NOS",right
+TCGA-AZ-4323,Cecum,Cecum,right
+TCGA-G4-6317,Sigmoid colon,Sigmoid colon,left
+TCGA-QG-A5YW,Cecum,Cecum,right
+TCGA-A6-6137,Hepatic flexure of colon,Ascending colon,right
+TCGA-G4-6304,Not Reported,Not Reported,
+TCGA-A6-3810,Sigmoid colon,"Colon, NOS",left
+TCGA-CM-4752,Ascending colon,Ascending colon,right
+TCGA-AA-3815,Cecum,Cecum,right
+TCGA-DM-A1D7,Not Reported,Not Reported,
+TCGA-A6-3807,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3837,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-D5-6537,Not Reported,Liver,
+TCGA-AA-3854,Sigmoid colon,"Colon, NOS",left
+TCGA-D5-6926,Sigmoid colon,Sigmoid colon,left
+TCGA-CA-6717,Ascending colon,Ascending colon,right
+TCGA-CK-4947,Not Reported,Not Reported,
+TCGA-AA-3966,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-G4-6626,Ascending colon,Ascending colon,right
+TCGA-CM-5868,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3973,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3673,Transverse colon,Transverse colon,right
+TCGA-CM-6675,Not Reported,Not Reported,
+TCGA-AA-3538,Descending colon,Sigmoid colon,left
+TCGA-AZ-4614,"Colon, NOS",Cecum,
+TCGA-AA-3994,Transverse colon,"Colon, NOS",right
+TCGA-D5-6923,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3555,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-AA-3949,Ascending colon,Ascending colon,right
+TCGA-A6-2672,"Colon, NOS",Ascending colon,
+TCGA-G4-6299,Descending colon,Descending colon,left
+TCGA-AA-A00J,Ascending colon,Ascending colon,right
+TCGA-D5-6932,Transverse colon,"Colon, NOS",right
+TCGA-SS-A7HO,Not Reported,Not Reported,
+TCGA-AA-A01R,Ascending colon,Ascending colon,right
+TCGA-AA-3542,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-4107,Ascending colon,Ascending colon,right
+TCGA-D5-6540,Cecum,Cecum,right
+TCGA-AA-3845,Ascending colon,Ascending colon,right
+TCGA-AA-3980,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3955,Descending colon,"Colon, NOS",left
+TCGA-A6-A567,Not Reported,Liver,
+TCGA-A6-2686,Cecum,"Colon, NOS",right
+TCGA-CM-6171,Ascending colon,Ascending colon,right
+TCGA-CA-6715,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3679,Descending colon,"Colon, NOS",left
+TCGA-AA-3856,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-A004,Sigmoid colon,Sigmoid colon,left
+TCGA-CK-5915,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-A566,Not Reported,Not Reported,
+TCGA-CA-5254,Transverse colon,"Colon, NOS",right
+TCGA-A6-5666,Not Reported,Not Reported,
+TCGA-A6-3808,Cecum,"Colon, NOS",right
+TCGA-AU-6004,Cecum,Cecum,right
+TCGA-AA-3514,Ascending colon,"Colon, NOS",right
+TCGA-AA-3710,Hepatic flexure of colon,Ascending colon,right
+TCGA-A6-5659,Cecum,Ascending colon,right
+TCGA-AA-3947,Ascending colon,"Colon, NOS",right
+TCGA-AZ-4615,Not Reported,Liver,
+TCGA-A6-5660,Cecum,Ascending colon,right
+TCGA-D5-6536,Sigmoid colon,"Colon, NOS",left
+TCGA-D5-5539,Not Reported,Not Reported,
+TCGA-D5-6930,Ascending colon,Cecum,right
+TCGA-DM-A28M,Descending colon,Descending colon,left
+TCGA-F4-6704,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A02W,Not Reported,Not Reported,
+TCGA-AZ-6600,Hepatic flexure of colon,Ascending colon,right
+TCGA-F4-6856,Cecum,Cecum,right
+TCGA-A6-5661,Ascending colon,Ascending colon,right
+TCGA-AA-3663,Cecum,Cecum,right
+TCGA-A6-2684,Not Reported,Not Reported,
+TCGA-CK-4951,Not Reported,Not Reported,
+TCGA-AA-3492,Ascending colon,Ascending colon,right
+TCGA-CK-6751,Ascending colon,Ascending colon,right
+TCGA-AA-3684,Cecum,Cecum,right
+TCGA-DM-A1HB,Transverse colon,Transverse colon,right
+TCGA-AA-3846,Sigmoid colon,Sigmoid colon,left
+TCGA-F4-6855,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-2674,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A01T,Sigmoid colon,Sigmoid colon,left
+TCGA-QG-A5Z2,Cecum,Cecum,right
+TCGA-AU-3779,Rectosigmoid junction,Sigmoid colon,left
+TCGA-CM-6166,Ascending colon,Ascending colon,right
+TCGA-CM-6168,Ascending colon,Ascending colon,right
+TCGA-AA-3667,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-3664,Cecum,Ascending colon,right
+TCGA-AA-3666,Cecum,"Colon, NOS",right
+TCGA-AA-3930,Ascending colon,Ascending colon,right
+TCGA-AZ-4308,Sigmoid colon,Sigmoid colon,left
+TCGA-NH-A8F8,Ascending colon,Ascending colon,right
+TCGA-AA-3855,Sigmoid colon,"Colon, NOS",left
+TCGA-AZ-6606,Cecum,Cecum,right
+TCGA-G4-6315,Descending colon,Descending colon,left
+TCGA-G4-6309,Not Reported,Not Reported,
+TCGA-AA-3956,Cecum,Cecum,right
+TCGA-AY-6196,Cecum,Ascending colon,right
+TCGA-DM-A280,Ascending colon,Ascending colon,right
+TCGA-QG-A5YV,Sigmoid colon,Sigmoid colon,left
+TCGA-CK-5913,Cecum,Ascending colon,right
+TCGA-G4-6320,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-AA-3877,Transverse colon,Transverse colon,right
+TCGA-AA-A02J,Sigmoid colon,Sigmoid colon,left
+TCGA-F4-6854,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A00O,Sigmoid colon,Sigmoid colon,left
+TCGA-DM-A28F,Sigmoid colon,Sigmoid colon,left
+TCGA-NH-A6GC,Descending colon,Descending colon,left
+TCGA-AA-A010,Transverse colon,Transverse colon,right
+TCGA-A6-2675,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3519,Sigmoid colon,"Colon, NOS",left
+TCGA-D5-6922,Sigmoid colon,Sigmoid colon,left
+TCGA-G4-6323,Cecum,Cecum,right
+TCGA-AA-A01V,Cecum,Cecum,right
+TCGA-AA-A00K,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-6651,Transverse colon,"Colon, NOS",right
+TCGA-AD-5900,Ascending colon,Ascending colon,right
+TCGA-A6-2679,Ascending colon,Ascending colon,right
+TCGA-AA-A00A,Ascending colon,Ascending colon,right
+TCGA-5M-AAT4,Ascending colon,Ascending colon,right
+TCGA-AA-A00E,Ascending colon,Ascending colon,right
+TCGA-AA-A01F,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A01P,Ascending colon,Ascending colon,right
+TCGA-DM-A288,Cecum,Cecum,right
+TCGA-AY-5543,Ascending colon,Ascending colon,right
+TCGA-AA-3495,Hepatic flexure of colon,Ascending colon,right
+TCGA-AA-3851,Ascending colon,"Colon, NOS",right
+TCGA-DM-A1D0,Sigmoid colon,Sigmoid colon,left
+TCGA-G4-6303,Not Reported,Not Reported,
+TCGA-AM-5820,Sigmoid colon,"Colon, NOS",left
+TCGA-G4-6293,Transverse colon,Transverse colon,right
+TCGA-D5-6898,Sigmoid colon,"Colon, NOS",left
+TCGA-A6-5667,Sigmoid colon,Sigmoid colon,left
+TCGA-F4-6461,Not Reported,Not Reported,
+TCGA-F4-6460,Not Reported,Liver,
+TCGA-AA-3548,Cecum,"Colon, NOS",right
+TCGA-D5-5540,Cecum,Cecum,right
+TCGA-AA-3977,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-6161,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A02E,Cecum,Cecum,right
+TCGA-AY-6386,Cecum,Cecum,right
+TCGA-CK-5916,Cecum,Ascending colon,right
+TCGA-D5-6541,Splenic flexure of colon,Splenic flexure of colon,left
+TCGA-AA-3869,Cecum,Cecum,right
+TCGA-CA-5797,Sigmoid colon,"Colon, NOS",left
+TCGA-CM-6172,Sigmoid colon,Sigmoid colon,left
+TCGA-AD-6963,Ascending colon,Ascending colon,right
+TCGA-A6-A5ZU,Transverse colon,Transverse colon,right
+TCGA-NH-A50T,Splenic flexure of colon,Splenic flexure of colon,left
+TCGA-F4-6808,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A01Q,Ascending colon,Ascending colon,right
+TCGA-5M-AAT5,"Colon, NOS",Not Reported,
+TCGA-NH-A6GA,Not Reported,Not Reported,
+TCGA-AA-3875,Ascending colon,Ascending colon,right
+TCGA-A6-2671,Not Reported,Not Reported,
+TCGA-DM-A1HA,Ascending colon,Ascending colon,right
+TCGA-CM-4747,Cecum,Cecum,right
+TCGA-CK-5914,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-6141,Cecum,"Colon, NOS",right
+TCGA-AA-3982,Sigmoid colon,"Colon, NOS",left
+TCGA-CM-5864,Cecum,Cecum,right
+TCGA-D5-6931,Transverse colon,"Colon, NOS",right
+TCGA-CK-4948,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3520,Ascending colon,Ascending colon,right
+TCGA-RU-A8FL,Cecum,Cecum,right
+TCGA-AM-5821,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-A00F,Sigmoid colon,Sigmoid colon,left
+TCGA-G4-6297,Not Reported,Not Reported,
+TCGA-NH-A8F7,Sigmoid colon,Sigmoid colon,left
+TCGA-D5-6929,Sigmoid colon,"Colon, NOS",left
+TCGA-AZ-6607,Sigmoid colon,Sigmoid colon,left
+TCGA-CA-5796,Ascending colon,Ascending colon,right
+TCGA-AA-3494,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-A02H,Sigmoid colon,Sigmoid colon,left
+TCGA-AY-4070,Not Reported,Not Reported,
+TCGA-A6-6650,"Colon, NOS",Ascending colon,
+TCGA-AA-3488,Sigmoid colon,Rectosigmoid junction,left
+TCGA-AA-A01G,Cecum,Cecum,right
+TCGA-AA-3852,Transverse colon,"Colon, NOS",right
+TCGA-G4-6302,Cecum,Cecum,right
+TCGA-A6-A56B,Sigmoid colon,Sigmoid colon,left
+TCGA-CK-6747,Cecum,Cecum,right
+TCGA-DM-A0X9,"Colon, NOS",Ascending colon,
+TCGA-AA-A02R,Cecum,Cecum,right
+TCGA-CM-6679,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3841,Sigmoid colon,"Colon, NOS",left
+TCGA-WS-AB45,Cecum,Cecum,right
+TCGA-AA-3509,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3941,Ascending colon,"Colon, NOS",right
+TCGA-AA-3502,Transverse colon,"Colon, NOS",right
+TCGA-AZ-6605,Ascending colon,Ascending colon,right
+TCGA-DM-A1D4,Not Reported,Not Reported,
+TCGA-AZ-5403,Sigmoid colon,Descending colon,left
+TCGA-DM-A28E,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-3809,Transverse colon,"Colon, NOS",right
+TCGA-AA-A01I,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-6780,"Colon, NOS",Ascending colon,
+TCGA-CK-6748,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-6163,Sigmoid colon,Sigmoid colon,left
+TCGA-4N-A93T,Ascending colon,Ascending colon,right
+TCGA-D5-5541,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-5662,Not Reported,Not Reported,
+TCGA-CM-5861,Not Reported,Not Reported,
+TCGA-CA-6719,Descending colon,Descending colon,left
+TCGA-NH-A50U,Cecum,Cecum,right
+TCGA-F4-6459,Sigmoid colon,Sigmoid colon,left
+TCGA-D5-6538,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-D5-6535,Ascending colon,"Colon, NOS",right
+TCGA-AA-A02Y,Cecum,Cecum,right
+TCGA-5M-AATE,Ascending colon,Ascending colon,right
+TCGA-DM-A0XD,Not Reported,Not Reported,
+TCGA-4T-AA8H,Descending colon,Descending colon,left
+TCGA-CK-6746,Cecum,Cecum,right
+TCGA-AA-A01K,Sigmoid colon,Sigmoid colon,left
+TCGA-D5-6927,Transverse colon,Sigmoid colon,right
+TCGA-CM-6677,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-AZ-6598,"Colon, NOS",Ascending colon,
+TCGA-5M-AATA,"Colon, NOS",Not Reported,
+TCGA-AA-3696,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3681,Cecum,Cecum,right
+TCGA-D5-6532,Sigmoid colon,Sigmoid colon,left
+TCGA-AY-A69D,Transverse colon,Transverse colon,right
+TCGA-D5-5537,Not Reported,Not Reported,
+TCGA-AA-A017,Sigmoid colon,Sigmoid colon,left
+TCGA-G4-6322,Descending colon,Descending colon,left
+TCGA-AZ-5407,Cecum,Cecum,right
+TCGA-CM-5348,Cecum,Cecum,right
+TCGA-AA-3489,Sigmoid colon,"Colon, NOS",left
+TCGA-F4-6806,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3831,Sigmoid colon,"Colon, NOS",left
+TCGA-D5-6924,Sigmoid colon,Sigmoid colon,left
+TCGA-CM-4746,Sigmoid colon,Sigmoid colon,left
+TCGA-AA-3517,Splenic flexure of colon,"Colon, NOS",left
+TCGA-AA-3518,Cecum,Cecum,right
+TCGA-AA-3678,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-6142,Not Reported,Not Reported,
+TCGA-AA-3864,Cecum,Cecum,right
+TCGA-CM-4743,Hepatic flexure of colon,Ascending colon,right
+TCGA-AA-A01Z,Ascending colon,Ascending colon,right
+TCGA-AA-A00R,Cecum,Cecum,right
+TCGA-AA-3968,Sigmoid colon,Sigmoid colon,left
+TCGA-F4-6463,Transverse colon,Transverse colon,right
+TCGA-CM-4744,Cecum,Cecum,right
+TCGA-CM-4748,Transverse colon,Transverse colon,right
+TCGA-AA-3553,Sigmoid colon,"Colon, NOS",left
+TCGA-F4-6569,Transverse colon,"Colon, NOS",right
+TCGA-NH-A50V,Cecum,Cecum,right
+TCGA-CM-6167,Cecum,Cecum,right
+TCGA-AA-3989,Transverse colon,"Colon, NOS",right
+TCGA-D5-7000,Cecum,Cecum,right
+TCGA-CM-6678,Not Reported,Liver,
+TCGA-DM-A1DB,Sigmoid colon,Sigmoid colon,left
+TCGA-AY-A54L,Not Reported,Not Reported,
+TCGA-A6-5657,"Colon, NOS","Colon, NOS",
+TCGA-AA-3685,Sigmoid colon,"Colon, NOS",left
+TCGA-AA-A02F,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-A565,Transverse colon,Transverse colon,right
+TCGA-AA-3534,Ascending colon,Ascending colon,right
+TCGA-G4-6295,Cecum,Cecum,right
+TCGA-NH-A6GB,Transverse colon,Transverse colon,right
+TCGA-DM-A1D9,Cecum,Cecum,right
+TCGA-AA-A00N,Cecum,Cecum,right
+TCGA-D5-6531,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-AZ-4682,Sigmoid colon,Rectosigmoid junction,left
+TCGA-A6-2685,Sigmoid colon,"Colon, NOS",left
+TCGA-DM-A282,Hepatic flexure of colon,Hepatic flexure of colon,right
+TCGA-F4-6805,Descending colon,"Colon, NOS",left
+TCGA-AD-A5EK,Ascending colon,Ascending colon,right
+TCGA-DM-A1D6,Splenic flexure of colon,Splenic flexure of colon,left
+TCGA-A6-5656,Sigmoid colon,Sigmoid colon,left
+TCGA-D5-6928,Ascending colon,Hepatic flexure of colon,right
+TCGA-D5-6539,Transverse colon,Transverse colon,right
+TCGA-AA-3680,Cecum,Cecum,right
+TCGA-DM-A1DA,Cecum,Cecum,right
+TCGA-CM-6165,Sigmoid colon,Sigmoid colon,left
+TCGA-AY-6197,Cecum,Ascending colon,right
+TCGA-DM-A28C,Not Reported,Not Reported,
+TCGA-A6-5664,Cecum,Ascending colon,right
+TCGA-D5-6530,"Colon, NOS",Cecum,
+TCGA-AA-3660,Sigmoid colon,"Colon, NOS",left
+TCGA-D5-6533,Transverse colon,Transverse colon,right
+TCGA-AA-A00W,Sigmoid colon,Sigmoid colon,left
+TCGA-A6-2683,Not Reported,Not Reported,
+TCGA-AA-3818,Hepatic flexure of colon,"Colon, NOS",right
+TCGA-DM-A28G,Ascending colon,Ascending colon,right

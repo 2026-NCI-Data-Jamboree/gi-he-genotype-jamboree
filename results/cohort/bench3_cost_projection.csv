@@ -1,0 +1,6 @@
+encoders,gpu_s_per_slide,bound_by,wall_s_per_slide,container_h_total,cost_usd
+Phikon only,8.0,decode,21.1,8.2,11.04
+Phikon + UNI,32.5,GPU,37.5,14.6,19.67
+Phikon + UNI + UNI2-h,104.4,GPU,109.4,42.4,61.42
+UNI only,24.5,GPU,29.5,11.5,15.48
+UNI2-h only,71.8,GPU,76.8,29.8,43.15

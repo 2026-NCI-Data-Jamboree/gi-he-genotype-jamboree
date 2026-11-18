@@ -1,0 +1,5 @@
+task,auc_subtype_only
+stad_TP53,0.675
+stad_ARID1A,0.572
+stad_CDH1,0.686
+stad_PIK3CA,0.758

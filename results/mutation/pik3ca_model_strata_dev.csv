@@ -1,0 +1,17 @@
+enc,task,stratum,n,n_pos,auroc,lo,hi
+phikon,crc_PIK3CA,all,321,75,0.507,0.423,0.593
+phikon,crc_PIK3CA,kras-WT,186,28,0.501,0.377,0.628
+phikon,crc_PIK3CA,kras-mut,135,47,0.519,0.407,0.629
+phikon,crc_PIK3CA,scored against KRAS label,321,135,0.483,0.417,0.548
+phikon,crc_KRAS,all,321,135,0.657,0.595,0.712
+phikon,crc_KRAS,pik-WT,246,88,0.678,0.606,0.745
+phikon,crc_KRAS,pik-mut,75,47,0.641,0.506,0.766
+phikon,crc_KRAS,scored against PIK label,321,75,0.497,0.425,0.566
+uni,crc_PIK3CA,all,321,75,0.497,0.416,0.572
+uni,crc_PIK3CA,kras-WT,186,28,0.52,0.391,0.639
+uni,crc_PIK3CA,kras-mut,135,47,0.471,0.372,0.575
+uni,crc_PIK3CA,scored against KRAS label,321,135,0.52,0.457,0.58
+uni,crc_KRAS,all,321,135,0.613,0.552,0.672
+uni,crc_KRAS,pik-WT,246,88,0.604,0.532,0.676
+uni,crc_KRAS,pik-mut,75,47,0.65,0.523,0.77
+uni,crc_KRAS,scored against PIK label,321,75,0.537,0.457,0.606

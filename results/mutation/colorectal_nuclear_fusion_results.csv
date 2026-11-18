@@ -1,0 +1,15 @@
+set,model,auroc,ci_lo,ci_hi
+"TCGA colorectal dev (n=462, 66 MSI-H)",nuclear only,0.52,0.44,0.601
+"TCGA colorectal dev (n=462, 66 MSI-H)",phikon: raw OOF score,0.762,0.694,0.824
+"TCGA colorectal dev (n=462, 66 MSI-H)",phikon: refit logit(score),0.751,0.681,0.817
+"TCGA colorectal dev (n=462, 66 MSI-H)",phikon: fused logit+nuclear,0.718,0.639,0.792
+"TCGA colorectal dev (n=462, 66 MSI-H)",uni: raw OOF score,0.807,0.739,0.868
+"TCGA colorectal dev (n=462, 66 MSI-H)",uni: refit logit(score),0.807,0.74,0.867
+"TCGA colorectal dev (n=462, 66 MSI-H)",uni: fused logit+nuclear,0.762,0.687,0.832
+"CPTAC external (n=140, 35 MSI-H)",nuclear only (trained on TCGA dev),0.575,0.457,0.684
+"CPTAC external (n=140, 35 MSI-H)",phikon: encoder score (as reported),0.701,0.6,0.793
+"CPTAC external (n=140, 35 MSI-H)",phikon: refit logit(score),0.692,0.597,0.786
+"CPTAC external (n=140, 35 MSI-H)",phikon: fused logit+nuclear,0.722,0.63,0.815
+"CPTAC external (n=140, 35 MSI-H)",uni: encoder score (as reported),0.794,0.696,0.879
+"CPTAC external (n=140, 35 MSI-H)",uni: refit logit(score),0.792,0.695,0.875
+"CPTAC external (n=140, 35 MSI-H)",uni: fused logit+nuclear,0.807,0.717,0.889

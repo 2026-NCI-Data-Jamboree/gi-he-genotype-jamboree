@@ -1,0 +1,9 @@
+enc,variant_class,n_mut,n_wt,auroc,ci_lo,ci_hi
+phikon,truncating,60,115,0.75,0.676,0.815
+phikon,missense_hotspot,87,115,0.759,0.694,0.821
+phikon,missense_other,58,115,0.783,0.71,0.848
+phikon,all mutants,207,115,0.765,,
+uni,truncating,60,115,0.748,0.676,0.815
+uni,missense_hotspot,87,115,0.783,0.721,0.844
+uni,missense_other,58,115,0.771,0.696,0.842
+uni,all mutants,207,115,0.77,,

@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "created_at": "2026-11-15T08:26:50.508Z",
+  "task_summary": "KRAS follow-ups: 3-reader PIK3CA-matched replication, pathologist packet, slide model",
+  "agents": [],
+  "phases": [
+    {
+      "name": "Prepare in parallel",
+      "delegations": [
+        {
+          "name": "Field prep",
+          "steps": [
+            {
+              "title": "Build PIK3CA-matched pair set",
+              "description": "Re-pair all 184 colorectal MSS KRAS-mutant patients 1:1 with KRAS/BRAF wild-type MSS controls from the same hospital AND with the same PIK3CA status, no control reused (~129 pairs expected), stage and age as tie-breakers. This single set answers both 'match on PIK3CA' and 'three readers per pair'."
+            },
+            {
+              "title": "Extract 48 candidate fields per slide",
+              "description": "Run the validated sampler (extract_kras_full.py v3, red-OD top-20%) on every slide in the new set with 48 candidates per slide, so each slide can supply three non-overlapping 8-field reader sets."
+            },
+            {
+              "title": "Screen fields for tumour epithelium",
+              "description": "Blind per-slide tumour/epithelium screen of every field (same labels as before), with field-overlap checks; keep pairs with >=24 non-overlapping tumour fields on both slides, falling back to 6 fields per reader if needed, declared as a deviation."
+            },
+            {
+              "title": "Package three disjoint reader sets",
+              "description": "Randomise and seal A/B per pair, then build three reader archives (reader 1/2/3) of spatially non-overlapping fields plus overviews, saved as artifacts with the key and an eligibility table."
+            }
+          ]
+        },
+        {
+          "name": "Pathology packet",
+          "steps": [
+            {
+              "title": "Select 30 slides for spot-check",
+              "description": "Pick 30 of the 232 graded slides, stratified so the three features that differed between arms (mucinous %, serrated, dirty necrosis) and differentiation span their range, and both arms are represented."
+            },
+            {
+              "title": "Build blinded packet and sheet",
+              "description": "Produce a PDF with one page per anonymised slide (8 fields + overview, scale bar), and an Excel grading sheet with the same fields and dropdowns the sub-agent graders used, no KRAS or pair information."
+            },
+            {
+              "title": "Write agreement-scoring script",
+              "description": "Script that reads the returned sheet and reports weighted kappa / Spearman per feature versus the blinded sub-agent grades, ready to run once a pathologist fills it in."
+            }
+          ]
+        },
+        {
+          "name": "Slide model",
+          "steps": [
+            {
+              "title": "Check embedding run status",
+              "description": "Read-only check of the four Modal embedding jobs and count UNI and Phikon feature files present for the 443 colorectal MSS slides; wait for completion if still running."
+            },
+            {
+              "title": "Quote and launch ABMIL training job",
+              "description": "Write a T4 job that trains attention-MIL on UNI features (primary; Phikon secondary given its TCGA pretraining) for KRAS-mutant vs wild-type over all colorectal MSS patients with patient-level 5-fold CV stratified by hospital; quote cost and ask for approval before launching."
+            },
+            {
+              "title": "Score model on reader pairs",
+              "description": "Using out-of-fold predictions only, compute slide-level AUROC and pairwise accuracy on the 116 original pairs and the new PIK3CA-matched pairs, so the model is compared to readers on exactly the same pairs."
+            }
+          ]
+        }
+      ],
+      "id": "phase-0"
+    },
+    {
+      "name": "Three-reader replication",
+      "delegations": [
+        {
+          "name": "Readers",
+          "steps": [
+            {
+              "title": "Dispatch three readers per pair",
+              "description": "One no-hint reader sub-agent per pair per field set (about 390 readers) using the same prompt and output schema as the 116-pair run, in waves of 48."
+            },
+            {
+              "title": "Audit reader deviations",
+              "description": "Collect all results, tabulate declared deviations (unseen fields, downsampled viewing) and flag readers whose coverage falls below 12 of 16 fields."
+            }
+          ]
+        }
+      ],
+      "id": "phase-1"
+    },
+    {
+      "name": "Analysis and report",
+      "delegations": [
+        {
+          "name": "Synthesis",
+          "steps": [
+            {
+              "title": "Unblind and score readers",
+              "description": "Per-reader and pooled accuracy, mean-probability and majority-vote pair calls, Fleiss kappa between readers, calibration; primary result on the PIK3CA-matched set, with PIK3CA-WT-only and stage-matched subsets."
+            },
+            {
+              "title": "Compare readers with slide model",
+              "description": "Reader vs ABMIL pairwise accuracy on shared pairs, their correlation, and whether combining them helps; adjust for the blinded grade features as before."
+            },
+            {
+              "title": "Write figure and report",
+              "description": "One summary figure and an updated report covering all four follow-ups, with coverage limits carried into every number."
+            }
+          ]
+        }
+      ],
+      "id": "phase-2"
+    }
+  ],
+  "desired_outputs": [
+    "PIK3CA-matched pair table and three reader field archives",
+    "Three-reader results table with agreement statistics",
+    "Pathologist spot-check PDF packet, grading sheet and scoring script",
+    "ABMIL out-of-fold predictions and reader-vs-model comparison",
+    "Updated summary figure and report"
+  ],
+  "feasibility": {
+    "confidence": "medium",
+    "rationale": "I can't act as a pathologist myself, so that step produces a blinded spot-check packet for a human pathologist, plus the scoring code to run once their scores come back. The model step depends on the Phikon+UNI embedding run that another session already has going on Modal (it covers 108 of the 116 pairs); training the model needs one small Modal job of about $0.50, which I'll quote and wait for your approval before launching."
+  }
+}

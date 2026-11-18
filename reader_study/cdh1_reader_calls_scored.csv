@@ -1,0 +1,58 @@
+reader,pair,choice,conf,basis,correct
+1,1,B,85,B: single vacuolated cells and cords permeating stroma and muscle; A: cohesive cribriform/tubular glands.,1
+1,2,B,78,B: isolated atypical cells scattered in dense desmoplastic stroma; A: well-formed tubulopapillary intestinal-type glands.,1
+1,3,A,68,A: dispersed large cells with eccentric nuclei between muscle bundles; B: cohesive gland-forming nests in desmoplasia.,1
+1,4,A,90,"A: sheets of discohesive cells with intracytoplasmic vacuoles, no glands; B: pseudostratified columnar glandular/papillary tumour.",1
+1,5,B,80,"B: discohesive cells with signet-ring vacuoles, node sinus dispersal; A: cohesive papillary/tubular tumour.",1
+1,6,A,75,"A: single cells and cords in fibrous stroma, no lumina; B: cohesive solid syncytial sheets with vesicular nuclei.",1
+1,7,A,70,"A: loosely cohesive small clusters in abundant fibrous stroma, no lumina; B: gland/papilla-forming tumour nests.",0
+1,8,A,66,A: stroma-rich fields with sparse signet-ring cells and single-cell infiltration; B: cohesive nests of granular eosinophilic cells.,0
+1,9,A,55,"A fields unevaluable (ink, out of focus); B shows cohesive pleomorphic gland-forming carcinoma. Call by exclusion.",1
+1,10,B,55,A shows frank columnar gland formation; B largely ink-obscured with scattered pale atypical cells only. Weak.,0
+1,11,A,65,A: loosely dispersed cells with crisp mucin vacuoles indenting nuclei; B: tightly cohesive eosinophilic sheets.,1
+1,12,A,62,"A: solid, non-gland-forming loosely cohesive sheets; B fields mostly normal oxyntic mucosa, no tumour seen.",0
+1,13,B,62,B: discohesive hyperchromatic cells in cords through fibrous stroma; A fields almost entirely surgical ink.,1
+1,14,B,78,B: scattered vacuolated cells with eccentric nuclei in fibrosis; A: cohesive tubules and papillary tufts.,1
+1,15,B,65,"B: signet-ring-like cells with single clear vacuoles dispersed in loose stroma; A entirely ink, unevaluable.",1
+1,16,B,65,"A: infiltrating tubular/villous adenocarcinoma; B: no gland formation, discohesive pale cells with lymphocytes.",1
+1,17,A,80,A: single large atypical cells with eccentric nuclei dispersed in lamina propria; B: cohesive tubulopapillary nests.,1
+1,18,A,85,A: sheets of fully discohesive signet-ring cells; B: cords and tubules in dense desmoplastic stroma.,1
+1,19,A,75,A: single vacuolated cells infiltrating fibrotic stroma and muscle; B evaluable fields show cohesive nests only.,1
+2,1,B,80,B: single cells and cords permeating muscularis in desmoplastic stroma; A: cohesive tubular/cribriform glands.,1
+2,2,B,72,B: paucicellular scirrhous stroma with scattered single cells undermining mucosa; A: cohesive tubulopapillary intestinal-type glands.,1
+2,3,B,56,"A: gland-forming carcinoma with dense tumour-infiltrating lymphocytes, fully cohesive; B showed only mucosa, no cohesive tumour.",0
+2,4,A,76,"A: discohesive sheets, pale vacuolated cytoplasm, no gland formation; B: papillary/tubular cohesive columnar epithelium.",1
+2,5,B,74,B: discohesive cells infiltrating diffusely without glands; A: cohesive papillary and tubular adenocarcinoma.,1
+2,6,A,72,A: single-file and small-cluster infiltration between muscle and collagen; B: cohesive solid nests with pushing borders.,1
+2,7,B,55,"A: cohesive syncytial sheets, vesicular nuclei, no single-cell infiltration; B fields showed only node and fat.",1
+2,8,B,64,"B: numerous vacuolated signet-ring-like cells lying singly, no glands; A: fibroinflammatory tissue and lymphoid aggregate.",1
+2,9,A,58,"B: well-formed tubular glands in desmoplastic stroma, clearly cohesive; A fields largely obscured by marker ink.",1
+2,10,B,60,"A: well-formed dysplastic tubular glands with tumour-infiltrating lymphocytes, cohesive; B fields largely obscured by ink.",0
+2,11,B,58,"Both poorly cohesive; B had crisp cytoplasmic vacuoles with eccentric crescentic nuclei, A only cords and single files.",0
+2,12,B,58,"A: cohesive syncytial sheets, vesicular nuclei, prominent nucleoli; B: smaller, more discohesive cells without cohesion.",1
+2,13,B,68,"B: discohesive cells permeating muscle and fibrous tissue amid inflammation, no glands; A fields ink-obscured.",1
+2,14,B,70,"B: poorly differentiated discohesive sheets with scattered single cells; A: well-formed tubular glands, pseudostratified columnar.",1
+2,15,B,68,B: vacuolated discohesive cells dissecting collagen and muscle bundles; A fields entirely obscured by marker ink.,1
+2,16,B,66,B: pale discohesive cells infiltrating fibrous stroma with scattered vacuoles; A: benign-appearing foveolar and pyloric mucosa.,1
+2,17,A,82,"A: discohesive cells permeating wall, mucosa undermined, no glands; B: cohesive tubulopapillary intestinal-type adenocarcinoma.",1
+2,18,A,82,A: wholly discohesive sheets with abundant signet-ring vacuoles; B: cohesive nests and trabeculae in fibrous stroma.,1
+2,19,A,72,A: poorly cohesive vacuolated cells scattered in desmoplastic stroma; B showed only muscle and ink-obscured fields.,1
+3,1,B,78,A: cohesive cribriform/tubular glands. B: single cells and cords permeating muscularis propria and desmoplastic stroma.,1
+3,2,B,80,B: discohesive vacuolated cells in single file between collagen and smooth muscle. A: gland-forming cribriform tumour.,1
+3,3,B,60,B: lamina propria expanded by discohesive pale atypical cells between preserved pits. A: near-normal antral glands.,0
+3,4,A,85,A: sheets of vacuolated signet-ring-like discohesive cells filling lamina propria. B: papillary/tubular cohesive adenocarcinoma.,1
+3,5,B,75,B: discohesive large cells with eccentric nuclei replacing lamina propria. A: tubulopapillary gland-forming carcinoma.,1
+3,6,A,80,A: single cells and linear cords dissecting smooth muscle and fibrous stroma. B: solid cohesive sheets.,1
+3,7,A,70,A: single epithelioid cells with vacuoles scattered through desmoplastic stroma. B sampled only lymphoid tissue and fat.,0
+3,8,A,62,A: abundant well-formed signet-ring cells diffusely infiltrating. B: larger cells in more cohesive cords between collagen.,0
+3,9,A,58,"A: only dense desmoplastic stroma with sparse cells (scirrhous). B: cohesive trabecular and tubular carcinoma, lymphovascular invasion.",1
+3,10,B,55,"A: cohesive nest of atypical glandular cells in mucosa. B fields non-diagnostic; call by exclusion, low confidence.",0
+3,11,A,65,"A: discohesive vacuolated cells in thin cords separated by fibrous septa. B: solid cohesive sheets, prominent nucleoli.",1
+3,12,A,55,"A: solid syncytial sheets, no gland formation. B: only non-neoplastic antral mucosa. Weak, architecture-based call.",0
+3,13,B,68,"B: discohesive small cells with scant cytoplasm infiltrating diffusely, no glands. A fields non-diagnostic/out-of-focus.",1
+3,14,B,82,B: vacuolated signet-ring-like cells scattered in inflamed fibrous stroma. A: tubulopapillary intestinal-type glands.,1
+3,15,B,75,B: signet-ring cells in oedematous stroma and between muscle bundles. A fields non-diagnostic.,1
+3,16,B,60,A: clearly intestinal-type gland-forming adenocarcinoma invading muscle. B: only oxyntic mucosa; call by exclusion.,1
+3,17,A,65,"A: discohesive tumour cells amid dense lymphocytes, no gland formation. B: cohesive tubular/cribriform adenocarcinoma.",1
+3,18,A,85,"A: numerous classic signet-ring cells, crescentic displaced nuclei, discohesive. B: spindled/tubular tumour with lymphoid stroma.",1
+3,19,A,70,A: single vacuolated cells dispersed in dense collagen. B: cohesive cribriform/tubular glands.,1
